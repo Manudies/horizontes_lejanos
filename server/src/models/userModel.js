@@ -20,10 +20,10 @@ const userSchema  = new mongoose.Schema({
         enum : ["user","admin"],
         default: "user"
     },
-    projects:[
+    trips:[
         {
             type: mongoose.Schema.Types.ObjectId,
-            ref: "projects"
+            ref: "trips"
         }
     ]
 })

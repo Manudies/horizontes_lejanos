@@ -141,34 +141,35 @@ const remove = async(id) =>{
         return null;
     }
 }
-const addProject = async(userId,projectId)=>{
+//REVISAR CON DANEL
+const addTrip = async(userId,tripId)=>{
     try {
-        console.log("add project",userId)
+        console.log("add trip",userId)
         const user = await getById(userId);
-        console.log("userss",user);
-        if(!user.projects.includes(projectId)){
-            user.projects.push(projectId);
+        console.log("users",user);
+        if(!user.trips.includes(tripId)){
+            user.trips.push(tripId);
             await user.save();
             return user;
         }
         return user;
     } catch (error) {
         console.error(error);
-        return {error:"no se ha podido añadir el proyecto"};
+        return {error:"no se ha podido añadir el trip"};
     }
 }
-const removeProject = async(userId,projectId)=>{
+const removeTrip = async(userId,tripId)=>{
     try {
         const user = await getById(userId);
-        if(user.projects.includes(projectId)){
-            user.projects = user.projects.filter(p => !p.equals(projectId));
+        if(user.trips.includes(tripId)){
+            user.trips = user.trips.filter(p => !p.equals(tripId));
             await user.save();
             return user;
         }
         return user;
     } catch (error) {
         console.error(error);
-        return {error:"no se ha podido añadir el proyecto"};
+        return {error:"no se ha podido añadir el trip"};
     }
 }
 
@@ -182,8 +183,8 @@ export const functions = {
     register,
     update,
     remove,
-    addProject,
-    removeProject
+    addTrip,
+    removeTrip
 }
 
 export default functions;
