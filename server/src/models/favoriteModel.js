@@ -1,21 +1,17 @@
 import mongoose from "mongoose";
 
-const invitationSchema = new mongoose.Schema({
-    from: {
+const favoriteSchema = new mongoose.Schema({
+    user:{
+            type: mongoose.Schema.ObjectId,
+            ref: 'users'
+        },
+
+    trip:{
         type: mongoose.Schema.ObjectId,
-        ref: 'users'
-    },
-    to: {
-        type: mongoose.Schema.ObjectId,
-        ref: 'users'
-    },
-    project: {
-        type: mongoose.Schema.ObjectId,
-        ref: 'projects'
-    },
-    creation_date : { type : Date, default: Date.now }
+        ref: 'trips'
+    }
 });
 
-const invitationModel = mongoose.model("invitations",invitationSchema);
+const favoriteModel = mongoose.model("favorites",favoriteSchema);
 
-export default invitationModel;
+export default favoriteModel;
