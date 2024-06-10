@@ -1,15 +1,14 @@
 import {Router} from "express";
 
-import invitationApiController from "../controllers/invitations/invitationApiController.js";
+import tripApiController from "../controllers/trips/tripApiController.js";
 
 
 const router  = Router();
 
-router.get("/",invitationApiController.getAll);
-router.get("/:id",invitationApiController.getById);
-router.post("/",invitationApiController.create);
-router.delete("/:id",invitationApiController.remove);
-router.post("/:id/accept",invitationApiController.acceptInvitation);
-router.post("/:id/reject",invitationApiController.rejectInvitation);
+router.get("/",tripApiController.getAll);
+router.get("/:id",tripApiController.getById);
+router.post("/",tripApiController.create);
+router.delete("/:id",tripApiController.remove);
+
 
 export default router;
