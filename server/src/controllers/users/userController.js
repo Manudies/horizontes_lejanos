@@ -1,5 +1,5 @@
 import userModel from "../../models/userModel.js";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 const userRows = {_id:1, username:1, email:1, role:1,projects:1};
 const getAll = async(query=null)=> {
