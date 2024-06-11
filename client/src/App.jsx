@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import Footer from './components/footer/footer';  
 
 function App() {
   const [user, setUser] = useState(null);
@@ -12,6 +13,7 @@ function App() {
     <>
 
         <h1>Welcome to the Trip Planner</h1>
+        <Footer/>
 
     </>
   )
