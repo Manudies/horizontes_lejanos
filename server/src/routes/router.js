@@ -14,7 +14,9 @@ router.get("/",(req,res)=>{
 })
 // router.use("/users",isAuthenticated,userRouter); Para uso desde el front
 router.use("/users",userRouter);
-router.use("/trips",isAuthenticated,tripRouter);
+// router.use("/trips",isAuthenticated,tripRouter);
+router.use("/trips",tripRouter);
+
 router.use("/favorites",favoriteRouter);
 router.use("/",authRouter);
 export default router;
