@@ -8,6 +8,7 @@ const router  = Router();
 router.get("/",tripApiController.getAll);
 router.get("/:id",tripApiController.getById);
 router.post("/",tripApiController.create);
+router.put("/:id",tripApiController.update);
 router.delete("/:id",tripApiController.remove);
 
 
