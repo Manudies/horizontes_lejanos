@@ -1,7 +1,4 @@
 import { useState, useEffect } from 'react'
-import router from './router.jsx'
-import { RouterProvider } from 'react-router-dom'
-
 import './App.css'
 
 function App() {
@@ -14,7 +11,7 @@ function App() {
   return (
     <>
 
-        <RouterProvider router={router} />
+        <h1>Welcome to the Trip Planner</h1>
 
     </>
   )
