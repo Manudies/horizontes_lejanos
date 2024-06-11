@@ -6,6 +6,7 @@ import swaggerUi from "swagger-ui-express";
 import swaggerDocument from "../swagger.json" assert { type: 'json' };
 import cors from "cors";
 
+
 dotenv.config();
 const CONTAINER_PORT = 3000;
 
