@@ -16,6 +16,11 @@ const tripSchema = new mongoose.Schema({
     description: String,
     duración: String,
     precio: Number,
+    imagen: String,
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "users"
+    }
 })
 
 const tripModel = mongoose.model("trips",tripSchema);
