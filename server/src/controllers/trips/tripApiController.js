@@ -10,6 +10,11 @@ const getById = async (req,res) =>{
     const trip = await tripController.getById(id);
     res.json({data:trip});
 }
+const update = async(req,res)=>{
+    const id =req.params.id;
+    const trip = await tripController.update(id,req.body);
+    res.json({data:project})
+}
 
 const create= async(req,res)=>{
     const trip = await tripController.create(req.body);
@@ -24,6 +29,7 @@ const remove= async(req,res)=>{
 export default {
     getAll,
     getById,
+    update,
     create,
     remove
 }

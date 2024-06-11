@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Ruta de la India",
+        "origen": "Bilbao",
+        "destino":"India",
+        "descripcion": "Embárcate en una fascinante aventura que te llevará desde Bilbao hasta el vibrante norte de la India. A lo largo de 15 días, explorarás paisajes impresionantes, sumergiéndote en la rica cultura y las tradiciones milenarias de esta región exótica. Descubre antiguos templos, mercados bulliciosos y paisajes naturales de una belleza inigualable. Este viaje promete una experiencia inolvidable, llena de descubrimientos y maravillas que despertarán todos tus sentidos.",
+        "duracion": "15"
+    },
+    {
+        "name": "Camino del Inca",
+        "origen": "Madrid",
+        "destino": "Perú",
+        "descripcion": "Sumérgete en la mística belleza de Perú con este recorrido desde Madrid hasta los majestuosos Andes. Durante 12 días, seguirás los antiguos caminos incas, explorando la impresionante arquitectura de Machu Picchu y descubriendo la vibrante cultura andina. Una travesía llena de historia y paisajes deslumbrantes.",
+        "duracion": "12"
+    },
+    {
+        "name": "Safari en el Serengeti",
+        "origen": "Barcelona",
+        "destino": "Tanzania",
+        "descripcion": "Desde Barcelona, adéntrate en las vastas llanuras del Serengeti en Tanzania. Durante 10 días, vivirás la emoción de un safari, observando la impresionante vida salvaje en su hábitat natural. Desde majestuosos leones hasta elegantes jirafas, cada día te brindará una nueva aventura en la sabana africana.",
+        "duracion": "10"
+    },
+    {
+        "name": "Ruta de los Vikingos",
+        "origen": "Bilbao",
+        "destino": "Noruega",
+        "descripcion": "Viaja desde Bilbao hacia las tierras legendarias de los vikingos en Noruega. A lo largo de 8 días, navegarás por fiordos espectaculares, visitarás antiguas aldeas vikingas y te maravillarás con los paisajes de montañas y glaciares. Una experiencia llena de historia y naturaleza impactante.",
+        "duracion": "8"
+    },
+    {
+        "name": "Camino de la Seda",
+        "origen": "Valencia",
+        "destino": "China",
+        "descripcion": "Embárcate desde Valencia hacia el antiguo Camino de la Seda en China. Durante 14 días, descubrirás ciudades históricas, majestuosas murallas y vibrantes mercados que evocan la rica historia comercial de esta ruta milenaria. Un viaje cultural que te llevará a través de siglos de historia.",
+        "duracion": "14"
+    },
+    {
+        "name": "Expedición Antártica",
+        "origen": "Sevilla",
+        "destino": "Antártida",
+        "descripcion": "Desde Sevilla, atrévete a explorar el continente más remoto y salvaje del planeta: la Antártida. Durante 18 días, navegarás entre icebergs, observarás pingüinos y focas en su entorno natural, y vivirás la aventura de tu vida en un paisaje blanco y puro. Una experiencia única e inolvidable.",
+        "duracion": "18"
+    },
+    {
+        "name": "Maravillas del Nilo",
+        "origen": "Madrid",
+        "destino": "Egipto",
+        "descripcion": "Emprende un viaje desde Madrid hacia las tierras de los faraones en Egipto. Durante 11 días, navegarás por el legendario río Nilo, visitando monumentos impresionantes como las pirámides de Giza y los templos de Luxor. Un recorrido lleno de historia antigua y maravillas arquitectónicas.",
+        "duracion": "11"
+    },
+    {
+        "name": "Aventura Patagónica",
+        "origen": "Barcelona",
+        "destino": "Argentina",
+        "descripcion": "Desde Barcelona, aventúrate hacia la impresionante región de la Patagonia en Argentina. Durante 13 días, explorarás glaciares, lagos cristalinos y montañas imponentes, sumergiéndote en la naturaleza salvaje de esta remota región. Un viaje lleno de paisajes sobrecogedores y experiencias al aire libre.",
+        "duracion": "13"
+    },
+    {
+        "name": "Tesoros del Japón",
+        "origen": "Valencia",
+        "destino": "Japón",
+        "descripcion": "Inicia tu viaje en Valencia y dirígete hacia el fascinante Japón. Durante 16 días, descubrirás la mezcla perfecta de tradición y modernidad, visitando templos antiguos, jardines zen y las vibrantes ciudades de Tokio y Kioto. Una travesía cultural que te permitirá experimentar la esencia del Japón.",
+        "duracion": "16"
+    },
+    {
+        "name": "Ruta Maya",
+        "origen": "Bilbao",
+        "destino": "México",
+        "descripcion": "Emprende un viaje desde Bilbao hacia las tierras mayas de México. Durante 10 días, explorarás antiguas ruinas, playas paradisíacas y selvas exuberantes. Descubre la riqueza histórica y natural de esta región, sumergiéndote en la cultura y los paisajes de la Riviera Maya.",
+        "duracion": "10"
+    },
+    {
+        "name": "Encantos de la Toscana",
+        "origen": "Madrid",
+        "destino": "Italia",
+        "descripcion": "Viaja desde Madrid hacia la encantadora región de la Toscana en Italia. Durante 9 días, recorrerás paisajes de colinas onduladas, viñedos y pueblos medievales. Disfruta de la gastronomía local, el arte renacentista y la calidez de la gente en un viaje que te transportará a otra época.",
+        "duracion": "9"
+    }
+]
