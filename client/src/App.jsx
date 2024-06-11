@@ -1,7 +1,4 @@
 import { useState, useEffect } from 'react'
-import router from './router.jsx'
-import { RouterProvider } from 'react-router-dom'
-import UserContext from './context/userContext'
 import './App.css'
 import Navbar from './components/navbar/Navbar.jsx'
 
@@ -15,9 +12,9 @@ function App() {
  
   return (
     <>
-      <UserContext.Provider value={{ user, setUser }}>
-        <RouterProvider router={router} />
-      </UserContext.Provider>
+
+        <h1>Welcome to the Trip Planner</h1>
+
     </>
   )
 }
