@@ -1,79 +1,162 @@
 [
     {
-        "name": "Ruta de la India",
-        "origen": "Bilbao",
-        "destino":"India",
-        "descripcion": "Embárcate en una fascinante aventura que te llevará desde Bilbao hasta el vibrante norte de la India. A lo largo de 15 días, explorarás paisajes impresionantes, sumergiéndote en la rica cultura y las tradiciones milenarias de esta región exótica. Descubre antiguos templos, mercados bulliciosos y paisajes naturales de una belleza inigualable. Este viaje promete una experiencia inolvidable, llena de descubrimientos y maravillas que despertarán todos tus sentidos.",
-        "duracion": "15"
+        "name": "Maravillas de Egipto",
+        "destino": "África",
+        "descripcion": "Explora las pirámides de Giza, navega por el Nilo y descubre los templos de Luxor en un viaje de 14 días lleno de historia y misterio.",
+        "duracion": "14",
+        "precio": "1200",
+        "imagen": "https://example.com/egipto.jpg"
     },
     {
-        "name": "Camino del Inca",
-        "origen": "Madrid",
-        "destino": "Perú",
-        "descripcion": "Sumérgete en la mística belleza de Perú con este recorrido desde Madrid hasta los majestuosos Andes. Durante 12 días, seguirás los antiguos caminos incas, explorando la impresionante arquitectura de Machu Picchu y descubriendo la vibrante cultura andina. Una travesía llena de historia y paisajes deslumbrantes.",
-        "duracion": "12"
+        "name": "Encantos de Japón",
+        "destino": "Asia",
+        "descripcion": "Viaja a Japón y sumérgete en la cultura samurái, los templos antiguos y la tecnología moderna durante 12 días inolvidables.",
+        "duracion": "12",
+        "precio": "1500",
+        "imagen": "https://example.com/japon.jpg"
     },
     {
-        "name": "Safari en el Serengeti",
-        "origen": "Barcelona",
-        "destino": "Tanzania",
-        "descripcion": "Desde Barcelona, adéntrate en las vastas llanuras del Serengeti en Tanzania. Durante 10 días, vivirás la emoción de un safari, observando la impresionante vida salvaje en su hábitat natural. Desde majestuosos leones hasta elegantes jirafas, cada día te brindará una nueva aventura en la sabana africana.",
-        "duracion": "10"
+        "name": "Ruta Maya en México",
+        "destino": "América",
+        "descripcion": "Descubre los misterios de la civilización maya, visita Chichen Itzá y relájate en las playas de Cancún en un viaje de 10 días.",
+        "duracion": "10",
+        "precio": "900",
+        "imagen": "https://example.com/mexico.jpg"
     },
     {
-        "name": "Ruta de los Vikingos",
-        "origen": "Bilbao",
-        "destino": "Noruega",
-        "descripcion": "Viaja desde Bilbao hacia las tierras legendarias de los vikingos en Noruega. A lo largo de 8 días, navegarás por fiordos espectaculares, visitarás antiguas aldeas vikingas y te maravillarás con los paisajes de montañas y glaciares. Una experiencia llena de historia y naturaleza impactante.",
-        "duracion": "8"
+        "name": "Aventura en Australia",
+        "destino": "Oceanía",
+        "descripcion": "Explora la Gran Barrera de Coral, el Outback y las modernas ciudades australianas en un viaje de 14 días lleno de aventuras.",
+        "duracion": "14",
+        "precio": "2000",
+        "imagen": "https://example.com/australia.jpg"
     },
     {
-        "name": "Camino de la Seda",
-        "origen": "Valencia",
-        "destino": "China",
-        "descripcion": "Embárcate desde Valencia hacia el antiguo Camino de la Seda en China. Durante 14 días, descubrirás ciudades históricas, majestuosas murallas y vibrantes mercados que evocan la rica historia comercial de esta ruta milenaria. Un viaje cultural que te llevará a través de siglos de historia.",
-        "duracion": "14"
+        "name": "Safari en Kenia",
+        "destino": "África",
+        "descripcion": "Vive la emoción de un safari en Kenia, observa la fauna salvaje y descubre los paisajes de la sabana en 10 días de aventura.",
+        "duracion": "10",
+        "precio": "1800",
+        "imagen": "https://example.com/kenia.jpg"
     },
     {
-        "name": "Expedición Antártica",
-        "origen": "Sevilla",
-        "destino": "Antártida",
-        "descripcion": "Desde Sevilla, atrévete a explorar el continente más remoto y salvaje del planeta: la Antártida. Durante 18 días, navegarás entre icebergs, observarás pingüinos y focas en su entorno natural, y vivirás la aventura de tu vida en un paisaje blanco y puro. Una experiencia única e inolvidable.",
-        "duracion": "18"
+        "name": "Escapada a Tailandia",
+        "destino": "Asia",
+        "descripcion": "Disfruta de las playas paradisíacas, templos antiguos y vibrantes mercados de Tailandia en un viaje de 12 días lleno de cultura y relax.",
+        "duracion": "12",
+        "precio": "1100",
+        "imagen": "https://example.com/tailandia.jpg"
     },
     {
-        "name": "Maravillas del Nilo",
-        "origen": "Madrid",
-        "destino": "Egipto",
-        "descripcion": "Emprende un viaje desde Madrid hacia las tierras de los faraones en Egipto. Durante 11 días, navegarás por el legendario río Nilo, visitando monumentos impresionantes como las pirámides de Giza y los templos de Luxor. Un recorrido lleno de historia antigua y maravillas arquitectónicas.",
-        "duracion": "11"
+        "name": "Tour por Italia",
+        "destino": "Europa",
+        "descripcion": "Descubre las maravillas de Roma, Florencia y Venecia en un tour de 10 días por Italia, lleno de arte, historia y gastronomía.",
+        "duracion": "10",
+        "precio": "1300",
+        "imagen": "https://example.com/italia.jpg"
     },
     {
-        "name": "Aventura Patagónica",
-        "origen": "Barcelona",
-        "destino": "Argentina",
-        "descripcion": "Desde Barcelona, aventúrate hacia la impresionante región de la Patagonia en Argentina. Durante 13 días, explorarás glaciares, lagos cristalinos y montañas imponentes, sumergiéndote en la naturaleza salvaje de esta remota región. Un viaje lleno de paisajes sobrecogedores y experiencias al aire libre.",
-        "duracion": "13"
+        "name": "Patagonia Argentina",
+        "destino": "América",
+        "descripcion": "Explora los paisajes impresionantes de la Patagonia, desde glaciares hasta montañas majestuosas, en un viaje de 15 días.",
+        "duracion": "15",
+        "precio": "1700",
+        "imagen": "https://example.com/patagonia.jpg"
     },
     {
-        "name": "Tesoros del Japón",
-        "origen": "Valencia",
-        "destino": "Japón",
-        "descripcion": "Inicia tu viaje en Valencia y dirígete hacia el fascinante Japón. Durante 16 días, descubrirás la mezcla perfecta de tradición y modernidad, visitando templos antiguos, jardines zen y las vibrantes ciudades de Tokio y Kioto. Una travesía cultural que te permitirá experimentar la esencia del Japón.",
-        "duracion": "16"
+        "name": "Aventuras en Nueva Zelanda",
+        "destino": "Oceanía",
+        "descripcion": "Recorre los paisajes espectaculares de Nueva Zelanda, desde sus fiordos hasta sus montañas, en un viaje de 14 días.",
+        "duracion": "14",
+        "precio": "2200",
+        "imagen": "https://example.com/nueva_zelanda.jpg"
     },
     {
-        "name": "Ruta Maya",
-        "origen": "Bilbao",
-        "destino": "México",
-        "descripcion": "Emprende un viaje desde Bilbao hacia las tierras mayas de México. Durante 10 días, explorarás antiguas ruinas, playas paradisíacas y selvas exuberantes. Descubre la riqueza histórica y natural de esta región, sumergiéndote en la cultura y los paisajes de la Riviera Maya.",
-        "duracion": "10"
+        "name": "Costa Rica Natural",
+        "destino": "América",
+        "descripcion": "Sumérgete en la naturaleza exuberante de Costa Rica, explorando selvas, volcanes y playas en un viaje de 12 días.",
+        "duracion": "12",
+        "precio": "1400",
+        "imagen": "https://example.com/costa_rica.jpg"
     },
     {
-        "name": "Encantos de la Toscana",
-        "origen": "Madrid",
-        "destino": "Italia",
-        "descripcion": "Viaja desde Madrid hacia la encantadora región de la Toscana en Italia. Durante 9 días, recorrerás paisajes de colinas onduladas, viñedos y pueblos medievales. Disfruta de la gastronomía local, el arte renacentista y la calidez de la gente en un viaje que te transportará a otra época.",
-        "duracion": "9"
+        "name": "Maravillas de Perú",
+        "destino": "América",
+        "descripcion": "Descubre los misterios de Machu Picchu y la cultura Inca en un tour de 11 días por los paisajes de Perú.",
+        "duracion": "11",
+        "precio": "1500",
+        "imagen": "https://example.com/peru.jpg"
+    },
+    {
+        "name": "Ruta por Grecia",
+        "destino": "Europa",
+        "descripcion": "Explora las ruinas antiguas, las islas pintorescas y la rica historia de Grecia en un viaje de 12 días.",
+        "duracion": "12",
+        "precio": "1300",
+        "imagen": "https://example.com/grecia.jpg"
+    },
+    {
+        "name": "Descubre Islandia",
+        "destino": "Europa",
+        "descripcion": "Aventúrate en los paisajes únicos de Islandia, con sus cascadas, glaciares y géiseres, en un viaje de 10 días.",
+        "duracion": "10",
+        "precio": "1600",
+        "imagen": "https://example.com/islandia.jpg"
+    },
+    {
+        "name": "Turquía Exótica",
+        "destino": "Asia",
+        "descripcion": "Sumérgete en la rica historia y la cultura vibrante de Turquía, explorando Estambul, Capadocia y más en 12 días.",
+        "duracion": "12",
+        "precio": "1200",
+        "imagen": "https://example.com/turquia.jpg"
+    },
+    {
+        "name": "Explorando Sudáfrica",
+        "destino": "África",
+        "descripcion": "Vive una experiencia única en Sudáfrica, con safaris, paisajes urbanos y naturales en un viaje de 14 días.",
+        "duracion": "14",
+        "precio": "1900",
+        "imagen": "https://example.com/sudafrica.jpg"
+    },
+    {
+        "name": "Canadá Espectacular",
+        "destino": "América",
+        "descripcion": "Descubre la belleza natural de Canadá, desde las Montañas Rocosas hasta las Cataratas del Niágara, en un viaje de 13 días.",
+        "duracion": "13",
+        "precio": "1600",
+        "imagen": "https://example.com/canada.jpg"
+    },
+    {
+        "name": "Vietnam y Camboya",
+        "destino": "Asia",
+        "descripcion": "Explora los paisajes y la cultura de Vietnam y Camboya en un viaje de 15 días lleno de descubrimientos.",
+        "duracion": "15",
+        "precio": "1800",
+        "imagen": "https://example.com/vietnam_camboya.jpg"
+    },
+    {
+        "name": "Portugal Encantador",
+        "destino": "Europa",
+        "descripcion": "Recorre las encantadoras ciudades y paisajes de Portugal, desde Lisboa hasta el valle del Duero, en 10 días.",
+        "duracion": "10",
+        "precio": "1000",
+        "imagen": "https://example.com/portugal.jpg"
+    },
+    {
+        "name": "Escocia Mágica",
+        "destino": "Europa",
+        "descripcion": "Descubre los castillos, lagos y montañas de Escocia en un tour de 10 días lleno de historia y belleza natural.",
+        "duracion": "10",
+        "precio": "1100",
+        "imagen": "https://example.com/escocia.jpg"
+    },
+    {
+        "name": "Colombia Diversa",
+        "destino": "América",
+        "descripcion": "Explora la diversidad cultural y natural de Colombia, desde sus playas caribeñas hasta sus ciudades coloniales, en 12 días.",
+        "duracion": "12",
+        "precio": "1400",
+        "imagen": "https://example.com/colombia.jpg"
     }
 ]
