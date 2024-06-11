@@ -1,0 +1,49 @@
+.project-card{
+    background-color: #fabada;
+}
+
+button.new-project {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-list-element {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 40px); /* Adjusts the width of each element */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.project-list-element h2 {
+    margin-top: 0;
+}
+
+.project-list-element p {
+    margin: 10px 0;
+}
+
+.project-list-element a {
+    display: inline-block;
+    padding: 0.6em 1.2em;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.project-list-element a:hover {
+    background-color: #0056b3;
+}
