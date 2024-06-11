@@ -1,0 +1,66 @@
+.trip-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+.trip-card__image {
+  width: 100%;
+  height: auto;
+}
+
+.trip-card__content {
+  padding: 16px;
+}
+
+.trip-card__price {
+  background-color: #004085;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.trip-card__availability {
+  font-size: 0.9em;
+  color: #6c757d;
+  margin-bottom: 8px;
+}
+
+.trip-card__title {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.trip-card__description {
+  font-size: 0.9em;
+  color: #6c757d;
+  margin-bottom: 16px;
+}
+
+.trip-card__details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.trip-card__duration, .trip-card__type {
+  font-size: 0.9em;
+}
+
+.trip-card__button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.trip-card__button:hover {
+  background-color: #0056b3;
+}

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import router from './router.jsx'
 import { RouterProvider } from 'react-router-dom'
-import UserContext from './context/userContext'
+
 import './App.css'
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
  
   return (
     <>
-      <UserContext.Provider value={{ user, setUser }}>
+
         <RouterProvider router={router} />
-      </UserContext.Provider>
+
     </>
   )
 }
