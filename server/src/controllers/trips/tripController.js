@@ -21,7 +21,17 @@ const getById = async(id) =>{
     }
 }
 
-//los viajes no se pueden editar, solo crear y borrar por el admin
+const update = async (id, data) => {
+    try {
+        await tripModel.findByIdAndUpdate(id, data);
+
+        const trip = await tripModel.findById(id);
+        return trip;
+    } catch (error) {
+        console.error(error);
+        return null;
+    }
+}
 
 const create = async(data) =>{
    try {
@@ -48,6 +58,7 @@ const remove = async(id) =>{
 export const functions = {
     getAll,
     getById,
+    update,
     create,
     remove,
 }

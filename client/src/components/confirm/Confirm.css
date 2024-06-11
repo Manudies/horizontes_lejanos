@@ -1,0 +1,9 @@
+.confirm {
+    background-color: green;
+    color:white;
+}
+
+.cancel {
+    background-color: red;
+    color:white;
+}
