@@ -1,17 +1,26 @@
 import mongoose from "mongoose";
 
 const tripSchema = new mongoose.Schema({
-    origen: {
+    name: {
         type:String,
         required:true
     },
+    origen: {
+        type:String,
+        // required:true
+    },
     destino: {
         type:String,
-        required:true
+        // required:true
     },
     description: String,
     duración: String,
     precio: Number,
+    imagen: String,
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "users"
+    }
 })
 
 const tripModel = mongoose.model("trips",tripSchema);
