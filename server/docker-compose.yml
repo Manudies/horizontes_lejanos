@@ -6,7 +6,7 @@ services:
     ports:
       - ${DB_PORT}:27017
     volumes:
-      - mongo_viajes:/data/db
+      - ./mongo_viajes:/data/db
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${DB_USER}
       MONGO_INITDB_ROOT_PASSWORD: ${DB_PASSWORD}
