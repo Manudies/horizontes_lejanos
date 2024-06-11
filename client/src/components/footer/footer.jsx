@@ -1,9 +1,9 @@
 import React from 'react';
 import './footer.css';
-import imageAni from '../../assets/153530190.jpg';
-import imageManu from '../../assets/138526079.jpg';
-import imageLander from '../../assets/163399446.jpg';
-import imageBego from '../../assets/bego.jpeg';
+import imageAni from './../../assets/ani.jpeg';
+import imageManu from './../../assets/manu.jpg';
+import imageLander from './../../assets/lander.jpeg';
+import imageBego from './../../assets/bego.jpeg';
 
 const Footer = () => {
     const year = new Date().getFullYear();
@@ -23,7 +23,7 @@ const Footer = () => {
             <button className="scroll-to-top" onClick={scrollToTop}>
                 ↑
             </button>
-            <div className="copyright">&copy; {year} Guardians of React </div>
+            <div className="copyright">&copy; {year} Los viajeros </div>
             <div className="creators">
                 {creators.map(creator => (
                     <a key={creator.id} href={creator.url} target="_blank" rel="noopener noreferrer" className="creator-link">

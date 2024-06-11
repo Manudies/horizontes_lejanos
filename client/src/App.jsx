@@ -13,6 +13,7 @@ function App() {
     <>
 
         <h1>Welcome to the Trip Planner</h1>
+        <Footer/>
 
     </>
   )
