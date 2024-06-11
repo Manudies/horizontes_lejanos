@@ -1,5 +1,4 @@
 import { useState } from "react"
-import InviteUser from "./InviteUser"
 import "./Users.css"
 const Users = ({ project }) => {
     const [users, setUsers] = useState(project.users)
@@ -8,7 +7,6 @@ const Users = ({ project }) => {
             return;
         }
             
-        user.pendingInvite = true;
         setUsers([...users, user])
     }
     return (
