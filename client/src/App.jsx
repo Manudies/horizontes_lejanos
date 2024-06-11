@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import TripCard from './components/trip/tripCard'
 
 function App() {
   const [user, setUser] = useState(null);
@@ -10,8 +11,8 @@ function App() {
  
   return (
     <>
-
         <h1>Welcome to the Trip Planner</h1>
+        <TripCard />
 
     </>
   )

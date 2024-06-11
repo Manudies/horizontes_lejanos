@@ -43,7 +43,7 @@
 
 .trip-card__details {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   margin-bottom: 16px;
 }
 

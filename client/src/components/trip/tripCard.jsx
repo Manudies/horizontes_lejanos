@@ -5,13 +5,13 @@ const TripCard = () => {
   return (
     <div className="trip-card">
       <img 
-        src="path/to/your/image.jpg" 
+        src="https://spain.egypttoursportal.com/wp-content/uploads/2021/09/Viaje-Maravilloso-de-14-Dias-en-Egipto-Egypt-Tours-Portal-ES.jpg" 
         alt="Viaje a Egipto" 
         className="trip-card__image" 
       />
       <div className="trip-card__content">
         <div className="trip-card__price">Desde: €1670</div>
-        <div className="trip-card__availability">Disponibilidad: Cada Día</div>
+        {/* <div className="trip-card__availability">Disponibilidad: Cada Día</div> */}
         <h2 className="trip-card__title">
           Viaje a Egipto de 14 Días en El Cairo, Luxor, Hurgada y Los Oasis
         </h2>
@@ -22,9 +22,9 @@ const TripCard = () => {
           <div className="trip-card__duration">
             <span role="img" aria-label="calendar">📅</span> 14 Días/13 Noches
           </div>
-          <div className="trip-card__type">
+          {/* <div className="trip-card__type">
             <span role="img" aria-label="classic">🗺️</span> Viaje Clásico
-          </div>
+          </div> */}
         </div>
         <button className="trip-card__button">Ver Tour</button>
       </div>
