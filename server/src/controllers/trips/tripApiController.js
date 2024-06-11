@@ -13,7 +13,7 @@ const getById = async (req,res) =>{
 const update = async(req,res)=>{
     const id =req.params.id;
     const trip = await tripController.update(id,req.body);
-    res.json({data:project})
+    res.json({data:trip})
 }
 
 const create= async(req,res)=>{
