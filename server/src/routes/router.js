@@ -12,8 +12,8 @@ const router  =  Router();
 router.get("/",(req,res)=>{
     res.json({data:"Hola API"});
 })
-router.use("/users",isAuthenticated,userRouter);
-router.use("/trips",isAuthenticated,tripRouter);
+router.use("/users",userRouter);
+router.use("/trips",tripRouter);
 router.use("/favorites",favoriteRouter);
 router.use("/",authRouter);
 export default router;
