@@ -9,7 +9,7 @@ import ErrorPage from "./pages/ErrorPage";
 import Root from "./pages/Root";
 
 import TripsList from "./pages/trips/tripList";
-//import UserList from "./pages/User/UserLIst";
+import UserList from "./pages/User/UserList";
 
 
 async function fetchTrips(){
@@ -35,10 +35,10 @@ const router = createBrowserRouter([
       element: <Root />,
       errorElement: <ErrorPage />,
       children: [
-        /* {
+        {
           path: "/",
           element: <div>Bienvenidos a Horizontes lejanos!</div>,
-        }, */
+        },
         {
           path: "/trips",
           element: <TripsList />,
