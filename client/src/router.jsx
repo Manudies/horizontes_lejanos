@@ -47,14 +47,15 @@ const router = createBrowserRouter([
           path: "/users",
           element: <UserList />,
           loader: () => fetchUsers()
-        },    */          
+        },    */  
+        {
+          path: "/register",
+          element: <Register />
+      },         
       ]
     },
 
-    {
-        path: "/register",
-        element: <Register />
-    },  
+ 
   
   ]);
 

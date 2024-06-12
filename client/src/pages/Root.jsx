@@ -2,7 +2,7 @@ import "../App.css";
 import { Outlet, Link, useNavigate } from "react-router-dom";
 import {getToken} from "../utils/local";
 import { useEffect } from "react";
-
+import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/Navbar";
 
 const Root = () => {
@@ -20,6 +20,7 @@ const Root = () => {
             </nav>
             <h1>Root</h1>
             <Outlet />
+            <Footer/>
         </div>
     )
 };
