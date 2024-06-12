@@ -1,0 +1,4 @@
+form.create-project{
+    display: flex;
+    flex-direction: column;
+}
