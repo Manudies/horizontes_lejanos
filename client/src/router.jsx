@@ -8,12 +8,13 @@ import ErrorPage from "./pages/ErrorPage";
 
 import Root from "./pages/Root";
 
-import TripsList from "./components/trips/tripListTemp";
+import TripsList from "./pages/trips/tripList";
 //import UserList from "./pages/User/UserLIst";
 
 
 async function fetchTrips(){
   const result = await getTrips();
+  console.log("result de fetch", result)
   if(result.error){
     return redirect ("/register")
   }
@@ -38,11 +39,11 @@ const router = createBrowserRouter([
           path: "/",
           element: <div>Bienvenidos a Horizontes lejanos!</div>,
         }, */
-       /*  {
+        {
           path: "/trips",
           element: <TripsList />,
           loader: () => fetchTrips()
-        }, */
+        },
        /*  {
           path: "/users",
           element: <UserList />,
