@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './tripCard.css';
-import Modal from '../modal/Modal'
+import Modal from '../modal/modal'
 
 const TripCard = () => {
   const[isModalOpen, setIsModalOpen] = useState(false)

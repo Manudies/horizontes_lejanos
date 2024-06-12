@@ -1,5 +1,5 @@
 
-import "./Modal.css"
+import "./modal.css"
 const Modal = ({children,onClose}) =>{
     
     const handleStopPropagation = (e)=>{
