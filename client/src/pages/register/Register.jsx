@@ -3,7 +3,7 @@ import { register, login } from "../../utils/fetch"
 import { saveToken } from "../../utils/local";
 import { useNavigate } from "react-router-dom";
 
-import UserContext from "../../context/userContext";
+// import UserContext from "../../context/userContext";
 
 import "./Register.css";
 
@@ -18,7 +18,7 @@ const Register = ({ onLogin }) => {
     const [error, setError] = useState("");
     const [userData, setUserData] = useState(initialUserData);
     const navigate = useNavigate();
-    const {setUser} = useContext(UserContext);
+    // const {setUser} = useContext(UserContext);
     const handleUserData =(e) =>{
         e.preventDefault();
         const data = e.target.value;
@@ -50,11 +50,12 @@ const Register = ({ onLogin }) => {
         else {
             result = await login(userData);
             if (!result.error) {
+                console.log("token",result)
                 setError("login correct");
-                setUser(result.user);
+                //setUser(result.user);
                 saveToken(result.token);
-                //onLogin(result.token);
-                navigate("/");
+                onLogin(result.token);
+                navigate("#");
             }
             else {
                 setError(result.error);
