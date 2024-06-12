@@ -1,7 +1,12 @@
-import React from 'react';
+import { useState } from 'react';
 import './tripCard.css';
+import Modal from '../modal/Modal'
 
 const TripCard = () => {
+  const[isModalOpen, setIsModalOpen] = useState(false)
+  function openModal(){
+    setIsModalOpen(true)
+  }
   return (
     <div className="trip-card">
       <img 
@@ -26,7 +31,24 @@ const TripCard = () => {
             <span role="img" aria-label="classic">🗺️</span> Viaje Clásico
           </div> */}
         </div>
-        <button className="trip-card__button">Ver Tour</button>
+        <button onClick = {openModal}className="trip-card__button">Ver Tour </button>
+
+        {isModalOpen &&
+          <Modal isOpen={true} onClose={()=> {
+            setIsModalOpen(false)
+            }}>
+            <div id="modalNombre">
+              <div id="divModalNombre">
+              </div>
+              <div id='modalInferior'>
+                <div id="divModalIMG">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </Modal>
+        }
+        
       </div>
     </div>
   );
