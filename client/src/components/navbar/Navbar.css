@@ -53,8 +53,17 @@
     text-decoration: none;
     font-size: 18px;
     transition: all 0.3s ease;
-  }
-  
-  .nav-links:hover {
-    color: #ffcc00;
   }  
+
+  .sign-in {
+    margin-left: right;
+    color: #77dd77;
+  }
+
+  .nav-item:hover {
+    color: #77dd77;
+  }
+
+  .sign-in:hover {
+    color: #fff;
+  }
