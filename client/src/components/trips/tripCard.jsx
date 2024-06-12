@@ -28,6 +28,7 @@ const TripCard = ({trip}) => {
             <span role="img" aria-label="calendar">📅</span> Duración  {trip.duracion} días
           </div>
         </div>
+        <button className="trip-card__button">Comprar</button>
         <button onClick = {openModal}className="trip-card__button">Ver Tour </button>
 
         {isModalOpen &&
