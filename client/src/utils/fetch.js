@@ -37,82 +37,37 @@ const register = async(userData)=>{
 }
 const login = async(userData)=>{
     const result = await fetchData("/login","post",userData);
-    console.log("login",result);
     return result;
 }
-const fetchUserData = async()=>{
-    const result = await fetchData("/users/bytoken","get");
+const getTrips = async()=>{
+    const result = await fetchData("/trips","get");
     return result;
 }
-const fetchProjects = async()=>{
-    const result = await fetchData("/projects","get");
-    return result;
-}
-const fetchProject = async(id)=>{
-    const result = await fetchData("/projects/"+id,"get");
-    return result;
-}
-const createProject = async(projectData)=>{
-    const result = await fetchData("/projects","post",projectData);
+const createTrip = async(tripData)=>{
+    const result = await fetchData("/trips","post",tripData);
     return result;
 }
 
-const deleteProject = async(id)=>{
-    const result = await fetchData("/projects/"+id,"delete");
-    return result;
-}
-const fetchUsers = async(query)=>{
-    const result = await fetchData("/users","get",query);
-    return result;
-}
-const inviteUser = async(projectId,userId)=>{
-    const result = await fetchData(`/invitations/`,"post",{project:projectId,to:userId});
+
+const getUsers = async()=>{
+    const result = await fetchData("/users","get");
     return result;
 }
 
-const fetchInvitations = async()=>{
-    const result = await fetchData("/invitations","get");
+const createUser = async(userData)=>{
+    const result = await fetchData("/users","post",userData);
     return result;
 }
-const acceptInvitation = async(invitationId)=>{
-    const result = await fetchData("/invitations/"+invitationId+"/accept","post");
-    return result;
-}
-const rejectInvitation = async(invitationId)=>{
-    const result = await fetchData("/invitations/"+invitationId+"/reject","post");
-    return result;
-}
-const fetchTasks = async(projectId)=>{
-    const result = await fetchData("/tasks","get",{projectId});
-    return result;
-}
-const createTask = async(taskData)=>{
-    const result = await fetchData("/tasks","post",taskData);
-    return result;
-}
-const removeTask = async(taskId)=>{
-    const result = await fetchData("/tasks/"+taskId,"delete");
-    return result;
-}
-const updateTask = async(taskData)=>{
-    const result = await fetchData("/tasks/"+taskData._id,"put",taskData);
-    return result;
-}
+
+
+
+
 export {
     register,
     login,
-    fetchProjects,
-    fetchProject,
-    createProject,
-    deleteProject,
-    fetchUserData,
-    fetchUsers,
-    inviteUser,
-    fetchInvitations,
-    acceptInvitation,
-    rejectInvitation,
-    fetchTasks,
-    createTask,
-    removeTask,
-    updateTask
+    getTrips,
+    createTrip,
+    getUsers,
+    createUser,
+    
 }

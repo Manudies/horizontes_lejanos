@@ -34,6 +34,11 @@ function Navbar() {
               Trips
             {/* </Link> */}
           </li>
+          <li className="nav-item">
+            {/* <Link to="/trips" className="nav-links" onClick={toggleMenu}> */}
+              Login/Register
+            {/* </Link> */}
+          </li>
         </ul>
       </div>
     </nav>
