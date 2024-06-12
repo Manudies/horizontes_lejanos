@@ -9,7 +9,7 @@ import ErrorPage from "./pages/ErrorPage";
 import Root from "./pages/Root";
 
 import TripsList from "./components/trips/tripListTemp";
-//import UserList from "./pages/User/UserLIst";
+import UserList from "./pages/User/UserList";
 
 
 async function fetchTrips(){
@@ -43,11 +43,11 @@ const router = createBrowserRouter([
           element: <TripsList />,
           loader: () => fetchTrips()
         }, */
-       /*  {
+       {
           path: "/users",
           element: <UserList />,
           loader: () => fetchUsers()
-        },    */  
+        },
         {
           path: "/register",
           element: <Register />
