@@ -4,6 +4,7 @@ import {getToken} from "../utils/local";
 import { useEffect } from "react";
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/Navbar";
+import TripCard from "../components/trips/tripCard";
 
 const Root = () => {
     const navigate = useNavigate();
@@ -19,6 +20,7 @@ const Root = () => {
                 <Navbar />
             </nav>
             <h1>Root</h1>
+
             <Outlet />
             <Footer/>
         </div>

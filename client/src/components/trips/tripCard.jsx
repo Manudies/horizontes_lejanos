@@ -1,30 +1,27 @@
 import React from 'react';
 import './tripCard.css';
 
-const TripCard = () => {
+const TripCard = ({trip}) => {
+
   return (
     <div className="trip-card">
       <img 
-        src="https://spain.egypttoursportal.com/wp-content/uploads/2021/09/Viaje-Maravilloso-de-14-Dias-en-Egipto-Egypt-Tours-Portal-ES.jpg" 
-        alt="Viaje a Egipto" 
+        src={trip.imagen} 
+        alt={trip.name} 
         className="trip-card__image" 
       />
       <div className="trip-card__content">
-        <div className="trip-card__price">Desde: €1670</div>
-        {/* <div className="trip-card__availability">Disponibilidad: Cada Día</div> */}
+        <div className="trip-card__price">Desde: {trip.precio}</div>
         <h2 className="trip-card__title">
-          Viaje a Egipto de 14 Días en El Cairo, Luxor, Hurgada y Los Oasis
+          {trip.name}
         </h2>
         <p className="trip-card__description">
-          Vive la aventura en los oasis de Egipto con otras visitas en El Cairo, Luxor y Hurgada y descubrir las ma...
+          {trip.descripcion}
         </p>
         <div className="trip-card__details">
           <div className="trip-card__duration">
-            <span role="img" aria-label="calendar">📅</span> 14 Días/13 Noches
+            <span role="img" aria-label="calendar">📅</span> Duración  {trip.duracion} días
           </div>
-          {/* <div className="trip-card__type">
-            <span role="img" aria-label="classic">🗺️</span> Viaje Clásico
-          </div> */}
         </div>
         <button className="trip-card__button">Ver Tour</button>
       </div>

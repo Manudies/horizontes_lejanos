@@ -2,13 +2,13 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
-  max-width: 300px;
+  max-width: 285px;
   font-family: Arial, sans-serif;
 }
 
 .trip-card__image {
   width: 100%;
-  height: auto;
+
 }
 
 .trip-card__content {
@@ -21,12 +21,6 @@
   padding: 8px;
   border-radius: 4px;
   font-size: 1.2em;
-  margin-bottom: 8px;
-}
-
-.trip-card__availability {
-  font-size: 0.9em;
-  color: #6c757d;
   margin-bottom: 8px;
 }
 
