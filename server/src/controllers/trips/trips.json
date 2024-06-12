@@ -5,7 +5,7 @@
         "descripcion": "Explora las pirámides de Giza, navega por el Nilo y descubre los templos de Luxor en un viaje de 14 días lleno de historia y misterio.",
         "duracion": "14",
         "precio": "1200",
-        "imagen": "https://example.com/egipto.jpg"
+        "imagen": "https://spain.egypttoursportal.com/wp-content/uploads/2021/09/Viaje-Maravilloso-de-14-Dias-en-Egipto-Egypt-Tours-Portal-ES.jpg"
     },
     {
         "name": "Encantos de Japón",
@@ -13,7 +13,7 @@
         "descripcion": "Viaja a Japón y sumérgete en la cultura samurái, los templos antiguos y la tecnología moderna durante 12 días inolvidables.",
         "duracion": "12",
         "precio": "1500",
-        "imagen": "https://example.com/japon.jpg"
+        "imagen": "https://www.tarawatravel.com/blog/wp-content/uploads/2019/08/Japon-750x410.jpg"
     },
     {
         "name": "Ruta Maya en México",
@@ -21,7 +21,7 @@
         "descripcion": "Descubre los misterios de la civilización maya, visita Chichen Itzá y relájate en las playas de Cancún en un viaje de 10 días.",
         "duracion": "10",
         "precio": "900",
-        "imagen": "https://example.com/mexico.jpg"
+        "imagen": "https://www.viajeauto.com/wp-content/uploads/2019/02/Chichen-Itza-pixabay.jpg"
     },
     {
         "name": "Aventura en Australia",
@@ -29,7 +29,7 @@
         "descripcion": "Explora la Gran Barrera de Coral, el Outback y las modernas ciudades australianas en un viaje de 14 días lleno de aventuras.",
         "duracion": "14",
         "precio": "2000",
-        "imagen": "https://example.com/australia.jpg"
+        "imagen": "https://viajeskinsai.es/wp-content/uploads/2020/02/Australia-Sydney-opera.jpg"
     },
     {
         "name": "Safari en Kenia",
@@ -37,7 +37,7 @@
         "descripcion": "Vive la emoción de un safari en Kenia, observa la fauna salvaje y descubre los paisajes de la sabana en 10 días de aventura.",
         "duracion": "10",
         "precio": "1800",
-        "imagen": "https://example.com/kenia.jpg"
+        "imagen": "https://www.kiwakatravel.com/wp-content/uploads/2023/03/wildebeests-g4636007e3_1280-1024x682.jpg"
     },
     {
         "name": "Escapada a Tailandia",
@@ -45,7 +45,7 @@
         "descripcion": "Disfruta de las playas paradisíacas, templos antiguos y vibrantes mercados de Tailandia en un viaje de 12 días lleno de cultura y relax.",
         "duracion": "12",
         "precio": "1100",
-        "imagen": "https://example.com/tailandia.jpg"
+        "imagen": "https://www.intermundial.es/blog/wp-content/uploads/2017/11/cuando-viajar-a-tailandia.jpg"
     },
     {
         "name": "Tour por Italia",
@@ -53,7 +53,7 @@
         "descripcion": "Descubre las maravillas de Roma, Florencia y Venecia en un tour de 10 días por Italia, lleno de arte, historia y gastronomía.",
         "duracion": "10",
         "precio": "1300",
-        "imagen": "https://example.com/italia.jpg"
+        "imagen": "https://www.viajes.carrefour.es/statics/media/viajes/europa/italia/istock-539115110-2-.jpg"
     },
     {
         "name": "Patagonia Argentina",
@@ -61,7 +61,7 @@
         "descripcion": "Explora los paisajes impresionantes de la Patagonia, desde glaciares hasta montañas majestuosas, en un viaje de 15 días.",
         "duracion": "15",
         "precio": "1700",
-        "imagen": "https://example.com/patagonia.jpg"
+        "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2022/11/03/A5A43985-D018-4A42-821E-D57E4F683F4A/destino-patagonia-argentina_98.jpg?crop=960,540,x0,y51&width=1900&height=1069&optimize=high&format=webply"
     },
     {
         "name": "Aventuras en Nueva Zelanda",
@@ -69,7 +69,7 @@
         "descripcion": "Recorre los paisajes espectaculares de Nueva Zelanda, desde sus fiordos hasta sus montañas, en un viaje de 14 días.",
         "duracion": "14",
         "precio": "2200",
-        "imagen": "https://example.com/nueva_zelanda.jpg"
+        "imagen": "https://inglesnuevazelanda.com/wp-content/uploads/Kayak-Nueva-Zelanda-Turismo-de-Aventura.jpg"
     },
     {
         "name": "Costa Rica Natural",
@@ -77,7 +77,7 @@
         "descripcion": "Sumérgete en la naturaleza exuberante de Costa Rica, explorando selvas, volcanes y playas en un viaje de 12 días.",
         "duracion": "12",
         "precio": "1400",
-        "imagen": "https://example.com/costa_rica.jpg"
+        "imagen": "https://img.rtve.es/imagenes/cascada-rio-celeste/1656315416283.jpg"
     },
     {
         "name": "Maravillas de Perú",
@@ -85,7 +85,7 @@
         "descripcion": "Descubre los misterios de Machu Picchu y la cultura Inca en un tour de 11 días por los paisajes de Perú.",
         "duracion": "11",
         "precio": "1500",
-        "imagen": "https://example.com/peru.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxYb-6b1Lo7RSYMlO_t28Pkx0LtEDj1vKLKA&s"
     },
     {
         "name": "Ruta por Grecia",
@@ -93,7 +93,7 @@
         "descripcion": "Explora las ruinas antiguas, las islas pintorescas y la rica historia de Grecia en un viaje de 12 días.",
         "duracion": "12",
         "precio": "1300",
-        "imagen": "https://example.com/grecia.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedfqo3zfMHsUtk34ZRMKTU342T8zR2XHHNw&s"
     },
     {
         "name": "Descubre Islandia",
@@ -101,7 +101,7 @@
         "descripcion": "Aventúrate en los paisajes únicos de Islandia, con sus cascadas, glaciares y géiseres, en un viaje de 10 días.",
         "duracion": "10",
         "precio": "1600",
-        "imagen": "https://example.com/islandia.jpg"
+        "imagen": "https://www.civitatis.com/blog/wp-content/uploads/2020/02/que-ver-islandia.jpg"
     },
     {
         "name": "Turquía Exótica",
@@ -109,7 +109,7 @@
         "descripcion": "Sumérgete en la rica historia y la cultura vibrante de Turquía, explorando Estambul, Capadocia y más en 12 días.",
         "duracion": "12",
         "precio": "1200",
-        "imagen": "https://example.com/turquia.jpg"
+        "imagen": "https://www.exoticca.com/_next/image?url=https%3A%2F%2Fuploads.exoticca.com%2Fglobal%2Fdestination%2Fpoi%2Festambul.png&w=3840&q=75"
     },
     {
         "name": "Explorando Sudáfrica",
@@ -117,7 +117,7 @@
         "descripcion": "Vive una experiencia única en Sudáfrica, con safaris, paisajes urbanos y naturales en un viaje de 14 días.",
         "duracion": "14",
         "precio": "1900",
-        "imagen": "https://example.com/sudafrica.jpg"
+        "imagen": "https://static.hosteltur.com/app/public/uploads/img/releases/2019/05/14/L_114110_turismo-de-sudafrica.jpg"
     },
     {
         "name": "Canadá Espectacular",
@@ -125,7 +125,7 @@
         "descripcion": "Descubre la belleza natural de Canadá, desde las Montañas Rocosas hasta las Cataratas del Niágara, en un viaje de 13 días.",
         "duracion": "13",
         "precio": "1600",
-        "imagen": "https://example.com/canada.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5dwjjbrt8F0im_AJqrp7E5WliBqofiSFuIg&s"
     },
     {
         "name": "Vietnam y Camboya",
@@ -133,7 +133,7 @@
         "descripcion": "Explora los paisajes y la cultura de Vietnam y Camboya en un viaje de 15 días lleno de descubrimientos.",
         "duracion": "15",
         "precio": "1800",
-        "imagen": "https://example.com/vietnam_camboya.jpg"
+        "imagen": "https://www.viajesbilbaoexpress.com/wp-content/uploads/2020/01/viaje-vietnam-camboya-cabecera.jpg"
     },
     {
         "name": "Portugal Encantador",
@@ -141,7 +141,7 @@
         "descripcion": "Recorre las encantadoras ciudades y paisajes de Portugal, desde Lisboa hasta el valle del Duero, en 10 días.",
         "duracion": "10",
         "precio": "1000",
-        "imagen": "https://example.com/portugal.jpg"
+        "imagen": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/257000/257156-Lisboa-Region.jpg"
     },
     {
         "name": "Escocia Mágica",
@@ -149,7 +149,7 @@
         "descripcion": "Descubre los castillos, lagos y montañas de Escocia en un tour de 10 días lleno de historia y belleza natural.",
         "duracion": "10",
         "precio": "1100",
-        "imagen": "https://example.com/escocia.jpg"
+        "imagen": "https://www.civitatis.com/blog/wp-content/uploads/2020/12/shutterstock_513939127-1920x1258.jpg"
     },
     {
         "name": "Colombia Diversa",
@@ -157,6 +157,6 @@
         "descripcion": "Explora la diversidad cultural y natural de Colombia, desde sus playas caribeñas hasta sus ciudades coloniales, en 12 días.",
         "duracion": "12",
         "precio": "1400",
-        "imagen": "https://example.com/colombia.jpg"
+        "imagen": "https://www.viajeselcorteingles.es/imagen/blog/img_blog_post_salento_eje_cafetero_colombia_710x300_01.jpg"
     }
 ]
