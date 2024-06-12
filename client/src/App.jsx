@@ -1,8 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client'
+import { RouterProvider } from "react-router-dom"; 
+import router from './router.jsx';
+
 import { useState, useEffect } from 'react'
 import './App.css'
 import Footer from './components/footer/footer';
 import Navbar from './components/navbar/Navbar';  
-import TripCard from './components/trip/tripCard'
+import TripCard from './components/trips/tripCard.jsx'
 import Register from './pages/register/Register.jsx';
 
 import { getUsers, getTrips } from './utils/fetch';
@@ -29,20 +34,8 @@ function App() {
 
   return (
     <>
-      <div>
-        <Navbar/>
-      </div>
-      
-        {/* <h1>Welcome to the Trip Planner</h1> */}
-        {!isLoggedIn ?
-        <Register onLogin={() => setIsLoggedIn(true)}/>
-        :
-       
-         <div>
-          <TripCard />
-          <Footer/>
-        </div>
-      }
+        <RouterProvider router={router} />
+
     </>
   )
 }
