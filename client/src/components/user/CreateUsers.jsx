@@ -1,12 +1,11 @@
 import { createUser } from "../../utils/fetch";
-import "./CreateUser.css"
+import "./CreateUsers.css";
 const CreateUser= ({onCreate})=>{
 
     const handleSubmit =async (e)=>{
         e.preventDefault();
         const name = e.target.name.value;
-        const description = e.target.description.value;
-        const data = {name,description};
+        const data = {name};
         console.log("name",data)
         const result = await createUser(data);
         console.log("result",result)

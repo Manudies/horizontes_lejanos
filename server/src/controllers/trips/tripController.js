@@ -32,7 +32,16 @@ const update = async (id, data) => {
         return null;
     }
 }
-
+const getByProperty = async (property, value) => {
+    try { 
+        console.log("property",property)
+        console.log("value",value)
+        const trip = await tripModel.find({ [property]: value })
+        return trip;
+    } catch (error) {
+        return null;
+    }
+}
 const create = async(data) =>{
    try {
        const trip = await tripModel.create(data);
@@ -59,6 +68,7 @@ export const functions = {
     getAll,
     getById,
     update,
+    getByProperty,
     create,
     remove,
 }
