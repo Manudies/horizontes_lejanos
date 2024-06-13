@@ -35,15 +35,25 @@ const TripCard = ({trip}) => {
           <Modal isOpen={true} onClose={()=> {
             setIsModalOpen(false)
             }}>
-            <div id="modalNombre">
-              <div id="divModalNombre">
+              <img 
+              src={trip.imagen} 
+              alt={trip.name} 
+              className="trip-card__image" 
+              />
+              <div className="trip-card__content">
+                <div className="trip-card__price">Desde: {trip.precio}</div>
+                  <h2 className="trip-card__title">
+                    {trip.name}
+                  </h2>
+                    <p className="trip-card__description">
+                    {trip.descripcion}
+                    </p>
+                  <div className="trip-card__details">
+                  <div className="trip-card__duration">
+                    <span role="img" aria-label="calendar">📅</span> Duración  {trip.duracion} días
+                  </div>
+                </div> 
               </div>
-              <div id='modalInferior'>
-                <div id="divModalIMG">
-                  <img />
-                </div>
-              </div>
-            </div>
           </Modal>
         }
         
