@@ -12,37 +12,37 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        {/* <Link to="/" className="navbar-logo"> */}
+        <Link to="/" className="navbar-logo">
           <img src="/public/viajar.png" alt="" />
-        {/* </Link> */}
+        </Link>
         <div className={isMenuOpen ? 'menu-icon open' : 'menu-icon'} onClick={toggleMenu}>
           <i className={isMenuOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
         <ul className={isMenuOpen ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
-            {/* <Link to="/europa" className="nav-links" onClick={toggleMenu}> */}
+            <Link to="/trips/Europa" className="nav-links" onClick={toggleMenu}>
               Europa
-            {/* </Link> */}
+            </Link>
           </li>
           <li className="nav-item">
-            {/* <Link to="/asia" className="nav-links" onClick={toggleMenu}> */}
+            <Link to="/trips/Asia" className="nav-links" onClick={toggleMenu}>
               Asia
-            {/* </Link> */}
+            </Link>
           </li>
           <li className="nav-item">
-            {/* <Link to="/américa" className="nav-links" onClick={toggleMenu}> */}
+            <Link to="/trips/América" className="nav-links" onClick={toggleMenu}>
               América
-            {/* </Link> */}
+            </Link>
           </li>
           <li className="nav-item">
-            {/* <Link to="/áfrica" className="nav-links" onClick={toggleMenu}> */}
+            <Link to="/trips/África" className="nav-links" onClick={toggleMenu}>
               África
-            {/* </Link> */}
+            </Link>
           </li>
           <li className="nav-item">
-            {/* <Link to="/oceanía" className="nav-links" onClick={toggleMenu}> */}
+            <Link to="/trips/Oceanía" className="nav-links" onClick={toggleMenu}>
               Oceanía
-            {/* </Link> */}
+            </Link>
           </li>
           <li className="nav-item sign-in">
             <Link to="/register" className="nav-links" onClick={toggleMenu}>
