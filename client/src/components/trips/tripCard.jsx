@@ -16,7 +16,7 @@ const TripCard = ({trip}) => {
         className="trip-card__image" 
       />
       <div className="trip-card__content">
-        <div className="trip-card__price">Desde: {trip.precio}</div>
+        <div className="trip-card__price">Desde: {trip.precio} € </div>
         <h2 className="trip-card__title">
           {trip.name}
         </h2>
@@ -38,10 +38,10 @@ const TripCard = ({trip}) => {
               <img 
               src={trip.imagen} 
               alt={trip.name} 
-              className="trip-card__image" 
+              className="trip-card_image" 
               />
               <div className="trip-card__content">
-                <div className="trip-card__price">Desde: {trip.precio}</div>
+                <div className="trip-card__price">Desde: {trip.precio} € </div>
                   <h2 className="trip-card__title">
                     {trip.name}
                   </h2>
@@ -51,6 +51,9 @@ const TripCard = ({trip}) => {
                   <div className="trip-card__details">
                   <div className="trip-card__duration">
                     <span role="img" aria-label="calendar">📅</span> Duración  {trip.duracion} días
+                                    <div className="trip-card__itinerary">
+                    {trip.itinerario}
+                  </div>
                   </div>
                 </div> 
               </div>
