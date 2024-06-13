@@ -1,6 +1,6 @@
 import {createBrowserRouter, redirect} from "react-router-dom";
 
-import { getTrips, getUsers } from "./utils/fetch";
+import { getTrips, getUsers, getByProperty } from "./utils/fetch";
 
 
 import Register from "./pages/register/Register";
@@ -29,6 +29,14 @@ async function fetchUsers(){
   return result.data;
 }
 
+async function fetchTripsByProperty(destino){
+  const result = await getByProperty(destino);
+  if(result.error){
+    return redirect ("/register")
+  }
+  return result.data;
+}
+
 const router = createBrowserRouter([
     {
       path: "/",
@@ -43,6 +51,11 @@ const router = createBrowserRouter([
           path: "/trips",
           element: <TripsList />,
           loader: () => fetchTrips()
+        },
+        {
+          path: "/trips/:tripDestino",
+          element: <TripsList />,
+          loader: ({params}) => fetchTripsByProperty(params.tripDestino)
         },
          {
           path: "/users",

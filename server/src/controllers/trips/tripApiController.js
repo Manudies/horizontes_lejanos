@@ -15,6 +15,11 @@ const update = async(req,res)=>{
     const trip = await tripController.update(id,req.body);
     res.json({data:trip})
 }
+const getByProperty = async(req,res)=>{
+    const {property,value}=req.query;
+    const trips = await tripController.getByProperty(property,value);
+    res.json({data:trips});
+}
 
 const create= async(req,res)=>{
     const trip = await tripController.create(req.body);
@@ -31,6 +36,7 @@ export default {
     getById,
     update,
     create,
+    getByProperty,
     remove
 }
 

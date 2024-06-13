@@ -48,7 +48,10 @@ const createTrip = async(tripData)=>{
     const result = await fetchData("/trips","post",tripData);
     return result;
 }
-
+const getByProperty = async(tripDestino)=>{
+    const result = await fetchData(`/trips/byproperty?property=destino&value=${tripDestino}`,"get");
+    return result;
+}
 
 const getUsers = async()=>{
     const result = await fetchData("/users","get");
@@ -68,6 +71,7 @@ export {
     login,
     getTrips,
     createTrip,
+    getByProperty,
     getUsers,
     createUser,
     
