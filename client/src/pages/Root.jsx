@@ -19,8 +19,7 @@ const Root = () => {
             <nav>
                 <Navbar />
             </nav>
-            <h1>Root</h1>
-
+            <h1>Bienvenido a Horizontes lejanos</h1>
             <Outlet />
             <Footer/>
         </div>
