@@ -1,7 +1,9 @@
-import { useEffect, useState,useContext } from "react";
-import { register, login } from "../../utils/fetch"
+import { useEffect, useState } from "react";
+import { register, login } from "../../utils/fetch";
 import { saveToken } from "../../utils/local";
 import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser, faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
 
 // import UserContext from "../../context/userContext";
 
@@ -12,28 +14,27 @@ const initialUserData = {
     email: "",
     password: "",
     passwordRepeat: ""
-}
+};
+
 const Register = ({ onLogin }) => {
     const [isRegister, setIsRegister] = useState(false);
     const [error, setError] = useState("");
     const [userData, setUserData] = useState(initialUserData);
     const navigate = useNavigate();
-    // const {setUser} = useContext(UserContext);
-    const handleUserData =(e) =>{
+    // const { setUser } = useContext(UserContext);
+
+    const handleUserData = (e) => {
         e.preventDefault();
         const data = e.target.value;
         const key = e.target.name;
         setUserData(userData => {
-            // const newUserData = {...userData};
-            // newUserData[key] = data;
-            // return newUserData;
             return {
                 ...userData,
-                [key]:data
-            }
-        })
-    }
-    
+                [key]: data
+            };
+        });
+    };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         let result;
@@ -42,52 +43,54 @@ const Register = ({ onLogin }) => {
             if (!result.error) {
                 setIsRegister(false);
                 setError("user registered correctly");
-            }
-            else {
+            } else {
                 setError(result.error);
             }
-        }
-        else {
+        } else {
             result = await login(userData);
             if (!result.error) {
-                console.log("token",result)
+                console.log("token", result);
                 setError("login correct");
-                //setUser(result.user);
+                // setUser(result.user);
                 saveToken(result.token);
                 onLogin(result.token);
                 navigate("#");
-            }
-            else {
+            } else {
                 setError(result.error);
             }
         }
-    }
+    };
+
     return (
         <section className="register-login">
             <h2>{isRegister ? "Register" : "Login"}</h2>
             {error}
             <form onSubmit={handleSubmit}>
-                <label htmlFor="username">Username</label>
-                <input name="username" type="text" value={userData.username} onChange={handleUserData} />
+                <div className="input-group">
+                    <FontAwesomeIcon icon={faUser} class="icon"/>
+                    <input name="username" type="text" placeholder="Username" value={userData.username} onChange={handleUserData} />
+                </div>
                 {isRegister &&
-                    <>
-                    <label htmlFor="email">Email</label>
-                    <input name="email" type="email" value={userData.email} onChange={handleUserData} />
-                    </>
+                    <div className="input-group">
+                        <FontAwesomeIcon icon={faEnvelope} class="icon"/>
+                        <input name="email" type="email" placeholder="Email" value={userData.email} onChange={handleUserData} />
+                    </div>
                 }
-                <label htmlFor="password">Password</label>
-                <input name="password" type="password" value={userData.password} onChange={handleUserData} />
+                <div className="input-group">
+                    <FontAwesomeIcon icon={faLock} class="icon" />
+                    <input name="password" type="password" placeholder="Password" value={userData.password} onChange={handleUserData} />
+                </div>
                 {isRegister &&
-                    <>
-                        <label htmlFor="passwordRepeat">Repeat Password</label>
-                        <input name="passwordRepeat" type="password" value={userData.passwordRepeat} onChange={handleUserData} />
-                    </>
+                    <div className="input-group">
+                        <FontAwesomeIcon icon={faLock} class="icon" />
+                        <input name="passwordRepeat" type="password" placeholder="Repeat Password" value={userData.passwordRepeat} onChange={handleUserData} />
+                    </div>
                 }
                 <button>{isRegister ? "Register" : "Login"}</button>
             </form>
-            <button onClick={() => setIsRegister(register => !register)} >{isRegister ? "Go to Login" : "Go to Register"}</button>
+            <button onClick={() => setIsRegister(register => !register)}>{isRegister ? "Go to Login" : "Go to Register"}</button>
         </section>
-    )
-}
+    );
+};
 
 export default Register;
