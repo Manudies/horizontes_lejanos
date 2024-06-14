@@ -10,6 +10,7 @@ import Root from "./pages/Root";
 
 import TripsList from "./pages/trips/tripList";
 import UserList from "./pages/User/UserList";
+import Bienvenida from "./components/bienvenida/bienvenida";
 
 
 async function fetchTrips(){
@@ -45,7 +46,7 @@ const router = createBrowserRouter([
       children: [
         {
           path: "/",
-          element: <div>Bienvenidos a Horizontes lejanos!</div>,
+          element:<Bienvenida />,       
         },
         {
           path: "/trips",
