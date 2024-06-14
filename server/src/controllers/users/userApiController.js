@@ -68,7 +68,8 @@ const addTrip = async(req,res)=>{
         const user = await userController.addTrip(userId,tripId);
         res.json({data:user})
     }
-    res.json({error:"no tienes permisos para anadir trips"})
+    else
+        res.json({error:"no tienes permisos para anadir trips"})
 }
 
 const removeTrip = async(req,res)=>{
