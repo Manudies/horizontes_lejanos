@@ -159,17 +159,21 @@ const addTrip = async(userId,tripId)=>{
     }
 }
 const removeTrip = async(userId,tripId)=>{
+    console.log("remove trip",userId,tripId)
+    if(!userId || !tripId){
+        return {error:"faltan datos"};
+    }
     try {
         const user = await getById(userId);
         if(user.trips.includes(tripId)){
-            user.trips = user.trips.filter(p => !p.equals(tripId));
+            user.trips = user.trips.filter(trip => trip !== tripId);
             await user.save();
             return user;
         }
         return user;
     } catch (error) {
         console.error(error);
-        return {error:"no se ha podido añadir el trip"};
+        return {error:"no se ha podido quitar el trip"};
     }
 }
 

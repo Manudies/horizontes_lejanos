@@ -58,6 +58,20 @@ const remove = async(req,res)=>{
     res.json({data:user})
 }
 
+const addTrip = async(req,res)=>{
+    const userId = req.params.id;
+    const tripId = req.params.tripId;
+    const user = await userController.addTrip(userId,tripId);
+    res.json({data:user})
+}
+
+const removeTrip = async(req,res)=>{
+    const userId = req.params.id;
+    const tripId = req.params.tripId;
+    const user = await userController.removeTrip(userId,tripId);
+    res.json({data:user})
+}
+
 export default{
     getAll,
     getById,
@@ -67,6 +81,8 @@ export default{
     register,
     create,
     update,
-    remove
+    remove,
+    addTrip,
+    removeTrip
 }
 
