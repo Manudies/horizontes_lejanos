@@ -13,5 +13,7 @@ router.get("/:id",userApiController.getById);
 router.post("/",userApiController.create);
 router.put("/:id",isAdmin,userApiController.update);
 router.delete("/:id",isAdmin,userApiController.remove);
+router.post("/:id/trips",isAuthenticated,userApiController.addTrip);
+router.delete("/:id/trips/:tripId",userApiController.removeTrip);
 
 export default router;

@@ -62,7 +62,10 @@ const createUser = async(userData)=>{
     const result = await fetchData("/users","post",userData);
     return result;
 }
-
+ const addTrip = async(userId, tripId)=>{
+    const result = await fetchData("/users/"+userId,"post",{tripId});
+    return result;
+}
 
 
 
@@ -74,5 +77,6 @@ export {
     getByProperty,
     getUsers,
     createUser,
+    addTrip
     
 }

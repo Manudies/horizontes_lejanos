@@ -1,7 +1,7 @@
 import userModel from "../../models/userModel.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-const userRows = {_id:1, username:1, email:1, role:1,projects:1};
+const userRows = {_id:1, username:1, email:1, role:1,trips:1};
 const getAll = async(query=null)=> {
     try {
         const filter = {};
@@ -146,7 +146,7 @@ const addTrip = async(userId,tripId)=>{
     try {
         console.log("add trip",userId)
         const user = await getById(userId);
-        console.log("users",user);
+        console.log("users",tripId);
         if(!user.trips.includes(tripId)){
             user.trips.push(tripId);
             await user.save();

@@ -60,14 +60,20 @@ const remove = async(req,res)=>{
 
 const addTrip = async(req,res)=>{
     const userId = req.params.id;
-    const tripId = req.params.tripId;
-    const user = await userController.addTrip(userId,tripId);
-    res.json({data:user})
+    const tripId = req.body.tripId;
+    const loggedUser = req.user;
+    console.log("userId", userId)
+    console.log("usuario logueado", loggedUser._id)
+    if(loggedUser._id.equals(userId) || loggedUser.role === "admin"){
+        const user = await userController.addTrip(userId,tripId);
+        res.json({data:user})
+    }
+    res.json({error:"no tienes permisos para anadir trips"})
 }
 
 const removeTrip = async(req,res)=>{
     const userId = req.params.id;
-    const tripId = req.params.tripId;
+    const tripId = req.body.tripId;
     const user = await userController.removeTrip(userId,tripId);
     res.json({data:user})
 }
