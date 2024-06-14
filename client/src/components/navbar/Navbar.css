@@ -1,83 +1,127 @@
+/* Navbar.css */
 .navbar {
-    background-color: #333;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-  }
-  
+  background-color: #333;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.navbar-logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu-icon {
+  display: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.nav-links:hover {
+  color: #77dd77;
+  text-decoration: none;
+}
+
+.sign-in .nav-links {
+  color: #77dd77;
+}
+
+.sign-in .nav-links:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sign-in {
+  margin-left: auto;
+  color: #77dd77;
+}
+
+.nav-item:hover {
+  color: #77dd77;
+}
+
+.sign-in:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 960px) {
   .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 20px;
+    padding: 0 10px;
   }
-  
-  .navbar-logo {
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
+
   .menu-icon {
-    display: none;
-    color: #fff;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .menu-icon.open {
     display: block;
   }
-  
+
   .nav-menu {
     display: flex;
-    list-style: none;
-    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+    background-color: #333;
   }
-  
+
+  .nav-menu.active {
+    height: calc(100vh - 80px);
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
   .nav-item {
-    margin: 0 15px;
+    margin: 0;
   }
-  
+
   .nav-links {
-    color: #fff;
+    padding: 20px;
+    width: 100%;
+    display: table;
+    text-align: center;
     text-decoration: none;
-    font-size: 18px;
-    transition: all 0.3s ease;
-    text-decoration: none;
-  }
-
-  .nav-links:hover {
-    color: #77dd77;
-  }
-
-  .sign-in .nav-links {
-    color: #77dd77;
-    text-decoration: none;
-  }
-
-  .sign-in .nav-links:hover {
-    color: #fff;
   }
 
   .sign-in {
-    margin-left: right;
-    color: #77dd77;
+    margin-left: 0;
   }
-
-  .nav-item:hover {
-    color: #77dd77;
-  }
-
-  .sign-in:hover {
-    color: #fff;
-  }
+}
