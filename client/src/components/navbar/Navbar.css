@@ -58,6 +58,7 @@
 
   .nav-links:hover {
     color: #77dd77;
+    text-decoration: none;
   }
 
   .sign-in .nav-links {
