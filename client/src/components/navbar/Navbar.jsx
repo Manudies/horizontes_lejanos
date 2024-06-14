@@ -6,9 +6,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import UserContext from '../../context/userContext';
 
+import Modal from '../modal/modal'
+
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { user, setUser } = useContext(UserContext);
+  const[isModalOpen, setIsModalOpen] = useState(false)
+  function openModal(){
+    setIsModalOpen(true)
+  }
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -64,9 +70,23 @@ function Navbar() {
           </li>
           {user && (
             <li className="nav-item sign-in">
-              {user.username}
-              {/* <Link to="/user" className="nav-links" onClick={toggleMenu}>
-              </Link> */}
+              <button onClick = {openModal}className="trip-card__button">{user.username}</button>
+              {isModalOpen &&
+                <Modal isOpen={true} onClose={()=> {
+                  setIsModalOpen(false)
+                  }}>
+                  <h1 className="userName">
+                    {user.username}
+                  </h1>
+                  <ul>
+                    Trips: 
+                    {user.trips.map(trip => <li>{trip}<button>Comprar</button></li>)}
+                  </ul>
+                  <button>Logout</button>
+
+                </Modal>
+              }
+
             </li>
           )}
           {!user && (
