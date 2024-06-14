@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import UserContext from '../../context/userContext';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { user, setUser } = useContext(UserContext);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -44,11 +46,21 @@ function Navbar() {
               Oceanía
             </Link>
           </li>
+          {user && (
+            <li className="nav-item sign-in">
+              {user.username}
+              {/* <Link to="/user" className="nav-links" onClick={toggleMenu}>
+              </Link> */}
+            </li>
+          )}
+          {!user && (
           <li className="nav-item sign-in">
             <Link to="/register" className="nav-links" onClick={toggleMenu}>
             Sign In
             </Link>
           </li>
+            
+          )}
 
         </ul>
       </div>
