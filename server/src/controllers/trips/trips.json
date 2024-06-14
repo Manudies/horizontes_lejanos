@@ -21,7 +21,8 @@
             "Día 12: Asuán y la Presa Alta",
             "Día 13: Templo de Abu Simbel",
             "Día 14: Regreso a El Cairo y vuelo de salida"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Encantos de Japón",
@@ -43,7 +44,8 @@
             "Día 10: Himeji y Kobe",
             "Día 11: Regreso a Tokio",
             "Día 12: Salida de Tokio"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Ruta Maya en México",
@@ -63,7 +65,8 @@
             "Día 8: Uxmal",
             "Día 9: Regreso a Cancún",
             "Día 10: Salida de Cancún"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Aventura en Australia",
@@ -87,7 +90,8 @@
             "Día 12: Great Ocean Road",
             "Día 13: Tour por Melbourne",
             "Día 14: Salida de Melbourne"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Safari en Kenia",
@@ -107,7 +111,8 @@
             "Día 8: Safari en Amboseli",
             "Día 9: Parque Nacional de Tsavo",
             "Día 10: Salida de Nairobi"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Escapada a Tailandia",
@@ -129,7 +134,8 @@
             "Día 10: Relajación en Phuket",
             "Día 11: Regreso a Bangkok",
             "Día 12: Salida de Bangkok"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Tour por Italia",
@@ -149,7 +155,8 @@
             "Día 8: Tour por Venecia",
             "Día 9: Murano y Burano",
             "Día 10: Salida de Venecia"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Patagonia Argentina",
@@ -174,7 +181,8 @@
             "Día 13: Ruta de los Siete Lagos",
             "Día 14: Regreso a Buenos Aires",
             "Día 15: Salida de Buenos Aires"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Aventuras en Nueva Zelanda",
@@ -198,7 +206,8 @@
             "Día 12: Glaciar Franz Josef",
             "Día 13: Christchurch",
             "Día 14: Salida de Christchurch"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Costa Rica Natural",
@@ -220,7 +229,8 @@
             "Día 10: Tour de aventura en el río Pacuare",
             "Día 11: Regreso a San José",
             "Día 12: Salida de San José"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Maravillas de Perú",
@@ -241,7 +251,8 @@
             "Día 9: Vuelo a Arequipa",
             "Día 10: Cañón del Colca",
             "Día 11: Regreso a Lima y salida"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Ruta por Grecia",
@@ -263,7 +274,8 @@
             "Día 10: Palacio de Knossos",
             "Día 11: Heraklion",
             "Día 12: Regreso a Atenas y salida"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Descubre Islandia",
@@ -283,7 +295,8 @@
             "Día 8: Akureyri",
             "Día 9: Myvatn",
             "Día 10: Regreso a Reikiavik y salida"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Turquía Exótica",
@@ -305,7 +318,8 @@
             "Día 10: Piscinas de travertino",
             "Día 11: Efeso",
             "Día 12: Regreso a Estambul y salida"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Explorando Sudáfrica",
@@ -329,7 +343,8 @@
             "Día 12: Swazilandia",
             "Día 13: Durban",
             "Día 14: Salida de Durban"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Canadá Espectacular",
@@ -352,7 +367,8 @@
             "Día 11: Ottawa",
             "Día 12: Montreal",
             "Día 13: Salida de Montreal"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Vietnam y Camboya",
@@ -374,7 +390,8 @@
             "Día 10: Túneles de Cu Chi",
             "Día 11: Tour por Ciudad Ho Chi Minh",
             "Día 12: Salida de Ciudad Ho Chi Minh"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Portugal Encantador",
@@ -394,7 +411,8 @@
             "Día 8: Guimarães y Braga",
             "Día 9: Aveiro y Costa Nova",
             "Día 10: Regreso a Lisboa y salida"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Escocia Mágica",
@@ -414,7 +432,8 @@
             "Día 8: Fort William y el Ben Nevis",
             "Día 9: Glencoe y el Valle de Glen",
             "Día 10: Regreso a Edimburgo y salida"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     },
     {
         "name": "Colombia Diversa",
@@ -436,6 +455,7 @@
             "Día 10: Santa Marta y Parque Tayrona",
             "Día 11: Tour por Santa Marta",
             "Día 12: Regreso a Bogotá y salida"
-        ]
+        ],
+        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
     }
 ]
