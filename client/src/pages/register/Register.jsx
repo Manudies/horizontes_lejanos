@@ -54,7 +54,7 @@ const Register = ({}) => {
                 setError("login correct");
                 setUser(result.user);
                 saveToken(result.token);
-                navigate("#");
+                navigate("/");
             } else {
                 setError(result.error);
             }
