@@ -13,14 +13,13 @@ const Root = () => {
             navigate("/register");
         }
     }, [])
+
     return (
         <div>
             
             <nav>
                 <Navbar />
             </nav>
-            <h1>Root</h1>
-
             <Outlet />
             <Footer/>
         </div>
