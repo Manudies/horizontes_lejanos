@@ -1,6 +1,9 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useEffect, useContext} from 'react';
+
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import UserContext from '../../context/userContext';
 
 function Navbar() {
@@ -11,6 +14,19 @@ function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleResize = () => {
+    if (window.innerWidth > 960) {
+      setIsMenuOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -18,7 +34,7 @@ function Navbar() {
           <img src="/public/viajar.png" alt="" />
         </Link>
         <div className={isMenuOpen ? 'menu-icon open' : 'menu-icon'} onClick={toggleMenu}>
-          <i className={isMenuOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
+          <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars} />
         </div>
         <ul className={isMenuOpen ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
@@ -56,7 +72,7 @@ function Navbar() {
           {!user && (
           <li className="nav-item sign-in">
             <Link to="/register" className="nav-links" onClick={toggleMenu}>
-            Sign In
+              Sign In
             </Link>
           </li>
             
