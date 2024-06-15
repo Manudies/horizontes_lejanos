@@ -6,6 +6,7 @@
         "duracion": "14",
         "precio": "1200",
         "imagen": "https://spain.egypttoursportal.com/wp-content/uploads/2021/09/Viaje-Maravilloso-de-14-Dias-en-Egipto-Egypt-Tours-Portal-ES.jpg",
+
         "itinerario": [{
             "dia": "1: Llegada a El Cairo",
             "coordenadas": [30.0444, 31.2357]
@@ -63,6 +64,7 @@
             "coordenadas": [30.0444, 31.2357]
         }
         ]
+
     },
     {
         "name": "Encantos de Japón",
@@ -72,6 +74,7 @@
         "precio": "1500",
         "imagen": "https://www.tarawatravel.com/blog/wp-content/uploads/2019/08/Japon-750x410.jpg",
         "itinerario": [
+
             {
                 "dia": "1: Llegada a Tokio",
                 "coordenadas": [35.682839, 139.759455]
@@ -121,6 +124,7 @@
                 "coordenadas": [35.682839, 139.759455]
             }
         ]
+
     },
     {
         "name": "Ruta Maya en México",
@@ -130,6 +134,7 @@
         "precio": "900",
         "imagen": "https://www.viajeauto.com/wp-content/uploads/2019/02/Chichen-Itza-pixabay.jpg",
         "itinerario": [
+
             {
                 "dia": "1: Llegada a Cancún",
                 "coordenadas": [21.1619, -86.8515]
@@ -171,6 +176,7 @@
                 "coordenadas": [21.1619, -86.8515]
             }
         ]
+
     },
     {
         "name": "Aventura en Australia",
@@ -651,9 +657,9 @@
                     "coordenadas": [-12.0464, -77.0428]
                 }
             ]
-    
-        
+   
     },
+
     {
         "name": "Ruta por Grecia",
         "destino": "Europa",
@@ -764,7 +770,6 @@
             }
         ]
     
-    
     },
     {
         "name": "Turquía Exótica",
@@ -823,6 +828,7 @@
                 "coordenadas": [41.0082, 28.9784]
             }
         ]
+
     },
     
     {
@@ -890,6 +896,7 @@
                 "coordenadas": [-29.8587, 31.0218]
             }
         ]
+
     },
     
     {
@@ -900,6 +907,7 @@
         "precio": "1600",
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5dwjjbrt8F0im_AJqrp7E5WliBqofiSFuIg&s",
         "itinerario": [
+
             {
                 "dia": "1: Llegada a Vancouver",
                 "coordenadas": [49.2827, -123.1207]
@@ -953,7 +961,7 @@
                 "coordenadas": [45.5017, -73.5673]
             }
         ]
-    
+
     },
     {
         "name": "Vietnam y Camboya",
@@ -963,6 +971,7 @@
         "precio": "1800",
         "imagen": "https://www.viajesbilbaoexpress.com/wp-content/uploads/2020/01/viaje-vietnam-camboya-cabecera.jpg",
         "itinerario": [
+
             {
                 "dia": "1: Llegada a Hanoi",
                 "coordenadas": [21.0285, 105.8542]
@@ -1022,6 +1031,7 @@
         "precio": "1000",
         "imagen": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/257000/257156-Lisboa-Region.jpg",
         "itinerario": [
+
             {
                 "dia": "1: Llegada a Lisboa",
                 "coordenadas": [38.7223, -9.1393]
@@ -1064,6 +1074,7 @@
             }
         ]
     
+
     },
     {
         "name": "Escocia Mágica",
@@ -1073,6 +1084,7 @@
         "precio": "1100",
         "imagen": "https://www.civitatis.com/blog/wp-content/uploads/2020/12/shutterstock_513939127-1920x1258.jpg",
         "itinerario": [
+
             {
                 "dia": "1: Llegada a Edimburgo",
                 "coordenadas": [55.9533, -3.1883]
@@ -1114,6 +1126,7 @@
                 "coordenadas": [55.9533, -3.1883]
             }
         ]
+
     },
     {
         "name": "Colombia Diversa",
@@ -1123,6 +1136,7 @@
         "precio": "1400",
         "imagen": "https://www.viajeselcorteingles.es/imagen/blog/img_blog_post_salento_eje_cafetero_colombia_710x300_01.jpg",
         "itinerario": [
+
             {
                 "dia": "1: Llegada a Bogotá",
                 "coordenadas": [4.7110, -74.0721]
@@ -1172,6 +1186,7 @@
                 "coordenadas": [4.7110, -74.0721]
             }
         ]
+
     }
     
 ]

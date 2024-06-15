@@ -41,17 +41,18 @@ const TripCard = ({trip}) => {
               alt={trip.name} 
               className="trip-card_image" 
               />
-              <div className="trip-card__content">
-                <div className="trip-card__price">Desde: {trip.precio} € </div>
-                  <h2 className="trip-card__title">
+              <div className="trip-card_content">
+                <div className="trip-card_price">Desde: {trip.precio} € </div>
+                  <h2 className="trip-card_title">
                     {trip.name}
                   </h2>
-                    <p className="trip-card__description">
+                    <p className="trip-card_description">
                     {trip.descripcion}
                     </p>
-                  <div className="trip-card__details">
-                  <div className="trip-card__duration">
+                  <div className="trip-card_details">
+                  <div className="trip-card_duration">
                     <span role="img" aria-label="calendar">📅</span> Duración  {trip.duracion} días
+
                                     <div className="trip-card__itinerary">
                     {trip.itinerario.map(agenda =>(
                       <div key={agenda.dia}>
@@ -59,7 +60,17 @@ const TripCard = ({trip}) => {
                       </div>
                     ))}
                     <Mapa trip={trip}></Mapa>
+
+
                   </div>
+                  <div className="trip-card_itinerary">              
+                    <h3>Itinerario</h3>
+                    <ul>
+                      {trip.itinerario.map((item, index) => (
+                        <ul key={index}>{item}</ul>
+                      ))}
+                     
+                    </ul>
                   </div>
                 </div> 
               </div>
