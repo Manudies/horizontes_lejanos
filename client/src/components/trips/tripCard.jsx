@@ -53,7 +53,11 @@ const TripCard = ({trip}) => {
                   <div className="trip-card__duration">
                     <span role="img" aria-label="calendar">📅</span> Duración  {trip.duracion} días
                                     <div className="trip-card__itinerary">
-                    
+                    {trip.itinerario.map(agenda =>(
+                      <div key={agenda.dia}>
+                        {agenda.dia}
+                      </div>
+                    ))}
                     <Mapa trip={trip}></Mapa>
                   </div>
                   </div>
