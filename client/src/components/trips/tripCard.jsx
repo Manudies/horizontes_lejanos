@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './tripCard.css';
 import Modal from '../modal/modal'
+import Mapa from '../mapa/Mapa'
 
 const TripCard = ({trip}) => {
   const[isModalOpen, setIsModalOpen] = useState(false)
@@ -52,7 +53,8 @@ const TripCard = ({trip}) => {
                   <div className="trip-card__duration">
                     <span role="img" aria-label="calendar">📅</span> Duración  {trip.duracion} días
                                     <div className="trip-card__itinerary">
-                    {trip.itinerario}
+                    
+                    <Mapa trip={trip}></Mapa>
                   </div>
                   </div>
                 </div> 
