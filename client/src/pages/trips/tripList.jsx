@@ -7,7 +7,7 @@ const tripList = () => {
     console.log("trips",trips)
     return (
         <div>
-            <h1>Trips</h1>
+            <h1>{trips.name}</h1>
             <section className="trips_container">
                 {trips.map((trip) => (
                     <TripCard key={trip._id} trip={trip} />

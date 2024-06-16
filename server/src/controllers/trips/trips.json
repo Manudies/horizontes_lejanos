@@ -1187,6 +1187,258 @@
             }
         ]
 
+    },
+
+    {
+        "name": "Maravillas de Fiji",
+        "destino": "Oceanía",
+        "descripcion": "Relájate en las playas paradisíacas de Fiji y descubre sus culturas y paisajes en un viaje de 7 días.",
+        "duracion": "7",
+        "precio": "1800",
+        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/32/1d/8a/likuliku-lagoon-resort.jpg?w=600&h=400&s=1",
+        "itinerario": [
+            {
+                "dia": "1: Llegada a Nadi",
+                "coordenadas": [-17.7761, 177.4173]
+            },
+            {
+                "dia": "2: Playa de Natadola",
+                "coordenadas": [-18.0823, 177.3262]
+            },
+            {
+                "dia": "3: Excursión a las Islas Mamanuca",
+                "coordenadas": [-17.7500, 177.1500]
+            },
+            {
+                "dia": "4: Suva",
+                "coordenadas": [-18.1416, 178.4419]
+            },
+            {
+                "dia": "5: Cascadas de Tavoro",
+                "coordenadas": [-16.8000, -179.9833]
+            },
+            {
+                "dia": "6: Navegación y snorkel en Coral Coast",
+                "coordenadas": [-18.2033, 177.6050]
+            },
+            {
+                "dia": "7: Salida de Nadi",
+                "coordenadas": [-17.7761, 177.4173]
+            }
+        ]
+    },
+    {
+        "name": "Explora Tahití y Bora Bora",
+        "destino": "Oceanía",
+        "descripcion": "Sumérgete en la belleza de Tahití y Bora Bora en un viaje romántico de 10 días por sus lagunas y playas.",
+        "duracion": "10",
+        "precio": "4000",
+        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/10/74/8b/bungalows-facing-mont.jpg?w=700&h=-1&s=1",
+        "itinerario": [
+            {
+                "dia": "1: Llegada a Papeete, Tahití",
+                "coordenadas": [-17.5516, -149.5585]
+            },
+            {
+                "dia": "2: Tour por Papeete y Mercado de Tahití",
+                "coordenadas": [-17.5516, -149.5585]
+            },
+            {
+                "dia": "3: Playa de La Plage de Maui",
+                "coordenadas": [-17.7348, -149.3302]
+            },
+            {
+                "dia": "4: Excursión a Moorea",
+                "coordenadas": [-17.5388, -149.8295]
+            },
+            {
+                "dia": "5: Llegada a Bora Bora",
+                "coordenadas": [-16.5004, -151.7415]
+            },
+            {
+                "dia": "6: Snorkel en la Laguna de Bora Bora",
+                "coordenadas": [-16.4949, -151.7354]
+            },
+            {
+                "dia": "7: Navegación y deportes acuáticos",
+                "coordenadas": [-16.5004, -151.7415]
+            },
+            {
+                "dia": "8: Tour por la isla de Bora Bora",
+                "coordenadas": [-16.5004, -151.7415]
+            },
+            {
+                "dia": "9: Relajación en Matira Beach",
+                "coordenadas": [-16.5290, -151.7346]
+            },
+            {
+                "dia": "10: Salida de Bora Bora",
+                "coordenadas": [-16.5004, -151.7415]
+            }
+        ]
+    },
+    {
+        "name": "Encanto de Zanzíbar",
+        "destino": "África",
+        "descripcion": "Descubre las playas idílicas y la rica historia de Zanzíbar en un viaje de 10 días lleno de aventuras y relajación.",
+        "duracion": "10",
+        "precio": "2500",
+        "imagen": "data:image/jpeg;base64,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",
+        "itinerario": [
+            {
+                "dia": "1: Llegada a Stone Town",
+                "coordenadas": [-6.1659, 39.2026]
+            },
+            {
+                "dia": "2: Tour histórico por Stone Town",
+                "coordenadas": [-6.1659, 39.2026]
+            },
+            {
+                "dia": "3: Isla de la Prisión",
+                "coordenadas": [-6.1360, 39.1781]
+            },
+            {
+                "dia": "4: Safari Blue - Excursión de un día",
+                "coordenadas": [-6.3839, 39.5519]
+            },
+            {
+                "dia": "5: Playa de Kendwa",
+                "coordenadas": [-5.7556, 39.2925]
+            },
+            {
+                "dia": "6: Actividades acuáticas en Nungwi",
+                "coordenadas": [-5.7242, 39.2927]
+            },
+            {
+                "dia": "7: Reserva Forestal de Jozani",
+                "coordenadas": [-6.2574, 39.4400]
+            },
+            {
+                "dia": "8: Playa de Paje",
+                "coordenadas": [-6.2667, 39.5333]
+            },
+            {
+                "dia": "9: Buceo en el Atolón de Mnemba",
+                "coordenadas": [-5.7995, 39.3742]
+            },
+            {
+                "dia": "10: Salida de Stone Town",
+                "coordenadas": [-6.1659, 39.2026]
+            }
+        ]
+    },
+    {
+        "name": "Aventura en Brasil",
+        "destino": "América",
+        "descripcion": "Explora la vibrante cultura y los impresionantes paisajes de Brasil en un viaje de 12 días lleno de música, naturaleza y aventura.",
+        "duracion": "12",
+        "precio": "3200",
+        "imagen": "https://media.iatiseguros.com/wp-content/uploads/2021/12/16093310/lugares-que-ver-en-brasil-1.jpg",
+        "itinerario": [
+            {
+                "dia": "1: Llegada a Río de Janeiro",
+                "coordenadas": [-22.9068, -43.1729]
+            },
+            {
+                "dia": "2: Tour por el Cristo Redentor y Pan de Azúcar",
+                "coordenadas": [-22.9519, -43.2105]
+            },
+            {
+                "dia": "3: Playas de Copacabana e Ipanema",
+                "coordenadas": [-22.9711, -43.1822]
+            },
+            {
+                "dia": "4: Samba y Carnaval en Río",
+                "coordenadas": [-22.9083, -43.1964]
+            },
+            {
+                "dia": "5: Excursión a las Cataratas del Iguazú",
+                "coordenadas": [-25.6953, -54.4367]
+            },
+            {
+                "dia": "6: Parque Nacional de Iguazú",
+                "coordenadas": [-25.6953, -54.4367]
+            },
+            {
+                "dia": "7: Salvador de Bahía",
+                "coordenadas": [-12.9714, -38.5014]
+            },
+            {
+                "dia": "8: Tour histórico en el Pelourinho",
+                "coordenadas": [-12.9714, -38.5014]
+            },
+            {
+                "dia": "9: Recife y Olinda",
+                "coordenadas": [-8.0476, -34.8770]
+            },
+            {
+                "dia": "10: Tour por las playas de Porto de Galinhas",
+                "coordenadas": [-8.5022, -35.0098]
+            },
+            {
+                "dia": "11: Manaos y la selva amazónica",
+                "coordenadas": [-3.1190, -60.0217]
+            },
+            {
+                "dia": "12: Navegación por el río Amazonas y regreso",
+                "coordenadas": [-3.1190, -60.0217]
+            }
+        ]
+    },
+    {
+        "name": "Exploración de Ecuador",
+        "destino": "América",
+        "descripcion": "Descubre la biodiversidad y la rica cultura de Ecuador en un viaje de 10 días a través de sus selvas, montañas y playas.",
+        "duracion": "10",
+        "precio": "2800",
+        "imagen": "https://happygringo.com/wp-content/uploads/2021/02/riobamba-city-with-volcano.jpg",
+        "itinerario": [
+            {
+                "dia": "1: Llegada a Quito",
+                "coordenadas": [-0.1807, -78.4678]
+            },
+            {
+                "dia": "2: Tour por el Centro Histórico de Quito",
+                "coordenadas": [-0.2202, -78.5123]
+            },
+            {
+                "dia": "3: Mitad del Mundo",
+                "coordenadas": [-0.0020, -78.4558]
+            },
+            {
+                "dia": "4: Excursión a la Reserva de Cuyabeno",
+                "coordenadas": [-0.0020, -76.0000]
+            },
+            {
+                "dia": "5: Aventura en la selva amazónica",
+                "coordenadas": [-0.0020, -76.0000]
+            },
+            {
+                "dia": "6: Baños y la Ruta de las Cascadas",
+                "coordenadas": [-1.3965, -78.4247]
+            },
+            {
+                "dia": "7: Trekking en el Volcán Cotopaxi",
+                "coordenadas": [-0.6800, -78.4371]
+            },
+            {
+                "dia": "8: Mercado de Otavalo",
+                "coordenadas": [0.2333, -78.2667]
+            },
+            {
+                "dia": "9: Islas Galápagos",
+                "coordenadas": [-0.9538, -90.9656]
+            },
+            {
+                "dia": "10: Tour de vida silvestre en Galápagos y regreso",
+                "coordenadas": [-0.9538, -90.9656]
+            }
+        ]
     }
+    
+    
+    
+    
+    
     
 ]
