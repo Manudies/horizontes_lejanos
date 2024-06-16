@@ -63,14 +63,6 @@ const TripCard = ({trip}) => {
 
 
                   </div>
-                  <div className="trip-card_itinerary">              
-                    <h3>Itinerario</h3>
-                    <ul>
-                      {trip.itinerario.map((item, index) => (
-                        <ul key={index}>{item}</ul>
-                      ))}
-                     
-                    </ul>
                   </div>
                 </div> 
               </div>
