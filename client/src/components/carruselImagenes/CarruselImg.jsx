@@ -5,6 +5,10 @@ const CarouselImg = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     {
+      src: "imagenesCarrusel/foto.jpg",
+      alt: "imagen 0"
+    },
+    {
       src: "imagenesCarrusel/sabana.jpeg",
       alt: "imagen 1"
     },

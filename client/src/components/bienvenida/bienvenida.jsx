@@ -14,13 +14,6 @@ const Main = () => {
         <div>
           <CarruselImg />
         </div>
-
-        {/* <div className="presentacion">
-          <div className="imagen">
-            <img src="foto.jpg" alt="imagen" />
-          </div> */}
-
-
         <div className='intro'>
           <h2>Explora el mundo con nosotros y descubre aventuras inolvidables en cada rincón del planeta.</h2>
           <br></br>

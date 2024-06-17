@@ -1,5 +1,5 @@
  
-  .trips_container {
+  .users_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -7,7 +7,7 @@
     margin-bottom: 84px; 
     gap: 1rem;
   }
-  .create-trip-button {
+  .create-user-button {
     cursor: pointer;
     margin-top: 100px;
     margin-bottom: 100px;
