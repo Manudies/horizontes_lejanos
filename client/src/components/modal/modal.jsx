@@ -8,7 +8,7 @@ const Modal = ({children,onClose}) =>{
         <div className="modal" onClick={onClose}>
             <div className="modal-body" onClick={handleStopPropagation}>
                 <div className="modal-header">
-                    <button onClick={onClose} className="absolute right top">X</button>
+                    <button onClick={onClose} className="absolute_right_top">X</button>
                 </div>
                 {children}
             </div>

@@ -69,7 +69,7 @@ function Navbar() {
             </Link>
           </li>
           {user && (
-            <li className="nav-item sign-in">
+            <li className="nav-item-sign-in">
               <button onClick = {openModal}className="trip-card__button">{user.username}</button>
               {isModalOpen &&
                 <Modal isOpen={true} onClose={()=> {

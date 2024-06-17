@@ -41,14 +41,6 @@ async function fetchTripsByProperty(destino) {
   return result.data;
 }
 
-// async function handleUserData() {
-//   const result = await fetchUserData();
-//   console.log("user",result)
-//   if (result.error) {
-//     return null;
-//   }
-//   return result.data;
-// }
 
 const router = createBrowserRouter([
   {
@@ -76,12 +68,14 @@ const router = createBrowserRouter([
         element: <UserList />,
         loader: () => fetchUsers(),
       },
+      {
+        path: "/register",
+        element: <Register />,
+      },
     ],
-  },
-  {
-    path: "/register",
-    element: <Register />,
-  },
+
+  }
+
 ]);
 
 export default router;
