@@ -28,7 +28,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <img src="/public/viajar.png" alt="" />
+          <img src="/viajar.png" alt="" />
         </Link>
         <div className={isMenuOpen ? 'menu-icon open' : 'menu-icon'} onClick={toggleMenu}>
           <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars} />
