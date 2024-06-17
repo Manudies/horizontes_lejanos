@@ -1,4 +1,3 @@
-
 import "./modal.css"
 const Modal = ({children,onClose}) =>{
     
