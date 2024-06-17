@@ -40,8 +40,10 @@ body, html {
   font-size: 20px;
   justify-content: center;
   align-items: center;
-  border: 2px solid #9B7B6B;
-  margin-top: 2rem;
+  border-width: 2px 0; /* Solo arriba y abajo */
+  border-style: solid; /* Tipo de borde */
+  border-color: #223D3C; /* Color del borde */
+  margin-bottom: 2rem;
 }
 .centrar-texto{
   text-align: center;
@@ -70,10 +72,12 @@ body, html {
   font-size: 20px;
   justify-content: center;
   align-items: center;
-  border: 2px solid #9B7B6B;
+  border-width: 2px 0; /* Solo arriba y abajo */
+  border-style: solid; /* Tipo de borde */
+  border-color: #223D3C; /* Color del borde */
   margin-bottom: 2rem;
-
 }
+
 
 ul {
   text-align: left;

@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000;
-    color: #fff;
+    background-color: #81827C;
+    color: #F8F3F2;
     padding: 20px;
     border-radius: 10px;
     width: 100%;
@@ -47,6 +47,6 @@
   }
   
   .carousel-dots .dot.active {
-    background-color: #fff;
+    background-color: #223D3C;
   }
   

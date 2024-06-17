@@ -1,6 +1,7 @@
 /* Navbar.css */
 .navbar {
   background-color: rgba(40, 44, 52);
+  background: #81827C;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -53,26 +54,31 @@
 }
 
 .nav-links:hover {
-  color: #77dd77;
+  color: #223D3C;
   text-decoration: none;
 }
 
 .sign-in .nav-links {
-  color: #77dd77;
+  color: #fff;
+  background-color: #223D3C;
+  padding: 10px 20px;
+  border: 4px;
+  border-radius: 5px;
 }
 
 .sign-in .nav-links:hover {
-  color: #fff;
+  color: #223D3C;
+  background-color: #fff;
   text-decoration: none;
 }
 
 .sign-in {
   margin-left: auto;
-  color: #77dd77;
+  color: #223D3C;
 }
 
 .nav-item:hover {
-  color: #77dd77;
+  color: #223D3C;
 }
 
 .sign-in:hover {
@@ -83,7 +89,7 @@
 }
 
 .button_trips {
-  background-color: #0056B3;
+  background-color: #223D3C;
   color: #fff;
   border: none;
   padding: 10px 20px;
