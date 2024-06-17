@@ -3,6 +3,8 @@ import Form from 'react-bootstrap/Form';
 import emailjs from 'emailjs-com';
 import {serviceID, templateID, userID} from '../../utils/emailConfig';
 
+import './contactForm.css';
+
 const ContactForm = () => {
     const [formData, setFormData] = useState({
       name: '',
