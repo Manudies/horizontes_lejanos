@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-=======
-
-import React from 'react';
 import Carrusel from '../carrusel/Carrusel';
-
->>>>>>> dev
 import './bienvenida.css';
 import ContactForm from '../contactForm/contactForm';
 
