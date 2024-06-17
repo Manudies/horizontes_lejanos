@@ -1,13 +1,13 @@
-
-import React from 'react';
 import Carrusel from '../carrusel/Carrusel';
 import './bienvenida.css';
+import ContactForm from '../contactForm/contactForm';
 
 
 const Main = () => {
   return (
     <main className="main-content">
       <section>
+
           <div className="presentacion">
             <div className="imagen">
               <img src="foto.jpg" alt="imagen" />
@@ -57,9 +57,13 @@ const Main = () => {
               <p>Al elegir una agencia como Horizontes Lejanos, te aseguras de tener una experiencia de viaje bien planificada, segura y adaptada a tus expectativas, lo que puede transformar un simple viaje en una experiencia inolvidable.</p>
 
           </div>
-          <div>
-            <Carrusel/>
-          </div>
+        <div>
+          <Carrusel />
+        </div>
+        <div>
+          <ContactForm />
+        </div>
+
       </section>
     </main>
   );

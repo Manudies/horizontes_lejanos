@@ -69,7 +69,7 @@ const createUser = async(userData)=>{
     return result;
 }
  const addTrip = async(userId, tripId)=>{
-    const result = await fetchData("/users/"+userId,"post",{tripId});
+    const result = await fetchData("/users/"+userId+"/trips","post",{tripId});
     return result;
 }
 
