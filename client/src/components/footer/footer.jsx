@@ -4,6 +4,10 @@ import imageAni from './../../assets/ani.jpeg';
 import imageManu from './../../assets/manu.jpg';
 import imageLander from './../../assets/lander.jpeg';
 import imageBego from './../../assets/bego.jpeg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     const year = new Date().getFullYear();
@@ -24,6 +28,21 @@ const Footer = () => {
                 ↑
             </button>
             <div className="copyright">&copy; {year} Los viajeros </div>
+
+            <div className="footer-icons">
+                <a href="https://www.instagram.com" className='icon_link'>
+                    <FontAwesomeIcon icon={faInstagram} size="2x" className="footer-icon" />
+                </a>
+
+                <a href="https://www.facebook.com" className='icon_link'>
+                    <FontAwesomeIcon icon={faFacebook} size='2x' className='footer-icon' />
+                </a>
+
+                <a href="https://linktr.ee/horizonteslejanos" className='icon_link'>
+                    <FontAwesomeIcon icon={faLink} size="2x" className="footer-icon" />
+                </a>
+            </div>
+
             <div className="creators">
                 {creators.map(creator => (
                     <a key={creator.id} href={creator.url} target="_blank" rel="noopener noreferrer" className="creator-link">
