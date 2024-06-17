@@ -74,7 +74,7 @@ const createUser = async(userData)=>{
 }
 
 const removeTrip = async(userId, tripId)=>{
-    const result = await fetchData("/users/"+userId,"delete",{tripId});
+    const result = await fetchData("/users/"+userId+"/trips/"+tripId,"delete");
     return result;
 }
 
@@ -91,5 +91,4 @@ export {
     createUser,
     addTrip,
     removeTrip
-    
 }
