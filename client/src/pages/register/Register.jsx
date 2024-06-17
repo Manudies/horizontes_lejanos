@@ -53,8 +53,8 @@ const Register = ({ onLogin }) => {
                 setError("login correct");
                 // setUser(result.user);
                 saveToken(result.token);
-                onLogin(result.token);
-                navigate("#");
+                // onLogin(result.token);
+                navigate("/");
             } else {
                 setError(result.error);
             }
