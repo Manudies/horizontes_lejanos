@@ -5,7 +5,7 @@ import Mapa from "../mapa/Mapa";
 import { useContext } from "react";
 import UserContext from "../../context/userContext";
 import { addTrip } from "../../utils/fetch";
-import { Link, redirect } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ActionButton from "../actionButton/actionButton";
 
 
@@ -13,6 +13,7 @@ const TripCard = ({ trip }) => {
   const { user, handlefetchUserData } = useContext(UserContext);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
+  const navigate = useNavigate();
   function openModal() {
     setIsModalOpen(true);
   }
@@ -22,7 +23,8 @@ const TripCard = ({ trip }) => {
       setIsFavorite(!isFavorite);
       handlefetchUserData();
     } else {
-      return alert("Debes iniciar sesión"), redirect("/register");
+      alert("Debes iniciar sesión")
+      navigate("/register");
 
     }
   };
@@ -42,11 +44,13 @@ const TripCard = ({ trip }) => {
             Duración {trip.duracion} días
           </div>
         </div>
+        <div className="button_container">
         <ActionButton label={isFavorite ? "Eliminar de favoritos" : "Añadir a favoritos"} onClick={handlefavoritos} className="trip-card__button" />
         {/* <button onClick={handlefavoritos} className="trip-card__button">Favoritos</button> */}
-        <button onClick={openModal} className="trip-card__button">
-          Ver Tour{" "}
-        </button>
+        <ActionButton label="Ver Tour" onClick={openModal} className="trip-card__button" />
+        {/* <button onClick={openModal} className="trip-card__button"> */}
+        {/* </button> */}
+        </div>
 
         {isModalOpen && (
           <Modal

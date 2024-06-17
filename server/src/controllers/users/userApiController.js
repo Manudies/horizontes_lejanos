@@ -75,7 +75,7 @@ const addTrip = async(req,res)=>{
 
 const removeTrip = async(req,res)=>{
     const userId = req.params.id;
-    const tripId = req.body.tripId;
+    const tripId = req.params.tripId;
     const user = await userController.removeTrip(userId,tripId);
     res.json({data:user})
 }
