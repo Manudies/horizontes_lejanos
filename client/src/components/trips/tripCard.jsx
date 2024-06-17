@@ -5,7 +5,7 @@ import Mapa from "../mapa/Mapa";
 import { useContext } from "react";
 import UserContext from "../../context/userContext";
 import { addTrip } from "../../utils/fetch";
-import { Link } from "react-router-dom";
+import { Link, redirect } from "react-router-dom";
 import ActionButton from "../actionButton/actionButton";
 
 
@@ -22,7 +22,8 @@ const TripCard = ({ trip }) => {
       setIsFavorite(!isFavorite);
       handlefetchUserData();
     } else {
-      return alert("Debes iniciar sesión");
+      return alert("Debes iniciar sesión"), redirect("/register");
+
     }
   };
 
