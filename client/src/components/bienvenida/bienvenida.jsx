@@ -1,5 +1,7 @@
 
 import React from 'react';
+import Carrusel from '../carrusel/Carrusel';
+
 import './bienvenida.css';
 
 const Main = () => {
@@ -46,6 +48,10 @@ const Main = () => {
                   <li>9. Facilidad de Pago: Pueden ofrecer diversas opciones de pago y financiamiento, lo que facilita la planificación y realización de tu viaje sin preocuparte por el desembolso inmediato de grandes sumas de dinero.</li>
                 </ul>
               <p>Al elegir una agencia como Horizontes Lejanos, te aseguras de tener una experiencia de viaje bien planificada, segura y adaptada a tus expectativas, lo que puede transformar un simple viaje en una experiencia inolvidable.</p>
+
+            </div>
+            <div>
+              <Carrusel/>
 
             </div>
       </section>
