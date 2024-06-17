@@ -10,7 +10,7 @@ import Modal from '../modal/modal'
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { user, setUser } = useContext(UserContext);
+  const { user, logOut } = useContext(UserContext);
   const[isModalOpen, setIsModalOpen] = useState(false)
   function openModal(){
     setIsModalOpen(true)
@@ -78,11 +78,19 @@ function Navbar() {
                   <h1 className="userName">
                     {user.username}
                   </h1>
+                    <h2>Trips:</h2>
+                  <div className='user_favoritos'>
                   <ul>
-                    Trips: 
-                    {user.trips.map(trip => <li>{trip}<button>Comprar</button></li>)}
+                    {user.trips.map(trip => (
+                      <li>
+                        {trip.name}
+                        <img src={trip.imagen} alt={trip.name} className="trip-card__image" />
+                        <button className='button_trips' >Comprar</button>
+                        </li>
+                      ))}
                   </ul>
-                  <button>Logout</button>
+                  </div>
+                  <button className='button_trips' onClick={logOut}>Logout</button>
 
                 </Modal>
               }
