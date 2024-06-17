@@ -42,6 +42,9 @@ const Carousel = () => {
           ></span>
         ))}
       </div>
+      <span className="carousel-button left" onClick={prevSlide}>&#10094;</span>
+      <span className="carousel-button right" onClick={nextSlide}>&#10095;</span>
+
     </div>
   );
 };
