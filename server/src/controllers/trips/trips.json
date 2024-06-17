@@ -2,460 +2,1443 @@
     {
         "name": "Maravillas de Egipto",
         "destino": "África",
-        "descripcion": "Explora las pirámides de Giza, navega por el Nilo y descubre los templos de Luxor en un viaje de 14 días lleno de historia y misterio.",
+        "descripcion": "Explora las pirámides de Giza, navega por el Nilo y descubre los templos de Luxor en un viaje de 14 dias lleno de historia y misterio.",
         "duracion": "14",
         "precio": "1200",
         "imagen": "https://spain.egypttoursportal.com/wp-content/uploads/2021/09/Viaje-Maravilloso-de-14-Dias-en-Egipto-Egypt-Tours-Portal-ES.jpg",
-        "itinerario": [
-            "Día 1: Llegada a El Cairo",
-            "Día 2: Pirámides de Giza y la Esfinge",
-            "Día 3: Museo Egipcio y Ciudadela",
-            "Día 4: Viaje a Alejandría",
-            "Día 5: Exploración de Alejandría",
-            "Día 6: Vuelo a Luxor",
-            "Día 7: Templos de Karnak y Luxor",
-            "Día 8: Valle de los Reyes",
-            "Día 9: Navegación por el Nilo",
-            "Día 10: Templo de Edfu",
-            "Día 11: Templo de Kom Ombo",
-            "Día 12: Asuán y la Presa Alta",
-            "Día 13: Templo de Abu Simbel",
-            "Día 14: Regreso a El Cairo y vuelo de salida"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+
+        "itinerario": [{
+            "dia": "1: Llegada a El Cairo",
+            "coordenadas": [30.0444, 31.2357]
+        },
+        {
+            "dia": "2: Pirámides de Giza y la Esfinge",
+            "coordenadas": [29.9792, 31.1342]
+        },
+        {
+            "dia": "3: Museo Egipcio y Ciudadela",
+            "coordenadas": [30.0478, 31.2336]
+        },
+        {
+            "dia": "4: Viaje a Alejandría",
+            "coordenadas": [31.2001, 29.9187]
+        },
+        {
+            "dia": "5: Exploración de Alejandría:Biblioteca de Alejandría y Columna de Pompeyo",
+            "coordenadas": [31.2089, 29.9092]
+        },
+        {
+            "dia": "6: Vuelo a Luxor",
+            "coordenadas": [25.6872, 32.6396]
+        },
+        {
+            "dia": "7: Templos de Karnak y Luxor",
+            "coordenadas": [25.7188, 32.6573]
+        },
+        {
+            "dia": "8: Valle de los Reyes",
+            "coordenadas": [25.7402, 32.6014]
+        },
+        {
+            "dia": "9: Navegación por el Nilo: de Luxor a Asuán",
+            "coordenadas": [25.6872, 32.6396]
+        },
+        {
+            "dia": "10: Templo de Edfu",
+            "coordenadas": [24.9787, 32.8746]
+        },
+        {
+            "dia": "11: Templo de Kom Ombo",
+            "coordenadas": [24.4524, 32.9284]
+        },
+        {
+            "dia": "12: Asuán y la Presa Alta",
+            "coordenadas": [24.0889, 32.8998]
+        },
+        {
+            "dia": "13: Templo de Abu Simbel",
+            "coordenadas": [22.3372, 31.6258]
+        },
+        {
+            "dia": "14: Regreso a El Cairo y vuelo de salida",
+            "coordenadas": [30.0444, 31.2357]
+        }
+        ]
+
     },
     {
         "name": "Encantos de Japón",
         "destino": "Asia",
-        "descripcion": "Viaja a Japón y sumérgete en la cultura samurái, los templos antiguos y la tecnología moderna durante 12 días inolvidables.",
+        "descripcion": "Viaja a Japón y sumérgete en la cultura samurái, los templos antiguos y la tecnología moderna durante 12 dias inolvidables.",
         "duracion": "12",
         "precio": "1500",
         "imagen": "https://www.tarawatravel.com/blog/wp-content/uploads/2019/08/Japon-750x410.jpg",
         "itinerario": [
-            "Día 1: Llegada a Tokio",
-            "Día 2: Tour por Tokio",
-            "Día 3: Visita a Nikko",
-            "Día 4: Viaje a Hakone",
-            "Día 5: Monte Fuji",
-            "Día 6: Traslado a Kioto",
-            "Día 7: Templos de Kioto",
-            "Día 8: Nara y Osaka",
-            "Día 9: Hiroshima y Miyajima",
-            "Día 10: Himeji y Kobe",
-            "Día 11: Regreso a Tokio",
-            "Día 12: Salida de Tokio"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+
+            {
+                "dia": "1: Llegada a Tokio",
+                "coordenadas": [35.682839, 139.759455]
+            },
+            {
+                "dia": "2: Tour por Tokio",
+                "coordenadas": [35.682839, 139.759455]
+            },
+            {
+                "dia": "3: Visita a Nikko",
+                "coordenadas": [36.719759, 139.698325]
+            },
+            {
+                "dia": "4: Viaje a Hakone",
+                "coordenadas": [35.191074, 139.026946]
+            },
+            {
+                "dia": "5: Monte Fuji",
+                "coordenadas": [35.360556, 138.727778]
+            },
+            {
+                "dia": "6: Traslado a Kioto",
+                "coordenadas": [35.011636, 135.768029]
+            },
+            {
+                "dia": "7: Templos de Kioto",
+                "coordenadas": [35.011636, 135.768029]
+            },
+            {
+                "dia": "8: Nara y Osaka",
+                "coordenadas": [34.685087, 135.805000]
+            },
+            {
+                "dia": "9: Hiroshima y Miyajima",
+                "coordenadas": [34.385203, 132.455293]
+            },
+            {
+                "dia": "10: Himeji y Kobe",
+                "coordenadas": [34.815149, 134.685412]
+            },
+            {
+                "dia": "11: Regreso a Tokio",
+                "coordenadas": [35.682839, 139.759455]
+            },
+            {
+                "dia": "12: Salida de Tokio",
+                "coordenadas": [35.682839, 139.759455]
+            }
+        ]
+
     },
     {
         "name": "Ruta Maya en México",
         "destino": "América",
-        "descripcion": "Descubre los misterios de la civilización maya, visita Chichen Itzá y relájate en las playas de Cancún en un viaje de 10 días.",
+        "descripcion": "Descubre los misterios de la civilización maya, visita Chichen Itzá y relájate en las playas de Cancún en un viaje de 10 dias.",
         "duracion": "10",
         "precio": "900",
         "imagen": "https://www.viajeauto.com/wp-content/uploads/2019/02/Chichen-Itza-pixabay.jpg",
         "itinerario": [
-            "Día 1: Llegada a Cancún",
-            "Día 2: Exploración de Cancún",
-            "Día 3: Visita a Tulum",
-            "Día 4: Playa del Carmen",
-            "Día 5: Tour a Chichen Itzá",
-            "Día 6: Valladolid y Cenotes",
-            "Día 7: Mérida",
-            "Día 8: Uxmal",
-            "Día 9: Regreso a Cancún",
-            "Día 10: Salida de Cancún"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+
+            {
+                "dia": "1: Llegada a Cancún",
+                "coordenadas": [21.1619, -86.8515]
+            },
+            {
+                "dia": "2: Exploración de Cancún",
+                "coordenadas": [21.1619, -86.8515]
+            },
+            {
+                "dia": "3: Visita a Tulum",
+                "coordenadas": [20.2117, -87.4653]
+            },
+            {
+                "dia": "4: Playa del Carmen",
+                "coordenadas": [20.6296, -87.0739]
+            },
+            {
+                "dia": "5: Tour a Chichen Itzá",
+                "coordenadas": [20.6843, -88.5678]
+            },
+            {
+                "dia": "6: Valladolid y Cenotes",
+                "coordenadas": [20.6881, -88.1994]
+            },
+            {
+                "dia": "7: Mérida",
+                "coordenadas": [20.9674, -89.5926]
+            },
+            {
+                "dia": "8: Uxmal",
+                "coordenadas": [20.3592, -89.7697]
+            },
+            {
+                "dia": "9: Regreso a Cancún",
+                "coordenadas": [21.1619, -86.8515]
+            },
+            {
+                "dia": "10: Salida de Cancún",
+                "coordenadas": [21.1619, -86.8515]
+            }
+        ]
+
     },
     {
         "name": "Aventura en Australia",
         "destino": "Oceanía",
-        "descripcion": "Explora la Gran Barrera de Coral, el Outback y las modernas ciudades australianas en un viaje de 14 días lleno de aventuras.",
+        "descripcion": "Explora la Gran Barrera de Coral, el Outback y las modernas ciudades australianas en un viaje de 14 dias lleno de aventuras.",
         "duracion": "14",
         "precio": "2000",
         "imagen": "https://viajeskinsai.es/wp-content/uploads/2020/02/Australia-Sydney-opera.jpg",
         "itinerario": [
-            "Día 1: Llegada a Sídney",
-            "Día 2: Tour por Sídney",
-            "Día 3: Montañas Azules",
-            "Día 4: Vuelo a Cairns",
-            "Día 5: Gran Barrera de Coral",
-            "Día 6: Bosque Daintree",
-            "Día 7: Vuelo a Alice Springs",
-            "Día 8: Exploración del Outback",
-            "Día 9: Uluru",
-            "Día 10: Kings Canyon",
-            "Día 11: Vuelo a Melbourne",
-            "Día 12: Great Ocean Road",
-            "Día 13: Tour por Melbourne",
-            "Día 14: Salida de Melbourne"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+            {
+                "dia": "1: Llegada a Sídney",
+                "coordenadas": [-33.8688, 151.2093]
+            },
+            {
+                "dia": "2: Tour por Sídney",
+                "coordenadas": [-33.8688, 151.2093]
+            },
+            {
+                "dia": "3: Montañas Azules",
+                "coordenadas": [-33.7139, 150.3110]
+            },
+            {
+                "dia": "4: Vuelo a Cairns",
+                "coordenadas": [-16.9203, 145.7710]
+            },
+            {
+                "dia": "5: Gran Barrera de Coral",
+                "coordenadas": [-16.9221, 145.7758]
+            },
+            {
+                "dia": "6: Daintree Rainforest",
+                "coordenadas": [-16.1453, 145.4185]
+            },
+            {
+                "dia": "7: Vuelo a Alice Springs",
+                "coordenadas": [-23.6980, 133.8807]
+            },
+            {
+                "dia": "8: Uluru",
+                "coordenadas": [-25.3444, 131.0369]
+            },
+            {
+                "dia": "9: Kings Canyon",
+                "coordenadas": [-24.2511, 131.5625]
+            },
+            {
+                "dia": "10: Vuelo a Melbourne",
+                "coordenadas": [-37.8136, 144.9631]
+            },
+            {
+                "dia": "11: Great Ocean Road",
+                "coordenadas": [-38.6655, 143.1014]
+            },
+            {
+                "dia": "12: Phillip Island",
+                "coordenadas": [-38.5046, 145.1244]
+            },
+            {
+                "dia": "13: Regreso a Sídney",
+                "coordenadas": [-33.8688, 151.2093]
+            },
+            {
+                "dia": "14: Salida de Sídney",
+                "coordenadas": [-33.8688, 151.2093]
+            }
+        ]
+        },
+    
+        {
+            "name": "Safari en Kenia",
+            "destino": "África",
+            "descripcion": "Vive la emoción de un safari en Kenia, observa la fauna salvaje y descubre los paisajes de la sabana en 10 dias de aventura.",
+            "duracion": "10",
+            "precio": "1800",
+            "imagen": "https://www.kiwakatravel.com/wp-content/uploads/2023/03/wildebeests-g4636007e3_1280-1024x682.jpg",
+            "itinerario": [
+                {
+                    "dia": "1: Llegada a Nairobi",
+                    "coordenadas": [-1.286389, 36.817223]
+                },
+                {
+                    "dia": "2: Parque Nacional de Nairobi",
+                    "coordenadas": [-1.373333, 36.858333]
+                },
+                {
+                    "dia": "3: Reserva de Masái Mara",
+                    "coordenadas": [-1.406111, 35.004167]
+                },
+                {
+                    "dia": "4: Safari en Masái Mara",
+                    "coordenadas": [-1.406111, 35.004167]
+                },
+                {
+                    "dia": "5: Lago Nakuru",
+                    "coordenadas": [-0.296389, 36.080833]
+                },
+                {
+                    "dia": "6: Safari en Lago Nakuru",
+                    "coordenadas": [-0.296389, 36.080833]
+                },
+                {
+                    "dia": "7: Parque Nacional de Amboseli",
+                    "coordenadas": [-2.646389, 37.260278]
+                },
+                {
+                    "dia": "8: Safari en Amboseli",
+                    "coordenadas": [-2.646389, 37.260278]
+                },
+                {
+                    "dia": "9: Parque Nacional de Tsavo",
+                    "coordenadas": [-3.316667, 38.666667]
+                },
+                {
+                    "dia": "10: Salida de Nairobi",
+                    "coordenadas": [-1.286389, 36.817223]
+                }
+            ]
+        },
+        {
+            "name": "Escapada a Tailandia",
+            "destino": "Asia",
+            "descripcion": "Disfruta de las playas paradisíacas, templos antiguos y vibrantes mercados de Tailandia en un viaje de 12 dias lleno de cultura y relax.",
+            "duracion": "12",
+            "precio": "1100",
+            "imagen": "https://www.intermundial.es/blog/wp-content/uploads/2017/11/cuando-viajar-a-tailandia.jpg",
+            "itinerario": [
+                {
+                    "dia": "1: Llegada a Bangkok",
+                    "coordenadas": [13.7563, 100.5018]
+                },
+                {
+                    "dia": "2: Tour por Bangkok",
+                    "coordenadas": [13.7563, 100.5018]
+                },
+                {
+                    "dia": "3: Ayutthaya",
+                    "coordenadas": [14.355, 100.565]
+                },
+                {
+                    "dia": "4: Vuelo a Chiang Mai",
+                    "coordenadas": [18.7883, 98.9853]
+                },
+                {
+                    "dia": "5: Exploración de Chiang Mai",
+                    "coordenadas": [18.7883, 98.9853]
+                },
+                {
+                    "dia": "6: Excursión a Chiang Rai",
+                    "coordenadas": [19.907, 99.8325]
+                },
+                {
+                    "dia": "7: Vuelo a Phuket",
+                    "coordenadas": [7.8804, 98.3923]
+                },
+                {
+                    "dia": "8: Playas de Phuket",
+                    "coordenadas": [7.8804, 98.3923]
+                },
+                {
+                    "dia": "9: Excursión a las islas Phi Phi",
+                    "coordenadas": [7.7407, 98.7784]
+                },
+                {
+                    "dia": "10: Relajación en Phuket",
+                    "coordenadas": [7.8804, 98.3923]
+                },
+                {
+                    "dia": "11: Regreso a Bangkok",
+                    "coordenadas": [13.7563, 100.5018]
+                },
+                {
+                    "dia": "12: Salida de Bangkok",
+                    "coordenadas": [13.7563, 100.5018]
+                }
+            ]
+        },
+        {
+            "name": "Tour por Italia",
+            "destino": "Europa",
+            "descripcion": "Descubre las maravillas de Roma, Florencia y Venecia en un tour de 10 dias por Italia, lleno de arte, historia y gastronomía.",
+            "duracion": "10",
+            "precio": "1300",
+            "imagen": "https://www.viajes.carrefour.es/statics/media/viajes/europa/italia/istock-539115110-2-.jpg",
+            "itinerario": [
+                {
+                    "dia": "1: Llegada a Roma",
+                    "coordenadas": [41.9028, 12.4964]
+                },
+                {
+                    "dia": "2: Tour por Roma",
+                    "coordenadas": [41.9028, 12.4964]
+                },
+                {
+                    "dia": "3: Vaticano y Coliseo",
+                    "coordenadas": [41.9029, 12.4534]
+                },
+                {
+                    "dia": "4: Viaje a Florencia",
+                    "coordenadas": [43.7696, 11.2558]
+                },
+                {
+                    "dia": "5: Galería Uffizi",
+                    "coordenadas": [43.7687, 11.2559]
+                },
+                {
+                    "dia": "6: Pisa y Lucca",
+                    "coordenadas": [43.7228, 10.4017]
+                },
+                {
+                    "dia": "7: Viaje a Venecia",
+                    "coordenadas": [45.4408, 12.3155]
+                },
+                {
+                    "dia": "8: Tour por Venecia",
+                    "coordenadas": [45.4408, 12.3155]
+                },
+                {
+                    "dia": "9: Murano y Burano",
+                    "coordenadas": [45.4575, 12.3526]
+                },
+                {
+                    "dia": "10: Salida de Venecia",
+                    "coordenadas": [45.4408, 12.3155]
+                }
+            ]
+        },
+        {
+            "name": "Patagonia Argentina",
+            "destino": "América",
+            "descripcion": "Explora los paisajes impresionantes de la Patagonia, desde glaciares hasta montañas majestuosas, en un viaje de 15 dias.",
+            "duracion": "15",
+            "precio": "1700",
+            "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2022/11/03/A5A43985-D018-4A42-821E-D57E4F683F4A/destino-patagonia-argentina_98.jpg?crop=960,540,x0,y51&width=1900&height=1069&optimize=high&format=webply",
+            "itinerario": [
+                {
+                    "dia": "1: Llegada a Buenos Aires",
+                    "coordenadas": [-34.6037, -58.3816]
+                },
+                {
+                    "dia": "2: Tour por Buenos Aires",
+                    "coordenadas": [-34.6037, -58.3816]
+                },
+                {
+                    "dia": "3: Vuelo a El Calafate",
+                    "coordenadas": [-50.3379, -72.2648]
+                },
+                {
+                    "dia": "4: Glaciar Perito Moreno",
+                    "coordenadas": [-50.4956, -73.0525]
+                },
+                {
+                    "dia": "5: Parque Nacional Los Glaciares",
+                    "coordenadas": [-50.4963, -73.2529]
+                },
+                {
+                    "dia": "6: El Chaltén",
+                    "coordenadas": [-49.3304, -72.8863]
+                },
+                {
+                    "dia": "7: Caminata en El Chaltén",
+                    "coordenadas": [-49.3304, -72.8863]
+                },
+                {
+                    "dia": "8: Vuelo a Ushuaia",
+                    "coordenadas": [-54.8019, -68.3030]
+                },
+                {
+                    "dia": "9: Parque Nacional Tierra del Fuego",
+                    "coordenadas": [-54.2104, -68.5266]
+                },
+                {
+                    "dia": "10: Canal Beagle",
+                    "coordenadas": [-54.8056, -68.3070]
+                },
+                {
+                    "dia": "11: Vuelo a Bariloche",
+                    "coordenadas": [-41.1335, -71.3103]
+                },
+                {
+                    "dia": "12: Circuito Chico",
+                    "coordenadas": [-41.1355, -71.3082]
+                },
+                {
+                    "dia": "13: Cerro Catedral",
+                    "coordenadas": [-41.1650, -71.4425]
+                },
+                {
+                    "dia": "14: Lagos de Bariloche",
+                    "coordenadas": [-41.1335, -71.3103]
+                },
+                {
+                    "dia": "15: Regreso a Buenos Aires",
+                    "coordenadas": [-34.6037, -58.3816]
+                }
+            ]
+        },
+    
+        {
+            "name": "Aventuras en Nueva Zelanda",
+            "destino": "Oceanía",
+            "descripcion": "Recorre los paisajes espectaculares de Nueva Zelanda, desde sus fiordos hasta sus montañas, en un viaje de 14 dias.",
+            "duracion": "14",
+            "precio": "2200",
+            "imagen": "https://inglesnuevazelanda.com/wp-content/uploads/Kayak-Nueva-Zelanda-Turismo-de-Aventura.jpg",
+            "itinerario": [
+                {
+                    "dia": "1: Llegada a Auckland",
+                    "coordenadas": [-36.8485, 174.7633]
+                },
+                {
+                    "dia": "2: Tour por Auckland",
+                    "coordenadas": [-36.8485, 174.7633]
+                },
+                {
+                    "dia": "3: Rotorua",
+                    "coordenadas": [-38.1368, 176.2497]
+                },
+                {
+                    "dia": "4: Termas de Rotorua",
+                    "coordenadas": [-38.1368, 176.2497]
+                },
+                {
+                    "dia": "5: Wellington",
+                    "coordenadas": [-41.2865, 174.7762]
+                },
+                {
+                    "dia": "6: Tour por Wellington",
+                    "coordenadas": [-41.2865, 174.7762]
+                },
+                {
+                    "dia": "7: Ferry a la Isla Sur",
+                    "coordenadas": [-41.2865, 174.7762]
+                },
+                {
+                    "dia": "8: Nelson y Marlborough",
+                    "coordenadas": [-41.2706, 173.2839]
+                },
+                {
+                    "dia": "9: Fiordos de Milford Sound",
+                    "coordenadas": [-44.671, 167.9256]
+                },
+                {
+                    "dia": "10: Queenstown",
+                    "coordenadas": [-45.0312, 168.6626]
+                },
+                {
+                    "dia": "11: Aventuras en Queenstown",
+                    "coordenadas": [-45.0312, 168.6626]
+                },
+                {
+                    "dia": "12: Glaciar Franz Josef",
+                    "coordenadas": [-43.3862, 170.1821]
+                },
+                {
+                    "dia": "13: Christchurch",
+                    "coordenadas": [-43.5321, 172.6362]
+                },
+                {
+                    "dia": "14: Salida de Christchurch",
+                    "coordenadas": [-43.5321, 172.6362]
+                }
+            ]
+    
+        
     },
     {
-        "name": "Safari en Kenia",
-        "destino": "África",
-        "descripcion": "Vive la emoción de un safari en Kenia, observa la fauna salvaje y descubre los paisajes de la sabana en 10 días de aventura.",
-        "duracion": "10",
-        "precio": "1800",
-        "imagen": "https://www.kiwakatravel.com/wp-content/uploads/2023/03/wildebeests-g4636007e3_1280-1024x682.jpg",
-        "itinerario": [
-            "Día 1: Llegada a Nairobi",
-            "Día 2: Parque Nacional de Nairobi",
-            "Día 3: Reserva de Masái Mara",
-            "Día 4: Safari en Masái Mara",
-            "Día 5: Lago Nakuru",
-            "Día 6: Safari en Lago Nakuru",
-            "Día 7: Parque Nacional de Amboseli",
-            "Día 8: Safari en Amboseli",
-            "Día 9: Parque Nacional de Tsavo",
-            "Día 10: Salida de Nairobi"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+        
+            "name": "Costa Rica Natural",
+            "destino": "América",
+            "descripcion": "Sumérgete en la naturaleza exuberante de Costa Rica, explorando selvas, volcanes y playas en un viaje de 12 dias.",
+            "duracion": "12",
+            "precio": "1400",
+            "imagen": "https://img.rtve.es/imagenes/cascada-rio-celeste/1656315416283.jpg",
+            "itinerario": [
+                {
+                    "dia": "1: Llegada a San José",
+                    "coordenadas": [9.9281, -84.0907]
+                },
+                {
+                    "dia": "2: Tour por San José",
+                    "coordenadas": [9.9281, -84.0907]
+                },
+                {
+                    "dia": "3: Volcán Arenal",
+                    "coordenadas": [10.4628, -84.7036]
+                },
+                {
+                    "dia": "4: Termas de Arenal",
+                    "coordenadas": [10.4628, -84.7036]
+                },
+                {
+                    "dia": "5: Monteverde",
+                    "coordenadas": [10.3005, -84.8293]
+                },
+                {
+                    "dia": "6: Bosque Nuboso de Monteverde",
+                    "coordenadas": [10.3005, -84.8293]
+                },
+                {
+                    "dia": "7: Manuel Antonio",
+                    "coordenadas": [9.3891, -84.1385]
+                },
+                {
+                    "dia": "8: Parque Nacional Manuel Antonio",
+                    "coordenadas": [9.3891, -84.1385]
+                },
+                {
+                    "dia": "9: Playas del Pacífico",
+                    "coordenadas": [9.3891, -84.1385]
+                },
+                {
+                    "dia": "10: Tour de aventura en el río Pacuare",
+                    "coordenadas": [9.9804, -83.4737]
+                },
+                {
+                    "dia": "11: Regreso a San José",
+                    "coordenadas": [9.9281, -84.0907]
+                },
+                {
+                    "dia": "12: Salida de San José",
+                    "coordenadas": [9.9281, -84.0907]
+                }
+            ]
+        
+        
     },
     {
-        "name": "Escapada a Tailandia",
-        "destino": "Asia",
-        "descripcion": "Disfruta de las playas paradisíacas, templos antiguos y vibrantes mercados de Tailandia en un viaje de 12 días lleno de cultura y relax.",
-        "duracion": "12",
-        "precio": "1100",
-        "imagen": "https://www.intermundial.es/blog/wp-content/uploads/2017/11/cuando-viajar-a-tailandia.jpg",
-        "itinerario": [
-            "Día 1: Llegada a Bangkok",
-            "Día 2: Tour por Bangkok",
-            "Día 3: Ayutthaya",
-            "Día 4: Vuelo a Chiang Mai",
-            "Día 5: Exploración de Chiang Mai",
-            "Día 6: Excursión a Chiang Rai",
-            "Día 7: Vuelo a Phuket",
-            "Día 8: Playas de Phuket",
-            "Día 9: Excursión a las islas Phi Phi",
-            "Día 10: Relajación en Phuket",
-            "Día 11: Regreso a Bangkok",
-            "Día 12: Salida de Bangkok"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+        
+            "name": "Maravillas de Perú",
+            "destino": "América",
+            "descripcion": "Descubre los misterios de Machu Picchu y la cultura Inca en un tour de 11 dias por los paisajes de Perú.",
+            "duracion": "11",
+            "precio": "1500",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxYb-6b1Lo7RSYMlO_t28Pkx0LtEDj1vKLKA&s",
+            "itinerario": [
+                {
+                    "dia": "1: Llegada a Lima",
+                    "coordenadas": [-12.0464, -77.0428]
+                },
+                {
+                    "dia": "2: Tour por Lima",
+                    "coordenadas": [-12.0464, -77.0428]
+                },
+                {
+                    "dia": "3: Vuelo a Cusco",
+                    "coordenadas": [-13.532, -71.9675]
+                },
+                {
+                    "dia": "4: Exploración de Cusco",
+                    "coordenadas": [-13.532, -71.9675]
+                },
+                {
+                    "dia": "5: Valle Sagrado",
+                    "coordenadas": [-13.305, -72.0024]
+                },
+                {
+                    "dia": "6: Machu Picchu",
+                    "coordenadas": [-13.1631, -72.5450]
+                },
+                {
+                    "dia": "7: Aguas Calientes",
+                    "coordenadas": [-13.1588, -72.5283]
+                },
+                {
+                    "dia": "8: Montaña de los Siete Colores",
+                    "coordenadas": [-13.8621, -71.3022]
+                },
+                {
+                    "dia": "9: Vuelo a Arequipa",
+                    "coordenadas": [-16.409, -71.5375]
+                },
+                {
+                    "dia": "10: Cañón del Colca",
+                    "coordenadas": [-15.615, -71.6272]
+                },
+                {
+                    "dia": "11: Regreso a Lima y salida",
+                    "coordenadas": [-12.0464, -77.0428]
+                }
+            ]
+   
     },
-    {
-        "name": "Tour por Italia",
-        "destino": "Europa",
-        "descripcion": "Descubre las maravillas de Roma, Florencia y Venecia en un tour de 10 días por Italia, lleno de arte, historia y gastronomía.",
-        "duracion": "10",
-        "precio": "1300",
-        "imagen": "https://www.viajes.carrefour.es/statics/media/viajes/europa/italia/istock-539115110-2-.jpg",
-        "itinerario": [
-            "Día 1: Llegada a Roma",
-            "Día 2: Tour por Roma",
-            "Día 3: Vaticano y Coliseo",
-            "Día 4: Viaje a Florencia",
-            "Día 5: Galería Uffizi",
-            "Día 6: Pisa y Lucca",
-            "Día 7: Viaje a Venecia",
-            "Día 8: Tour por Venecia",
-            "Día 9: Murano y Burano",
-            "Día 10: Salida de Venecia"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
-    },
-    {
-        "name": "Patagonia Argentina",
-        "destino": "América",
-        "descripcion": "Explora los paisajes impresionantes de la Patagonia, desde glaciares hasta montañas majestuosas, en un viaje de 15 días.",
-        "duracion": "15",
-        "precio": "1700",
-        "imagen": "https://fotografias.lasexta.com/clipping/cmsimages02/2022/11/03/A5A43985-D018-4A42-821E-D57E4F683F4A/destino-patagonia-argentina_98.jpg?crop=960,540,x0,y51&width=1900&height=1069&optimize=high&format=webply",
-        "itinerario": [
-            "Día 1: Llegada a Buenos Aires",
-            "Día 2: Tour por Buenos Aires",
-            "Día 3: Vuelo a El Calafate",
-            "Día 4: Glaciar Perito Moreno",
-            "Día 5: Parque Nacional Los Glaciares",
-            "Día 6: El Chaltén",
-            "Día 7: Caminata en El Chaltén",
-            "Día 8: Vuelo a Ushuaia",
-            "Día 9: Parque Nacional Tierra del Fuego",
-            "Día 10: Canal Beagle",
-            "Día 11: Vuelo a Bariloche",
-            "Día 12: Lagos de Bariloche",
-            "Día 13: Ruta de los Siete Lagos",
-            "Día 14: Regreso a Buenos Aires",
-            "Día 15: Salida de Buenos Aires"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
-    },
-    {
-        "name": "Aventuras en Nueva Zelanda",
-        "destino": "Oceanía",
-        "descripcion": "Recorre los paisajes espectaculares de Nueva Zelanda, desde sus fiordos hasta sus montañas, en un viaje de 14 días.",
-        "duracion": "14",
-        "precio": "2200",
-        "imagen": "https://inglesnuevazelanda.com/wp-content/uploads/Kayak-Nueva-Zelanda-Turismo-de-Aventura.jpg",
-        "itinerario": [
-            "Día 1: Llegada a Auckland",
-            "Día 2: Tour por Auckland",
-            "Día 3: Rotorua",
-            "Día 4: Termas de Rotorua",
-            "Día 5: Wellington",
-            "Día 6: Tour por Wellington",
-            "Día 7: Ferry a la Isla Sur",
-            "Día 8: Nelson y Marlborough",
-            "Día 9: Fiordos de Milford Sound",
-            "Día 10: Queenstown",
-            "Día 11: Aventuras en Queenstown",
-            "Día 12: Glaciar Franz Josef",
-            "Día 13: Christchurch",
-            "Día 14: Salida de Christchurch"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
-    },
-    {
-        "name": "Costa Rica Natural",
-        "destino": "América",
-        "descripcion": "Sumérgete en la naturaleza exuberante de Costa Rica, explorando selvas, volcanes y playas en un viaje de 12 días.",
-        "duracion": "12",
-        "precio": "1400",
-        "imagen": "https://img.rtve.es/imagenes/cascada-rio-celeste/1656315416283.jpg",
-        "itinerario": [
-            "Día 1: Llegada a San José",
-            "Día 2: Tour por San José",
-            "Día 3: Volcán Arenal",
-            "Día 4: Termas de Arenal",
-            "Día 5: Monteverde",
-            "Día 6: Bosque Nuboso de Monteverde",
-            "Día 7: Manuel Antonio",
-            "Día 8: Parque Nacional Manuel Antonio",
-            "Día 9: Playas del Pacífico",
-            "Día 10: Tour de aventura en el río Pacuare",
-            "Día 11: Regreso a San José",
-            "Día 12: Salida de San José"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
-    },
-    {
-        "name": "Maravillas de Perú",
-        "destino": "América",
-        "descripcion": "Descubre los misterios de Machu Picchu y la cultura Inca en un tour de 11 días por los paisajes de Perú.",
-        "duracion": "11",
-        "precio": "1500",
-        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxYb-6b1Lo7RSYMlO_t28Pkx0LtEDj1vKLKA&s",
-        "itinerario": [
-            "Día 1: Llegada a Lima",
-            "Día 2: Tour por Lima",
-            "Día 3: Vuelo a Cusco",
-            "Día 4: Exploración de Cusco",
-            "Día 5: Valle Sagrado",
-            "Día 6: Machu Picchu",
-            "Día 7: Aguas Calientes",
-            "Día 8: Montaña de los Siete Colores",
-            "Día 9: Vuelo a Arequipa",
-            "Día 10: Cañón del Colca",
-            "Día 11: Regreso a Lima y salida"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
-    },
+
     {
         "name": "Ruta por Grecia",
         "destino": "Europa",
-        "descripcion": "Explora las ruinas antiguas, las islas pintorescas y la rica historia de Grecia en un viaje de 12 días.",
+        "descripcion": "Explora las ruinas antiguas, las islas pintorescas y la rica historia de Grecia en un viaje de 12 dias.",
         "duracion": "12",
         "precio": "1300",
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedfqo3zfMHsUtk34ZRMKTU342T8zR2XHHNw&s",
         "itinerario": [
-            "Día 1: Llegada a Atenas",
-            "Día 2: Acrópolis y Museo de la Acrópolis",
-            "Día 3: Delfos",
-            "Día 4: Monasterios de Meteora",
-            "Día 5: Viaje a Mykonos",
-            "Día 6: Exploración de Mykonos",
-            "Día 7: Viaje a Santorini",
-            "Día 8: Exploración de Santorini",
-            "Día 9: Vuelo a Creta",
-            "Día 10: Palacio de Knossos",
-            "Día 11: Heraklion",
-            "Día 12: Regreso a Atenas y salida"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+            {
+                "dia": "1: Llegada a Atenas",
+                "coordenadas": [37.9838, 23.7275]
+            },
+            {
+                "dia": "2: Acrópolis y Museo de la Acrópolis",
+                "coordenadas": [37.9715, 23.7257]
+            },
+            {
+                "dia": "3: Delfos",
+                "coordenadas": [38.4833, 22.5000]
+            },
+            {
+                "dia": "4: Monasterios de Meteora",
+                "coordenadas": [39.7194, 21.6300]
+            },
+            {
+                "dia": "5: Viaje a Mykonos",
+                "coordenadas": [37.4467, 25.3289]
+            },
+            {
+                "dia": "6: Exploración de Mykonos",
+                "coordenadas": [37.4467, 25.3289]
+            },
+            {
+                "dia": "7: Viaje a Santorini",
+                "coordenadas": [36.3932, 25.4615]
+            },
+            {
+                "dia": "8: Exploración de Santorini",
+                "coordenadas": [36.3932, 25.4615]
+            },
+            {
+                "dia": "9: Vuelo a Creta",
+                "coordenadas": [35.2401, 24.8093]
+            },
+            {
+                "dia": "10: Palacio de Knossos",
+                "coordenadas": [35.2983, 25.1596]
+            },
+            {
+                "dia": "11: Heraklion",
+                "coordenadas": [35.3387, 25.1442]
+            },
+            {
+                "dia": "12: Regreso a Atenas y salida",
+                "coordenadas": [37.9838, 23.7275]
+            }
+        ]
+    
+    
     },
     {
         "name": "Descubre Islandia",
         "destino": "Europa",
-        "descripcion": "Aventúrate en los paisajes únicos de Islandia, con sus cascadas, glaciares y géiseres, en un viaje de 10 días.",
+        "descripcion": "Aventúrate en los paisajes únicos de Islandia, con sus cascadas, glaciares y géiseres, en un viaje de 10 dias.",
         "duracion": "10",
         "precio": "1600",
         "imagen": "https://www.civitatis.com/blog/wp-content/uploads/2020/02/que-ver-islandia.jpg",
         "itinerario": [
-            "Día 1: Llegada a Reikiavik",
-            "Día 2: Tour por Reikiavik",
-            "Día 3: Círculo Dorado",
-            "Día 4: Costa Sur",
-            "Día 5: Glaciar Vatnajökull",
-            "Día 6: Laguna Glaciar Jökulsárlón",
-            "Día 7: Fiordos del Este",
-            "Día 8: Akureyri",
-            "Día 9: Myvatn",
-            "Día 10: Regreso a Reikiavik y salida"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+            {
+                "dia": "1: Llegada a Reikiavik",
+                "coordenadas": [64.1466, -21.9426]
+            },
+            {
+                "dia": "2: Tour por Reikiavik",
+                "coordenadas": [64.1466, -21.9426]
+            },
+            {
+                "dia": "3: Círculo Dorado",
+                "coordenadas": [64.255, -21.129]
+            },
+            {
+                "dia": "4: Costa Sur",
+                "coordenadas": [63.445, -20.279]
+            },
+            {
+                "dia": "5: Glaciar Vatnajökull",
+                "coordenadas": [64.326, -16.806]
+            },
+            {
+                "dia": "6: Laguna Glaciar Jökulsárlón",
+                "coordenadas": [64.0485, -16.1785]
+            },
+            {
+                "dia": "7: Fiordos del Este",
+                "coordenadas": [65.075, -14.018]
+            },
+            {
+                "dia": "8: Akureyri",
+                "coordenadas": [65.6885, -18.1262]
+            },
+            {
+                "dia": "9: Myvatn",
+                "coordenadas": [65.604, -17.003]
+            },
+            {
+                "dia": "10: Regreso a Reikiavik y salida",
+                "coordenadas": [64.1466, -21.9426]
+            }
+        ]
+    
     },
     {
         "name": "Turquía Exótica",
         "destino": "Asia",
-        "descripcion": "Sumérgete en la rica historia y la cultura vibrante de Turquía, explorando Estambul, Capadocia y más en 12 días.",
+        "descripcion": "Sumérgete en la rica historia y la cultura vibrante de Turquía, explorando Estambul, Capadocia y más en 12 dias.",
         "duracion": "12",
         "precio": "1200",
         "imagen": "https://www.exoticca.com/_next/image?url=https%3A%2F%2Fuploads.exoticca.com%2Fglobal%2Fdestination%2Fpoi%2Festambul.png&w=3840&q=75",
         "itinerario": [
-            "Día 1: Llegada a Estambul",
-            "Día 2: Tour por Estambul",
-            "Día 3: Palacio de Topkapi",
-            "Día 4: Santa Sofía y Mezquita Azul",
-            "Día 5: Vuelo a Capadocia",
-            "Día 6: Tour por Capadocia",
-            "Día 7: Paseo en globo aerostático",
-            "Día 8: Valle de Göreme",
-            "Día 9: Vuelo a Pamukkale",
-            "Día 10: Piscinas de travertino",
-            "Día 11: Efeso",
-            "Día 12: Regreso a Estambul y salida"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+            {
+                "dia": "1: Llegada a Estambul",
+                "coordenadas": [41.0082, 28.9784]
+            },
+            {
+                "dia": "2: Tour por Estambul",
+                "coordenadas": [41.0082, 28.9784]
+            },
+            {
+                "dia": "3: Palacio de Topkapi",
+                "coordenadas": [41.0114, 28.9831]
+            },
+            {
+                "dia": "4: Santa Sofía y Mezquita Azul",
+                "coordenadas": [41.0086, 28.9802]
+            },
+            {
+                "dia": "5: Vuelo a Capadocia",
+                "coordenadas": [38.6434, 34.8110]
+            },
+            {
+                "dia": "6: Tour por Capadocia",
+                "coordenadas": [38.6434, 34.8110]
+            },
+            {
+                "dia": "7: Paseo en globo aerostático",
+                "coordenadas": [38.6434, 34.8110]
+            },
+            {
+                "dia": "8: Valle de Göreme",
+                "coordenadas": [38.6450, 34.8266]
+            },
+            {
+                "dia": "9: Vuelo a Pamukkale",
+                "coordenadas": [37.9204, 29.1268]
+            },
+            {
+                "dia": "10: Piscinas de travertino",
+                "coordenadas": [37.9204, 29.1268]
+            },
+            {
+                "dia": "11: Efeso",
+                "coordenadas": [37.9390, 27.3412]
+            },
+            {
+                "dia": "12: Regreso a Estambul y salida",
+                "coordenadas": [41.0082, 28.9784]
+            }
+        ]
+
     },
+    
     {
         "name": "Explorando Sudáfrica",
         "destino": "África",
-        "descripcion": "Vive una experiencia única en Sudáfrica, con safaris, paisajes urbanos y naturales en un viaje de 14 días.",
+        "descripcion": "Vive una experiencia única en Sudáfrica, con safaris, paisajes urbanos y naturales en un viaje de 14 dias.",
         "duracion": "14",
         "precio": "1900",
         "imagen": "https://static.hosteltur.com/app/public/uploads/img/releases/2019/05/14/L_114110_turismo-de-sudafrica.jpg",
         "itinerario": [
-            "Día 1: Llegada a Ciudad del Cabo",
-            "Día 2: Tour por Ciudad del Cabo",
-            "Día 3: Montaña de la Mesa",
-            "Día 4: Viñedos de Stellenbosch",
-            "Día 5: Ruta Jardín",
-            "Día 6: Knysna",
-            "Día 7: Parque Nacional Tsitsikamma",
-            "Día 8: Vuelo a Johannesburgo",
-            "Día 9: Parque Nacional Kruger",
-            "Día 10: Safari en Kruger",
-            "Día 11: Panorama Route",
-            "Día 12: Swazilandia",
-            "Día 13: Durban",
-            "Día 14: Salida de Durban"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+            {
+                "dia": "1: Llegada a Ciudad del Cabo",
+                "coordenadas": [-33.9249, 18.4241]
+            },
+            {
+                "dia": "2: Tour por Ciudad del Cabo",
+                "coordenadas": [-33.9249, 18.4241]
+            },
+            {
+                "dia": "3: Montaña de la Mesa",
+                "coordenadas": [-33.9628, 18.4098]
+            },
+            {
+                "dia": "4: Viñedos de Stellenbosch",
+                "coordenadas": [-33.9321, 18.8602]
+            },
+            {
+                "dia": "5: Ruta Jardín",
+                "coordenadas": [-34.0392, 23.0484]
+            },
+            {
+                "dia": "6: Knysna",
+                "coordenadas": [-34.0363, 23.0471]
+            },
+            {
+                "dia": "7: Parque Nacional Tsitsikamma",
+                "coordenadas": [-34.0167, 23.8833]
+            },
+            {
+                "dia": "8: Vuelo a Johannesburgo",
+                "coordenadas": [-26.2041, 28.0473]
+            },
+            {
+                "dia": "9: Parque Nacional Kruger",
+                "coordenadas": [-23.9884, 31.5547]
+            },
+            {
+                "dia": "10: Safari en Kruger",
+                "coordenadas": [-23.9884, 31.5547]
+            },
+            {
+                "dia": "11: Panorama Route",
+                "coordenadas": [-24.9167, 30.9911]
+            },
+            {
+                "dia": "12: Swazilandia",
+                "coordenadas": [-26.5225, 31.4659]
+            },
+            {
+                "dia": "13: Durban",
+                "coordenadas": [-29.8587, 31.0218]
+            },
+            {
+                "dia": "14: Salida de Durban",
+                "coordenadas": [-29.8587, 31.0218]
+            }
+        ]
+
     },
+    
     {
         "name": "Canadá Espectacular",
         "destino": "América",
-        "descripcion": "Descubre la belleza natural de Canadá, desde las Montañas Rocosas hasta las Cataratas del Niágara, en un viaje de 13 días.",
+        "descripcion": "Descubre la belleza natural de Canadá, desde las Montañas Rocosas hasta las Cataratas del Niágara, en un viaje de 13 dias.",
         "duracion": "13",
         "precio": "1600",
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5dwjjbrt8F0im_AJqrp7E5WliBqofiSFuIg&s",
         "itinerario": [
-            "Día 1: Llegada a Vancouver",
-            "Día 2: Tour por Vancouver",
-            "Día 3: Whistler",
-            "Día 4: Parque Nacional Jasper",
-            "Día 5: Banff",
-            "Día 6: Lago Louise",
-            "Día 7: Calgary",
-            "Día 8: Vuelo a Toronto",
-            "Día 9: Tour por Toronto",
-            "Día 10: Cataratas del Niágara",
-            "Día 11: Ottawa",
-            "Día 12: Montreal",
-            "Día 13: Salida de Montreal"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+
+            {
+                "dia": "1: Llegada a Vancouver",
+                "coordenadas": [49.2827, -123.1207]
+            },
+            {
+                "dia": "2: Tour por Vancouver",
+                "coordenadas": [49.2827, -123.1207]
+            },
+            {
+                "dia": "3: Whistler",
+                "coordenadas": [50.1163, -122.9574]
+            },
+            {
+                "dia": "4: Parque Nacional Jasper",
+                "coordenadas": [52.8734, -117.9562]
+            },
+            {
+                "dia": "5: Banff",
+                "coordenadas": [51.1784, -115.5708]
+            },
+            {
+                "dia": "6: Lago Louise",
+                "coordenadas": [51.4254, -116.1773]
+            },
+            {
+                "dia": "7: Calgary",
+                "coordenadas": [51.0447, -114.0719]
+            },
+            {
+                "dia": "8: Vuelo a Toronto",
+                "coordenadas": [43.651070, -79.347015]
+            },
+            {
+                "dia": "9: Tour por Toronto",
+                "coordenadas": [43.651070, -79.347015]
+            },
+            {
+                "dia": "10: Cataratas del Niágara",
+                "coordenadas": [43.0962, -79.0377]
+            },
+            {
+                "dia": "11: Ottawa",
+                "coordenadas": [45.4215, -75.6972]
+            },
+            {
+                "dia": "12: Montreal",
+                "coordenadas": [45.5017, -73.5673]
+            },
+            {
+                "dia": "13: Salida de Montreal",
+                "coordenadas": [45.5017, -73.5673]
+            }
+        ]
+
     },
     {
         "name": "Vietnam y Camboya",
         "destino": "Asia",
-        "descripcion": "Explora los paisajes y la cultura de Vietnam y Camboya en un viaje de 15 días lleno de descubrimientos.",
+        "descripcion": "Explora los paisajes y la cultura de Vietnam y Camboya en un viaje de 15 dias lleno de descubrimientos.",
         "duracion": "15",
         "precio": "1800",
         "imagen": "https://www.viajesbilbaoexpress.com/wp-content/uploads/2020/01/viaje-vietnam-camboya-cabecera.jpg",
         "itinerario": [
-            "Día 1: Llegada a Hanoi",
-            "Día 2: Tour por Hanoi",
-            "Día 3: Bahía de Ha Long",
-            "Día 4: Noche en Ha Long",
-            "Día 5: Vuelo a Da Nang",
-            "Día 6: Hoi An",
-            "Día 7: Hue",
-            "Día 8: Vuelo a Ciudad Ho Chi Minh",
-            "Día 9: Delta del Mekong",
-            "Día 10: Túneles de Cu Chi",
-            "Día 11: Tour por Ciudad Ho Chi Minh",
-            "Día 12: Salida de Ciudad Ho Chi Minh"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+
+            {
+                "dia": "1: Llegada a Hanoi",
+                "coordenadas": [21.0285, 105.8542]
+            },
+            {
+                "dia": "2: Tour por Hanoi",
+                "coordenadas": [21.0285, 105.8542]
+            },
+            {
+                "dia": "3: Bahía de Ha Long",
+                "coordenadas": [20.9101, 107.1839]
+            },
+            {
+                "dia": "4: Noche en Ha Long",
+                "coordenadas": [20.9101, 107.1839]
+            },
+            {
+                "dia": "5: Vuelo a Da Nang",
+                "coordenadas": [16.0544, 108.2022]
+            },
+            {
+                "dia": "6: Hoi An",
+                "coordenadas": [15.8801, 108.3380]
+            },
+            {
+                "dia": "7: Hue",
+                "coordenadas": [16.4637, 107.5909]
+            },
+            {
+                "dia": "8: Vuelo a Ciudad Ho Chi Minh",
+                "coordenadas": [10.8231, 106.6297]
+            },
+            {
+                "dia": "9: Delta del Mekong",
+                "coordenadas": [10.2851, 106.1468]
+            },
+            {
+                "dia": "10: Túneles de Cu Chi",
+                "coordenadas": [11.1442, 106.4647]
+            },
+            {
+                "dia": "11: Tour por Ciudad Ho Chi Minh",
+                "coordenadas": [10.8231, 106.6297]
+            },
+            {
+                "dia": "12: Salida de Ciudad Ho Chi Minh",
+                "coordenadas": [10.8231, 106.6297]
+            }
+        ]
+    
     },
     {
         "name": "Portugal Encantador",
         "destino": "Europa",
-        "descripcion": "Recorre las encantadoras ciudades y paisajes de Portugal, desde Lisboa hasta el valle del Duero, en 10 días.",
+        "descripcion": "Recorre las encantadoras ciudades y paisajes de Portugal, desde Lisboa hasta el valle del Duero, en 10 dias.",
         "duracion": "10",
         "precio": "1000",
         "imagen": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/257000/257156-Lisboa-Region.jpg",
         "itinerario": [
-            "Día 1: Llegada a Lisboa",
-            "Día 2: Tour por Lisboa",
-            "Día 3: Excursión a Sintra",
-            "Día 4: Óbidos y Nazaré",
-            "Día 5: Coimbra",
-            "Día 6: Oporto",
-            "Día 7: Valle del Duero",
-            "Día 8: Guimarães y Braga",
-            "Día 9: Aveiro y Costa Nova",
-            "Día 10: Regreso a Lisboa y salida"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+
+            {
+                "dia": "1: Llegada a Lisboa",
+                "coordenadas": [38.7223, -9.1393]
+            },
+            {
+                "dia": "2: Tour por Lisboa",
+                "coordenadas": [38.7223, -9.1393]
+            },
+            {
+                "dia": "3: Excursión a Sintra",
+                "coordenadas": [38.8009, -9.3783]
+            },
+            {
+                "dia": "4: Óbidos y Nazaré",
+                "coordenadas": [39.3608, -9.1570]
+            },
+            {
+                "dia": "5: Coimbra",
+                "coordenadas": [40.2056, -8.4196]
+            },
+            {
+                "dia": "6: Oporto",
+                "coordenadas": [41.1579, -8.6291]
+            },
+            {
+                "dia": "7: Valle del Duero",
+                "coordenadas": [41.1672, -7.8240]
+            },
+            {
+                "dia": "8: Guimarães y Braga",
+                "coordenadas": [41.4445, -8.2962]
+            },
+            {
+                "dia": "9: Aveiro y Costa Nova",
+                "coordenadas": [40.6405, -8.6538]
+            },
+            {
+                "dia": "10: Regreso a Lisboa y salida",
+                "coordenadas": [38.7223, -9.1393]
+            }
+        ]
+    
+
     },
     {
         "name": "Escocia Mágica",
         "destino": "Europa",
-        "descripcion": "Descubre los castillos, lagos y montañas de Escocia en un tour de 10 días lleno de historia y belleza natural.",
+        "descripcion": "Descubre los castillos, lagos y montañas de Escocia en un tour de 10 dias lleno de historia y belleza natural.",
         "duracion": "10",
         "precio": "1100",
         "imagen": "https://www.civitatis.com/blog/wp-content/uploads/2020/12/shutterstock_513939127-1920x1258.jpg",
         "itinerario": [
-            "Día 1: Llegada a Edimburgo",
-            "Día 2: Tour por Edimburgo",
-            "Día 3: Castillo de Stirling",
-            "Día 4: Loch Lomond y el Parque Nacional de los Trossachs",
-            "Día 5: Inverness y el Lago Ness",
-            "Día 6: Castillo de Eilean Donan",
-            "Día 7: Isla de Skye",
-            "Día 8: Fort William y el Ben Nevis",
-            "Día 9: Glencoe y el Valle de Glen",
-            "Día 10: Regreso a Edimburgo y salida"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+
+            {
+                "dia": "1: Llegada a Edimburgo",
+                "coordenadas": [55.9533, -3.1883]
+            },
+            {
+                "dia": "2: Tour por Edimburgo",
+                "coordenadas": [55.9533, -3.1883]
+            },
+            {
+                "dia": "3: Castillo de Stirling",
+                "coordenadas": [56.1224, -3.9449]
+            },
+            {
+                "dia": "4: Loch Lomond y el Parque Nacional de los Trossachs",
+                "coordenadas": [56.2000, -4.6333]
+            },
+            {
+                "dia": "5: Inverness y el Lago Ness",
+                "coordenadas": [57.4778, -4.2247]
+            },
+            {
+                "dia": "6: Castillo de Eilean Donan",
+                "coordenadas": [57.2744, -5.5162]
+            },
+            {
+                "dia": "7: Isla de Skye",
+                "coordenadas": [57.5359, -6.2263]
+            },
+            {
+                "dia": "8: Fort William y el Ben Nevis",
+                "coordenadas": [56.8198, -5.1052]
+            },
+            {
+                "dia": "9: Glencoe y el Valle de Glen",
+                "coordenadas": [56.6825, -5.1025]
+            },
+            {
+                "dia": "10: Regreso a Edimburgo y salida",
+                "coordenadas": [55.9533, -3.1883]
+            }
+        ]
+
     },
     {
         "name": "Colombia Diversa",
         "destino": "América",
-        "descripcion": "Explora la diversidad cultural y natural de Colombia, desde sus playas caribeñas hasta sus ciudades coloniales, en 12 días.",
+        "descripcion": "Explora la diversidad cultural y natural de Colombia, desde sus playas caribeñas hasta sus ciudades coloniales, en 12 dias.",
         "duracion": "12",
         "precio": "1400",
         "imagen": "https://www.viajeselcorteingles.es/imagen/blog/img_blog_post_salento_eje_cafetero_colombia_710x300_01.jpg",
         "itinerario": [
-            "Día 1: Llegada a Bogotá",
-            "Día 2: Tour por Bogotá",
-            "Día 3: Zipaquirá y la Catedral de Sal",
-            "Día 4: Vuelo a Medellín",
-            "Día 5: Tour por Medellín",
-            "Día 6: Guatapé y el Peñol",
-            "Día 7: Vuelo a Cartagena",
-            "Día 8: Tour por Cartagena",
-            "Día 9: Islas del Rosario",
-            "Día 10: Santa Marta y Parque Tayrona",
-            "Día 11: Tour por Santa Marta",
-            "Día 12: Regreso a Bogotá y salida"
-        ],
-        "map_placeholder": "https://i.blogs.es/b4dd5c/maps/1366_2000.png"
+
+            {
+                "dia": "1: Llegada a Bogotá",
+                "coordenadas": [4.7110, -74.0721]
+            },
+            {
+                "dia": "2: Tour por Bogotá",
+                "coordenadas": [4.7110, -74.0721]
+            },
+            {
+                "dia": "3: Zipaquirá y la Catedral de Sal",
+                "coordenadas": [5.0221, -74.0048]
+            },
+            {
+                "dia": "4: Vuelo a Medellín",
+                "coordenadas": [6.2442, -75.5812]
+            },
+            {
+                "dia": "5: Tour por Medellín",
+                "coordenadas": [6.2442, -75.5812]
+            },
+            {
+                "dia": "6: Guatapé y el Peñol",
+                "coordenadas": [6.2335, -75.1595]
+            },
+            {
+                "dia": "7: Vuelo a Cartagena",
+                "coordenadas": [10.3910, -75.4794]
+            },
+            {
+                "dia": "8: Tour por Cartagena",
+                "coordenadas": [10.3910, -75.4794]
+            },
+            {
+                "dia": "9: Islas del Rosario",
+                "coordenadas": [10.1738, -75.7390]
+            },
+            {
+                "dia": "10: Santa Marta y Parque Tayrona",
+                "coordenadas": [11.2417, -74.2110]
+            },
+            {
+                "dia": "11: Tour por Santa Marta",
+                "coordenadas": [11.2417, -74.2110]
+            },
+            {
+                "dia": "12: Regreso a Bogotá y salida",
+                "coordenadas": [4.7110, -74.0721]
+            }
+        ]
+
+    },
+
+    {
+        "name": "Maravillas de Fiji",
+        "destino": "Oceanía",
+        "descripcion": "Relájate en las playas paradisíacas de Fiji y descubre sus culturas y paisajes en un viaje de 7 días.",
+        "duracion": "7",
+        "precio": "1800",
+        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/32/1d/8a/likuliku-lagoon-resort.jpg?w=600&h=400&s=1",
+        "itinerario": [
+            {
+                "dia": "1: Llegada a Nadi",
+                "coordenadas": [-17.7761, 177.4173]
+            },
+            {
+                "dia": "2: Playa de Natadola",
+                "coordenadas": [-18.0823, 177.3262]
+            },
+            {
+                "dia": "3: Excursión a las Islas Mamanuca",
+                "coordenadas": [-17.7500, 177.1500]
+            },
+            {
+                "dia": "4: Suva",
+                "coordenadas": [-18.1416, 178.4419]
+            },
+            {
+                "dia": "5: Cascadas de Tavoro",
+                "coordenadas": [-16.8000, -179.9833]
+            },
+            {
+                "dia": "6: Navegación y snorkel en Coral Coast",
+                "coordenadas": [-18.2033, 177.6050]
+            },
+            {
+                "dia": "7: Salida de Nadi",
+                "coordenadas": [-17.7761, 177.4173]
+            }
+        ]
+    },
+    {
+        "name": "Explora Tahití y Bora Bora",
+        "destino": "Oceanía",
+        "descripcion": "Sumérgete en la belleza de Tahití y Bora Bora en un viaje romántico de 10 días por sus lagunas y playas.",
+        "duracion": "10",
+        "precio": "4000",
+        "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/10/74/8b/bungalows-facing-mont.jpg?w=700&h=-1&s=1",
+        "itinerario": [
+            {
+                "dia": "1: Llegada a Papeete, Tahití",
+                "coordenadas": [-17.5516, -149.5585]
+            },
+            {
+                "dia": "2: Tour por Papeete y Mercado de Tahití",
+                "coordenadas": [-17.5516, -149.5585]
+            },
+            {
+                "dia": "3: Playa de La Plage de Maui",
+                "coordenadas": [-17.7348, -149.3302]
+            },
+            {
+                "dia": "4: Excursión a Moorea",
+                "coordenadas": [-17.5388, -149.8295]
+            },
+            {
+                "dia": "5: Llegada a Bora Bora",
+                "coordenadas": [-16.5004, -151.7415]
+            },
+            {
+                "dia": "6: Snorkel en la Laguna de Bora Bora",
+                "coordenadas": [-16.4949, -151.7354]
+            },
+            {
+                "dia": "7: Navegación y deportes acuáticos",
+                "coordenadas": [-16.5004, -151.7415]
+            },
+            {
+                "dia": "8: Tour por la isla de Bora Bora",
+                "coordenadas": [-16.5004, -151.7415]
+            },
+            {
+                "dia": "9: Relajación en Matira Beach",
+                "coordenadas": [-16.5290, -151.7346]
+            },
+            {
+                "dia": "10: Salida de Bora Bora",
+                "coordenadas": [-16.5004, -151.7415]
+            }
+        ]
+    },
+    {
+        "name": "Encanto de Zanzíbar",
+        "destino": "África",
+        "descripcion": "Descubre las playas idílicas y la rica historia de Zanzíbar en un viaje de 10 días lleno de aventuras y relajación.",
+        "duracion": "10",
+        "precio": "2500",
+        "imagen": "data:image/jpeg;base64,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",
+        "itinerario": [
+            {
+                "dia": "1: Llegada a Stone Town",
+                "coordenadas": [-6.1659, 39.2026]
+            },
+            {
+                "dia": "2: Tour histórico por Stone Town",
+                "coordenadas": [-6.1659, 39.2026]
+            },
+            {
+                "dia": "3: Isla de la Prisión",
+                "coordenadas": [-6.1360, 39.1781]
+            },
+            {
+                "dia": "4: Safari Blue - Excursión de un día",
+                "coordenadas": [-6.3839, 39.5519]
+            },
+            {
+                "dia": "5: Playa de Kendwa",
+                "coordenadas": [-5.7556, 39.2925]
+            },
+            {
+                "dia": "6: Actividades acuáticas en Nungwi",
+                "coordenadas": [-5.7242, 39.2927]
+            },
+            {
+                "dia": "7: Reserva Forestal de Jozani",
+                "coordenadas": [-6.2574, 39.4400]
+            },
+            {
+                "dia": "8: Playa de Paje",
+                "coordenadas": [-6.2667, 39.5333]
+            },
+            {
+                "dia": "9: Buceo en el Atolón de Mnemba",
+                "coordenadas": [-5.7995, 39.3742]
+            },
+            {
+                "dia": "10: Salida de Stone Town",
+                "coordenadas": [-6.1659, 39.2026]
+            }
+        ]
+    },
+    {
+        "name": "Aventura en Brasil",
+        "destino": "América",
+        "descripcion": "Explora la vibrante cultura y los impresionantes paisajes de Brasil en un viaje de 12 días lleno de música, naturaleza y aventura.",
+        "duracion": "12",
+        "precio": "3200",
+        "imagen": "https://media.iatiseguros.com/wp-content/uploads/2021/12/16093310/lugares-que-ver-en-brasil-1.jpg",
+        "itinerario": [
+            {
+                "dia": "1: Llegada a Río de Janeiro",
+                "coordenadas": [-22.9068, -43.1729]
+            },
+            {
+                "dia": "2: Tour por el Cristo Redentor y Pan de Azúcar",
+                "coordenadas": [-22.9519, -43.2105]
+            },
+            {
+                "dia": "3: Playas de Copacabana e Ipanema",
+                "coordenadas": [-22.9711, -43.1822]
+            },
+            {
+                "dia": "4: Samba y Carnaval en Río",
+                "coordenadas": [-22.9083, -43.1964]
+            },
+            {
+                "dia": "5: Excursión a las Cataratas del Iguazú",
+                "coordenadas": [-25.6953, -54.4367]
+            },
+            {
+                "dia": "6: Parque Nacional de Iguazú",
+                "coordenadas": [-25.6953, -54.4367]
+            },
+            {
+                "dia": "7: Salvador de Bahía",
+                "coordenadas": [-12.9714, -38.5014]
+            },
+            {
+                "dia": "8: Tour histórico en el Pelourinho",
+                "coordenadas": [-12.9714, -38.5014]
+            },
+            {
+                "dia": "9: Recife y Olinda",
+                "coordenadas": [-8.0476, -34.8770]
+            },
+            {
+                "dia": "10: Tour por las playas de Porto de Galinhas",
+                "coordenadas": [-8.5022, -35.0098]
+            },
+            {
+                "dia": "11: Manaos y la selva amazónica",
+                "coordenadas": [-3.1190, -60.0217]
+            },
+            {
+                "dia": "12: Navegación por el río Amazonas y regreso",
+                "coordenadas": [-3.1190, -60.0217]
+            }
+        ]
+    },
+    {
+        "name": "Exploración de Ecuador",
+        "destino": "América",
+        "descripcion": "Descubre la biodiversidad y la rica cultura de Ecuador en un viaje de 10 días a través de sus selvas, montañas y playas.",
+        "duracion": "10",
+        "precio": "2800",
+        "imagen": "https://happygringo.com/wp-content/uploads/2021/02/riobamba-city-with-volcano.jpg",
+        "itinerario": [
+            {
+                "dia": "1: Llegada a Quito",
+                "coordenadas": [-0.1807, -78.4678]
+            },
+            {
+                "dia": "2: Tour por el Centro Histórico de Quito",
+                "coordenadas": [-0.2202, -78.5123]
+            },
+            {
+                "dia": "3: Mitad del Mundo",
+                "coordenadas": [-0.0020, -78.4558]
+            },
+            {
+                "dia": "4: Excursión a la Reserva de Cuyabeno",
+                "coordenadas": [-0.0020, -76.0000]
+            },
+            {
+                "dia": "5: Aventura en la selva amazónica",
+                "coordenadas": [-0.0020, -76.0000]
+            },
+            {
+                "dia": "6: Baños y la Ruta de las Cascadas",
+                "coordenadas": [-1.3965, -78.4247]
+            },
+            {
+                "dia": "7: Trekking en el Volcán Cotopaxi",
+                "coordenadas": [-0.6800, -78.4371]
+            },
+            {
+                "dia": "8: Mercado de Otavalo",
+                "coordenadas": [0.2333, -78.2667]
+            },
+            {
+                "dia": "9: Islas Galápagos",
+                "coordenadas": [-0.9538, -90.9656]
+            },
+            {
+                "dia": "10: Tour de vida silvestre en Galápagos y regreso",
+                "coordenadas": [-0.9538, -90.9656]
+            }
+        ]
     }
+    
+    
+    
+    
+    
+    
 ]
