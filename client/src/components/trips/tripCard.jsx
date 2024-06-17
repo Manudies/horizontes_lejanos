@@ -2,13 +2,24 @@ import { useState } from "react";
 import "./tripCard.css";
 import Modal from "../modal/modal";
 import Mapa from "../mapa/Mapa";
+import { useContext } from "react";
+import { UserContext } from "../../context/userContext";
+import { Link } from "react-router-dom";
+
 
 const TripCard = ({ trip }) => {
+  const { user, setUser } = useContext(UserContext);
   const [isModalOpen, setIsModalOpen] = useState(false);
   function openModal() {
     setIsModalOpen(true);
   }
-  console.log("trip", trip);
+  const handlefavoritos = () => {
+    if (user) {
+      console.log(user);
+    } else {
+      console.log("No hay user")
+    }
+  };
 
   return (
     <div className="trip-card">
@@ -25,7 +36,7 @@ const TripCard = ({ trip }) => {
             Duración {trip.duracion} días
           </div>
         </div>
-        <button className="trip-card__button">Comprar</button>
+        <button onClick={handlefavoritos} className="trip-card__button">Favoritos</button>
         <button onClick={openModal} className="trip-card__button">
           Ver Tour{" "}
         </button>
