@@ -78,6 +78,19 @@
 .sign-in:hover {
   color: #fff;
 }
+.user_favoritos{
+  display: flex
+}
+
+.button_trips {
+  background-color: #0056B3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
 
 @media screen and (max-width: 960px) {
   .navbar-container {

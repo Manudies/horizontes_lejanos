@@ -41,21 +41,21 @@ async function fetchTripsByProperty(destino) {
   return result.data;
 }
 
-async function handleUserData() {
-  const result = await fetchUserData();
-  console.log("userf",result)
-  if (result.error) {
-    return null;
-  }
-  return result.data;
-}
+// async function handleUserData() {
+//   const result = await fetchUserData();
+//   console.log("user",result)
+//   if (result.error) {
+//     return null;
+//   }
+//   return result.data;
+// }
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
-    loader: () => handleUserData(),
+    // loader: () => handleUserData(),
     children: [
       {
         path: "/",

@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+
+import React from 'react';
+import Carrusel from '../carrusel/Carrusel';
+
+>>>>>>> dev
 import './bienvenida.css';
 import ContactForm from '../contactForm/contactForm';
 
@@ -48,6 +55,10 @@ const Main = () => {
             </div>
             <div>
               <ContactForm/>
+            </div>
+            <div>
+              <Carrusel/>
+
             </div>
       </section>
     </main>
