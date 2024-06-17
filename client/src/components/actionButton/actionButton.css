@@ -1,6 +1,6 @@
 /* ActionButton.css */
 .trip-card__button {
-  background-color: #007bff;
+  background-color: #223D3C;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -12,7 +12,8 @@
 }
 
 .trip-card__button:hover {
-  background-color: #0056b3;
+  background-color: #F8F3F2;
+  color: #223D3C;
 }
   
   .action-button.info-button {

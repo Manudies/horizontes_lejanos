@@ -1,10 +1,11 @@
 .trip-card {
-  border: 1px solid #ddd;
+  border: 1px solid #223D3C;
   border-radius: 8px;
   overflow: hidden;
   max-width: 285px;
   font-family: Arial, sans-serif;
-  box-shadow: 0 3px 5px rgba(255, 0, 0, 0.548);
+  box-shadow: 0 3px 5px rgba(28, 84, 74, 0.548);
+ 
 }
 
 .trip-card__image {
@@ -19,7 +20,7 @@
 }
 
 .trip-card__price {
-  background-color: #004085;
+  background-color: #223D3C;
   color: #fff;
   padding: 8px;
   border-radius: 4px;
@@ -34,7 +35,7 @@
 
 .trip-card__description {
   font-size: 0.9em;
-  color: #ffffff;
+  color: #81827C;
   margin-bottom: 16px;
 }
 
@@ -49,7 +50,7 @@
 }
 
 .trip-card__button {
-  background-color: #007bff;
+  background-color: #223D3C;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -61,7 +62,7 @@
 }
 
 .trip-card__button:hover {
-  background-color: #0056b3;
+  background-color: #223D3C;
 }
 
 .button_container {
@@ -73,7 +74,7 @@
 
 
 .trip-card_description {
-  color: white;
+  color: #223D3C;
 }
 
 .trip-card_image {
@@ -84,7 +85,7 @@
 }
 
 .trip-card_price {
-  background-color: #004085;
+  background-color: #223D3C;
   color: #fff;
   padding: 8px;
   border-radius: 4px;
