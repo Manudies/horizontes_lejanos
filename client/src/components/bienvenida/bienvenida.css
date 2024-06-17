@@ -25,12 +25,39 @@ body, html {
 
 .presentacion .texto-superpuesto {
   position: absolute;
-  top: 30%;
-  left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(31, 30, 30);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 20%;
+  left: 50%;
+}
+
+.intro{
   padding: 20px;
-  border-radius: 10px;
+  text-align: left;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #9B7B6B;
+  margin-top: 2rem;
+}
+.centrar-texto{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.mundo{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mundo img {
+  width: 25vw;
+  height: 25vw;
+  left: 50%;
 }
 
 .text-content {
@@ -39,6 +66,13 @@ body, html {
 
 .recomendaciones {
   padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #9B7B6B;
+  margin-bottom: 2rem;
+
 }
 
 ul {

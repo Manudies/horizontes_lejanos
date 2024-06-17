@@ -10,27 +10,30 @@ const Main = () => {
       <section>
           <div className="presentacion">
             <div className="imagen">
-              <img src="avion.jpeg" alt="imagen" />
+              <img src="foto.jpg" alt="imagen" />
             </div>
             <div className='texto-superpuesto'>
               <h1>Bienvenido a Horizontes lejanos</h1>
             </div>
             <div className='intro'>
-              <p>Explora el mundo con nosotros y descubre aventuras inolvidables en cada rincón del planeta.
+              <h2>Explora el mundo con nosotros y descubre aventuras inolvidables en cada rincón del planeta.</h2>
               <br></br>
-
+              <p>
               En Horizontes Lejanos, te ofrecemos la oportunidad de planificar el viaje de tus sueños, desde las vibrantes ciudades hasta los paisajes más impresionantes y culturas fascinantes.
-              <br></br>
-              Sumérgete en una experiencia única donde cada destino te espera con su propio encanto y misterio.
-              <br></br>
+              Sumérgete en una experiencia única donde cada destino te espera con su propio encanto y misterio.</p>
+              <p>
               Ya sea que busques la tranquilidad de playas paradisíacas, la emoción de aventuras extremas o la riqueza histórica de antiguas civilizaciones, aquí encontrarás el viaje perfecto para ti.
-              Nuestro equipo está comprometido en hacer realidad tus deseos de exploración y descubrimiento. 
+              Nuestro equipo está comprometido en hacer realidad tus deseos de exploración y descubrimiento.</p>
               <br></br>
-              Cada viaje es un viaje de aventura.
-              Prepárate para vivir momentos inolvidables y crear recuerdos que perdurarán para siempre.
-              <br></br>
-
+              <p className='centrar-texto'>
+              Cada viaje es un viaje de aventura.</p>
+              <p className='centrar-texto'>
+              Prepárate para vivir momentos inolvidables y crear recuerdos que perdurarán para siempre.</p>
+              <p className='centrar-texto'>
               ¿Estás listo para comenzar tu próxima aventura con Horizontes Lejanos?</p>
+            </div>
+            <div className="mundo">
+              <img src="mundo.png" alt="imagen de mundo" />
             </div>
 
             {/* <div className='buscador'>
@@ -38,7 +41,7 @@ const Main = () => {
             </div> */}
           </div>
           <div className="recomendaciones">
-              <h2>por que elegirnos?</h2>
+              <h2>¿Por qué contratar tu viaje con nosotros?</h2>
               <p>Elegir Horizontes Lejanos para contratar tu viaje puede ser una excelente decisión por varias razones:</p>
                 <ul>
                   <li>1. Experiencia y Conocimiento: Horizontes Lejanos podría contar con años de experiencia en la industria del turismo, lo que les permite ofrecer asesoramiento experto y recomendaciones personalizadas basadas en tus intereses y necesidades de viaje.</li>
