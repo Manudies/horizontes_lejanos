@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import './Carousel.css';
+import './Carrusel.css';
 
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -32,10 +32,7 @@ const Carousel = () => {
         <h3>{slides[currentSlide].author}</h3>
         <p>{slides[currentSlide].opinion}</p>
       </div>
-      <div className="carousel-controls">
-        <button onClick={prevSlide}>&lt;</button>
-        <button onClick={nextSlide}>&gt;</button>
-      </div>
+ 
       <div className="carousel-dots">
         {slides.map((_, index) => (
           <span

@@ -1,5 +1,53 @@
-.main-content {
-    flex-grow: 1;
-    padding: 20px;
-    margin-bottom: 65px;    
-  }
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.presentacion {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.presentacion .imagen {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.presentacion img {
+  display: block;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.presentacion .texto-superpuesto {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(31, 30, 30);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.text-content {
+  padding: 20px;
+}
+
+.recomendaciones {
+  padding: 20px;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+

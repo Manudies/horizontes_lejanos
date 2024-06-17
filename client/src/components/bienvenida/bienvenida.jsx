@@ -1,15 +1,21 @@
 
 import React from 'react';
 import Carrusel from '../carrusel/Carrusel';
-
 import './bienvenida.css';
+
 
 const Main = () => {
   return (
     <main className="main-content">
       <section>
-           <div className="presentacion">
+          <div className="presentacion">
+            <div className="imagen">
+              <img src="avion.jpeg" alt="imagen" />
+            </div>
+            <div className='texto-superpuesto'>
               <h1>Bienvenido a Horizontes lejanos</h1>
+            </div>
+            <div className='intro'>
               <p>Explora el mundo con nosotros y descubre aventuras inolvidables en cada rincón del planeta.
               <br></br>
 
@@ -26,14 +32,12 @@ const Main = () => {
 
               ¿Estás listo para comenzar tu próxima aventura con Horizontes Lejanos?</p>
             </div>
-            <div className="imagen">
-              <img src="avion.jpeg" alt="imagen" />
-            </div>
+
             {/* <div className='buscador'>
               <input type="text" placeholder="¿Donde quieres viajar?" />
             </div> */}
-
-            <div className="recomendaciones">
+          </div>
+          <div className="recomendaciones">
               <h2>por que elegirnos?</h2>
               <p>Elegir Horizontes Lejanos para contratar tu viaje puede ser una excelente decisión por varias razones:</p>
                 <ul>
@@ -49,11 +53,10 @@ const Main = () => {
                 </ul>
               <p>Al elegir una agencia como Horizontes Lejanos, te aseguras de tener una experiencia de viaje bien planificada, segura y adaptada a tus expectativas, lo que puede transformar un simple viaje en una experiencia inolvidable.</p>
 
-            </div>
-            <div>
-              <Carrusel/>
-
-            </div>
+          </div>
+          <div>
+            <Carrusel/>
+          </div>
       </section>
     </main>
   );
