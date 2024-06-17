@@ -9,12 +9,12 @@ import TripCard from "../components/trips/tripCard";
 
 
 const Root = () => {
-    const userData = useLoaderData();
-    const navigate = useNavigate();
-    const {user, setUser} = useContext(UserContext);
-    useEffect(() => {
-        setUser(userData)
-    }, [userData])
+    // const userData = useLoaderData();
+    // const navigate = useNavigate();
+    // const {user, setUser} = useContext(UserContext);
+    // useEffect(() => {
+    //     setUser(userData)
+    // }, [userData])
 
     return (
         <div>
