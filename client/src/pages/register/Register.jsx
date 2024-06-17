@@ -22,7 +22,7 @@ const Register = ({}) => {
     const [error, setError] = useState("");
     const [userData, setUserData] = useState(initialUserData);
     const navigate = useNavigate();
-    const { setUser } = useContext(UserContext);
+    const { handlefetchUserData } = useContext(UserContext);
 
     const handleUserData = (e) => {
         e.preventDefault();
@@ -52,8 +52,8 @@ const Register = ({}) => {
             if (!result.error) {
                 console.log("token", result);
                 setError("login correct");
-                setUser(result.user);
                 saveToken(result.token);
+                handlefetchUserData();
                 navigate("/");
             } else {
                 setError(result.error);
