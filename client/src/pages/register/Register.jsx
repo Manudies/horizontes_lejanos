@@ -1,11 +1,12 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState , useContext} from "react";
 import { register, login } from "../../utils/fetch";
 import { saveToken } from "../../utils/local";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
 
-// import UserContext from "../../context/userContext";
+import UserContext from "../../context/userContext";
+
 
 import "./Register.css";
 
@@ -16,12 +17,12 @@ const initialUserData = {
     passwordRepeat: ""
 };
 
-const Register = ({ onLogin }) => {
+const Register = ({}) => {
     const [isRegister, setIsRegister] = useState(false);
     const [error, setError] = useState("");
     const [userData, setUserData] = useState(initialUserData);
     const navigate = useNavigate();
-    // const { setUser } = useContext(UserContext);
+    const { setUser } = useContext(UserContext);
 
     const handleUserData = (e) => {
         e.preventDefault();
@@ -51,9 +52,8 @@ const Register = ({ onLogin }) => {
             if (!result.error) {
                 console.log("token", result);
                 setError("login correct");
-                // setUser(result.user);
+                setUser(result.user);
                 saveToken(result.token);
-                // onLogin(result.token);
                 navigate("/");
             } else {
                 setError(result.error);
@@ -67,22 +67,22 @@ const Register = ({ onLogin }) => {
             {error}
             <form onSubmit={handleSubmit}>
                 <div className="input-group">
-                    <FontAwesomeIcon icon={faUser} class="icon"/>
+                    <FontAwesomeIcon icon={faUser} className="icon"/>
                     <input name="username" type="text" placeholder="Username" value={userData.username} onChange={handleUserData} />
                 </div>
                 {isRegister &&
                     <div className="input-group">
-                        <FontAwesomeIcon icon={faEnvelope} class="icon"/>
+                        <FontAwesomeIcon icon={faEnvelope} className="icon"/>
                         <input name="email" type="email" placeholder="Email" value={userData.email} onChange={handleUserData} />
                     </div>
                 }
                 <div className="input-group">
-                    <FontAwesomeIcon icon={faLock} class="icon" />
+                    <FontAwesomeIcon icon={faLock} className="icon" />
                     <input name="password" type="password" placeholder="Password" value={userData.password} onChange={handleUserData} />
                 </div>
                 {isRegister &&
                     <div className="input-group">
-                        <FontAwesomeIcon icon={faLock} class="icon" />
+                        <FontAwesomeIcon icon={faLock} className="icon" />
                         <input name="passwordRepeat" type="password" placeholder="Repeat Password" value={userData.passwordRepeat} onChange={handleUserData} />
                     </div>
                 }

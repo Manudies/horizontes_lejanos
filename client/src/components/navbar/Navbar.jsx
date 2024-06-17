@@ -1,11 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext} from 'react';
+
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import UserContext from '../../context/userContext';
+
+import Modal from '../modal/modal'
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { user, setUser } = useContext(UserContext);
+  const[isModalOpen, setIsModalOpen] = useState(false)
+  function openModal(){
+    setIsModalOpen(true)
+  }
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -59,11 +68,36 @@ function Navbar() {
               Oceanía
             </Link>
           </li>
+          {user && (
+            <li className="nav-item sign-in">
+              <button onClick = {openModal}className="trip-card__button">{user.username}</button>
+              {isModalOpen &&
+                <Modal isOpen={true} onClose={()=> {
+                  setIsModalOpen(false)
+                  }}>
+                  <h1 className="userName">
+                    {user.username}
+                  </h1>
+                  <ul>
+                    Trips: 
+                    {user.trips.map(trip => <li>{trip}<button>Comprar</button></li>)}
+                  </ul>
+                  <button>Logout</button>
+
+                </Modal>
+              }
+
+            </li>
+          )}
+          {!user && (
           <li className="nav-item sign-in">
             <Link to="/register" className="nav-links" onClick={toggleMenu}>
               Sign In
             </Link>
           </li>
+            
+          )}
+
         </ul>
       </div>
     </nav>

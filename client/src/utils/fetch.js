@@ -40,6 +40,12 @@ const login = async(userData)=>{
     const result = await fetchData("/login","post",userData);
     return result;
 }
+
+const fetchUserData = async()=>{
+    const result = await fetchData("/users/bytoken","get");
+    return result;
+}
+
 const getTrips = async()=>{
     const result = await fetchData("/trips","get");
     return result;
@@ -62,17 +68,28 @@ const createUser = async(userData)=>{
     const result = await fetchData("/users","post",userData);
     return result;
 }
+ const addTrip = async(userId, tripId)=>{
+    const result = await fetchData("/users/"+userId,"post",{tripId});
+    return result;
+}
 
+const removeTrip = async(userId, tripId)=>{
+    const result = await fetchData("/users/"+userId,"delete",{tripId});
+    return result;
+}
 
 
 
 export {
     register,
     login,
+    fetchUserData,
     getTrips,
     createTrip,
     getByProperty,
     getUsers,
     createUser,
+    addTrip,
+    removeTrip
     
 }

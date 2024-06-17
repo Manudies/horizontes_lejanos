@@ -13,6 +13,7 @@ const tripSchema = new mongoose.Schema({
     duración: String,
     precio: Number,
     imagen: String,
+    itinerario: [Object],
     user: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "users"
