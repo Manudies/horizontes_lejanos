@@ -29,15 +29,15 @@ const Footer = () => {
             <div className="copyright">&copy; {year} Los viajeros </div>
 
             <div className="footer-icons">
-                <a href="https://www.instagram.com" className='icon_link'>
+                <a href="https://www.instagram.com" className='icon_link' target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faInstagram} size="2x" className="footer-icon" />
                 </a>
 
-                <a href="https://www.facebook.com" className='icon_link'>
+                <a href="https://www.facebook.com" className='icon_link' target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faFacebook} size='2x' className='footer-icon' />
                 </a>
 
-                <a href="https://linktr.ee/horizonteslejanos" className='icon_link'>
+                <a href="https://linktr.ee/horizonteslejanos" className='icon_link' target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faLink} size="2x" className="footer-icon" />
                 </a>
             </div>
