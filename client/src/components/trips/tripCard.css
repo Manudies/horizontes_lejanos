@@ -64,6 +64,11 @@
   background-color: #0056b3;
 }
 
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+
 /* Para el modal */
 
 

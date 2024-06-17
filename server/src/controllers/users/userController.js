@@ -165,11 +165,12 @@ const removeTrip = async(userId,tripId)=>{
     }
     try {
         const user = await getById(userId);
-        if(user.trips.includes(tripId)){
-            user.trips = user.trips.filter(trip => trip !== tripId);
+        if(user.trips.some(trip => trip.toString() === tripId.toString())) {
+            user.trips = user.trips.filter(trip => trip.toString() !== tripId.toString());
             await user.save();
             return user;
         }
+        
         return user;
     } catch (error) {
         console.error(error);
