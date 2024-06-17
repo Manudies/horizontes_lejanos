@@ -38,7 +38,7 @@ const ContactForm = () => {
         <h2 className='text-center'> Contactanos</h2>
         <Form className="contact-form2" onSubmit={handleSubmit}>
           <Form.Group controlId="formName">
-            <Form.Label>Nombre</Form.Label>
+            <Form.Label>Nombre: </Form.Label>
             <Form.Control
               type="text"
               placeholder="Introduce tu nombre"
@@ -49,7 +49,7 @@ const ContactForm = () => {
           </Form.Group>
   
           <Form.Group className='contact-form2' controlId="formEmail">
-            <Form.Label>Dirección de email</Form.Label>
+            <Form.Label>Dirección de email: </Form.Label>
             <Form.Control
               type="email"
               placeholder="Introduce tu email"
@@ -60,7 +60,7 @@ const ContactForm = () => {
           </Form.Group>
   
           <Form.Group className='contact-form2' controlId="formMessage">
-            <Form.Label>Mensaje</Form.Label>
+            <Form.Label>Mensaje: </Form.Label>
             <Form.Control
               as="textarea"
               rows={3}
