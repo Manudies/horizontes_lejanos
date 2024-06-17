@@ -94,6 +94,11 @@
 }
 
 .trip-card_itinerary {
-  justify-content: center;
   object-fit: cover;
+}
+
+.leaflet-container {
+  display: flex;
+  margin: auto;
+  align-items: center;
 }
