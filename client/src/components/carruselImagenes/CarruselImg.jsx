@@ -1,23 +1,23 @@
 import React, { useState } from 'react';
 import './CarruselImg.css';
 
-const Carousel = () => {
+const CarouselImg = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     {
-      src: "playa.jpeg",
+      src: "imagenesCarrusel/sabana.jpeg",
       alt: "imagen 1"
     },
     {
-      src: "montana.jpeg",
+      src: "imagenesCarrusel/glamping.jpeg",
       alt: "imagen 2"
     },
     {
-      src: "familia.jpeg",
+      src: "imagenesCarrusel/familia.jpeg",
       alt: "imagen 3"
     },
     {
-      src: "cabaña.jpeg",
+      src: "imagenesCarrusel/islandia.jpeg",
       alt: "imagen 4"
     }
   ];
@@ -31,16 +31,16 @@ const Carousel = () => {
   };
 
   return (
-    <div className="carousel-container">
-      <div className="carousel-slide" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
+    <div className="carouselImg-container">
+      <div className="carouselImg-slide" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
         {slides.map((slide, index) => (
-          <div key={index} className="carousel-item">
+          <div key={index} className="carouselImg-item">
             <img src={slide.src} alt={slide.alt} />
           </div>
         ))}
       </div>
 
-      <div className="carousel-dots">
+      <div className="carouselImg-dots">
         {slides.map((_, index) => (
           <span
             key={index}
@@ -50,10 +50,10 @@ const Carousel = () => {
         ))}
       </div>
 
-      <span className="carousel-button left" onClick={prevSlide}>&#10094;</span>
-      <span className="carousel-button right" onClick={nextSlide}>&#10095;</span>
+      <span className="carouselImg-button left" onClick={prevSlide}>&#10094;</span>
+      <span className="carouselImg-button right" onClick={nextSlide}>&#10095;</span>
     </div>
   );
 };
 
-export default Carousel;
+export default CarouselImg;

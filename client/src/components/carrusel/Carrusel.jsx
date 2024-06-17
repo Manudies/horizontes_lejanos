@@ -18,13 +18,13 @@ const Carousel = () => {
     },
   ];
 
-  // const nextSlide = () => {
-  //   setCurrentSlide((prev) => (prev + 1) % slides.length);
-  // };
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  };
 
-  // const prevSlide = () => {
-  //   setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  // };
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  };
 
   return (
     <div className="carousel-container">
@@ -42,6 +42,9 @@ const Carousel = () => {
           ></span>
         ))}
       </div>
+      <span className="carousel-button left" onClick={prevSlide}>&#10094;</span>
+      <span className="carousel-button right" onClick={nextSlide}>&#10095;</span>
+
     </div>
   );
 };
