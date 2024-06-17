@@ -5,12 +5,13 @@ import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import UserContext from '../../context/userContext';
+import { removeTrip } from '../../utils/fetch';
 
 import Modal from '../modal/modal'
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { user, logOut } = useContext(UserContext);
+  const { user, logOut, handlefetchUserData } = useContext(UserContext);
   const[isModalOpen, setIsModalOpen] = useState(false)
   function openModal(){
     setIsModalOpen(true)
@@ -23,6 +24,19 @@ function Navbar() {
   const handleResize = () => {
     if (window.innerWidth > 960) {
       setIsMenuOpen(false);
+    }
+  };
+
+  const handledeletefavoritos = async (trip) => {
+    if (user) {
+      console.log("trip._id",trip._id)
+      console.log("user",user._id)
+      const deleteFavoritos = await removeTrip(user._id, trip._id);
+      handlefetchUserData();
+    } else {
+      alert("Debes iniciar sesión")
+      navigate("/register");
+
     }
   };
 
@@ -69,7 +83,7 @@ function Navbar() {
             </Link>
           </li>
           {user && (
-            <li className="nav-item sign-in">
+            <li className="nav-item-sign-in">
               <button onClick = {openModal}className="trip-card__button">{user.username}</button>
               {isModalOpen &&
                 <Modal isOpen={true} onClose={()=> {
@@ -85,7 +99,8 @@ function Navbar() {
                       <li>
                         {trip.name}
                         <img src={trip.imagen} alt={trip.name} className="trip-card__image" />
-                        <button className='button_trips' >Comprar</button>
+                        <button className='button_trips'>Comprar</button>
+                        <button className='button_trips' onClick={()=>handledeletefavoritos(trip)}>Eliminar</button>
                         </li>
                       ))}
                   </ul>

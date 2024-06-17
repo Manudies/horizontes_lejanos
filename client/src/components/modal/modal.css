@@ -9,8 +9,15 @@
     display: flex;
     z-index: 1000;
 }
+.absolute_right_top {
+    background-color: #ddd;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .modal-body {
-    background-color: rgba(61, 61, 61, 0.9);
+    background-color: rgba(255, 253, 253, 0.9);
     width:50%;
     margin: auto;
     min-height:50%;

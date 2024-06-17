@@ -13,7 +13,7 @@
 }
 
 .footer:hover {
-    background: #282c34; /* normal color pasar ratón encima */
+    background: #81827C; /* normal color pasar ratón encima */
 }
 
 .footer .copyright {
@@ -57,7 +57,7 @@
 }
 
 .scroll-to-top {
-    background-color: #ebc000;
+    background-color: #9b9b9b;
     color: rgb(0, 0, 0);
     border: none;
     padding: 0.5rem 1rem;

@@ -131,3 +131,6 @@ dist
 
 # DS Store 
 .DS_Store
+
+# emailConfig
+emailConfig.js

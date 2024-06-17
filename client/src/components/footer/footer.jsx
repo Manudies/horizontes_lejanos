@@ -1,4 +1,3 @@
-import React from 'react';
 import './footer.css';
 import imageAni from './../../assets/ani.jpeg';
 import imageManu from './../../assets/manu.jpg';
