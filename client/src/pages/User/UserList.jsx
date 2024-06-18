@@ -3,6 +3,7 @@ import {useLoaderData} from "react-router-dom";
 import Modal from "../../components/modal/modal";
 import CreateUser from "../../components/user/CreateUsers";
 import './User.css'
+import './UserList.css'
 
 const UsersList = ({}) =>{
     const users = useLoaderData();
@@ -28,7 +29,7 @@ const UsersList = ({}) =>{
                <CreateUser onCreate={()=>setCreatingUser(false)}/>
            </Modal>
            :
-           <button onClick={()=>setCreatingUser(true)}>Nuevo Usuario</button>
+           <button className="create-user-button" onClick={()=>setCreatingUser(true)}>Nuevo Usuario</button>
        }
             
         <section className="users-list">
