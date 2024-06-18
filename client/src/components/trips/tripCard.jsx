@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./tripCard.css";
 import Modal from "../modal/modal";
 import Mapa from "../mapa/Mapa";
@@ -14,6 +14,11 @@ const TripCard = ({ trip }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(()=>{
+    setIsFavorite(userHadTrip())
+  },[trip, user])
+  
   function openModal() {
     setIsModalOpen(true);
   }
@@ -28,6 +33,11 @@ const TripCard = ({ trip }) => {
 
     }
   };
+  const userHadTrip = () => {
+    if (!user) 
+      return false
+    return (user.trips.some(userTrip=> userTrip._id === trip._id))
+  }
 
   return (
     <div className="trip-card">
