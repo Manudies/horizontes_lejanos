@@ -5,7 +5,7 @@ import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import UserContext from '../../context/userContext';
-import { removeTrip } from '../../utils/fetch';
+import PanelUsuario from '../panelUsuario/panelUsuario';
 
 import Modal from '../modal/modal'
 
@@ -24,19 +24,6 @@ function Navbar() {
   const handleResize = () => {
     if (window.innerWidth > 960) {
       setIsMenuOpen(false);
-    }
-  };
-
-  const handledeletefavoritos = async (trip) => {
-    if (user) {
-      console.log("trip._id",trip._id)
-      console.log("user",user._id)
-      const deleteFavoritos = await removeTrip(user._id, trip._id);
-      handlefetchUserData();
-    } else {
-      alert("Debes iniciar sesión")
-      navigate("/register");
-
     }
   };
 
@@ -89,7 +76,8 @@ function Navbar() {
                 <Modal isOpen={true} onClose={()=> {
                   setIsModalOpen(false)
                   }}>
-                  <h1 className="userName">
+                    <PanelUsuario user={user}></PanelUsuario>
+                  {/* <h1 className="userName">
                     {user.username}
                   </h1>
                     <h2>Trips:</h2>
@@ -105,8 +93,7 @@ function Navbar() {
                       ))}
                   </ul>
                   </div>
-                  <button className='button_trips' onClick={logOut}>Logout</button>
-
+                  <button className='button_trips' onClick={logOut}>Logout</button> */}
                 </Modal>
               }
 
