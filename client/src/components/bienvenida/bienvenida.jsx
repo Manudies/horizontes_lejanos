@@ -16,7 +16,7 @@ const Main = () => {
     <main className="main-content">
       <section>
         <div className='texto-superpuesto'>
-          <h1>Bienvenido a Horizontes lejanos</h1>
+          <h1>Bienvenido a Horizontes Lejanos</h1>
         </div>
         <div>
           <CarruselImg />
