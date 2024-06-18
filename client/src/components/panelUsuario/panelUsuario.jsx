@@ -5,50 +5,53 @@ import { useNavigate } from "react-router-dom";
 import { removeTrip } from "../../utils/fetch";
 
 const panelUsuario = ({ user }) => {
-    const { handlefetchUserData, logOut } = useContext(UserContext);
-    const navigate = useNavigate();
+  const { handlefetchUserData, logOut } = useContext(UserContext);
+  const navigate = useNavigate();
 
-    const handledeletefavoritos = async (trip) => {
-        if (user) {
-          console.log("trip._id",trip._id)
-          console.log("user",user._id)
-          const deleteFavoritos = await removeTrip(user._id, trip._id);
-          handlefetchUserData();
-        } else {
-          alert("Debes iniciar sesión")
-          navigate("/register");
-        }
-      };
+  const handledeletefavoritos = async (trip) => {
+    if (user) {
+      console.log("trip._id", trip._id);
+      console.log("user", user._id);
+      const deleteFavoritos = await removeTrip(user._id, trip._id);
+      handlefetchUserData();
+    } else {
+      alert("Debes iniciar sesión");
+      navigate("/register");
+    }
+  };
 
-
-    return (
-    <div>
+  return (
+    <div className="panel_usuario">
+      <div className="cabecera_panel">
         <h1 className="userName">{user.username}</h1>
         <h2>Trips:</h2>
-        <div className="user_favoritos">
+      </div>
+      <div className="user_favoritos">
         <ul>
-            {user.trips.map((trip) => (
+          {user.trips.map((trip) => (
             <li>
-                {trip.name}
-                <img
+              <p>{trip.name}</p>
+              <img
                 src={trip.imagen}
                 alt={trip.name}
                 className="trip-card__image"
-                />
-                <button className="button_trips">Comprar</button>
-                <button
+              />
+              <button className="button_trips">Comprar</button>
+              <button
                 className="button_trips"
                 onClick={() => handledeletefavoritos(trip)}
-                >
+              >
                 Eliminar
-                </button>
+              </button>
             </li>
-            ))}
+          ))}
         </ul>
-        </div>
-        <button className='button_trips' onClick={logOut}>Logout</button> 
+      </div>
+      <button className="button_trips" onClick={logOut}>
+        Logout
+      </button>
     </div>
-    );
-}
+  );
+};
 
-export default panelUsuario
+export default panelUsuario;

@@ -77,23 +77,6 @@ function Navbar() {
                   setIsModalOpen(false)
                   }}>
                     <PanelUsuario user={user}></PanelUsuario>
-                  {/* <h1 className="userName">
-                    {user.username}
-                  </h1>
-                    <h2>Trips:</h2>
-                  <div className='user_favoritos'>
-                  <ul>
-                    {user.trips.map(trip => (
-                      <li>
-                        {trip.name}
-                        <img src={trip.imagen} alt={trip.name} className="trip-card__image" />
-                        <button className='button_trips'>Comprar</button>
-                        <button className='button_trips' onClick={()=>handledeletefavoritos(trip)}>Eliminar</button>
-                        </li>
-                      ))}
-                  </ul>
-                  </div>
-                  <button className='button_trips' onClick={logOut}>Logout</button> */}
                 </Modal>
               }
 
