@@ -13,6 +13,7 @@ import ErrorPage from "./pages/ErrorPage";
 import Root from "./pages/Root";
 
 import TripsList from "./pages/trips/tripList";
+import TripsListAdmin from "./pages/trips/tripListAdmin";
 import UserList from "./pages/User/UserList";
 import Bienvenida from "./components/bienvenida/bienvenida";
 
@@ -59,12 +60,17 @@ const router = createBrowserRouter([
         loader: () => fetchTrips(),
       },
       {
+        path: "/admin/trips",
+        element: <TripsListAdmin />,
+        loader: () => fetchTrips(),
+      },
+      {
         path: "/trips/:tripDestino",
         element: <TripsList />,
         loader: ({ params }) => fetchTripsByProperty(params.tripDestino),
       },
       {
-        path: "/users",
+        path: "/admin/users",
         element: <UserList />,
         loader: () => fetchUsers(),
       },
