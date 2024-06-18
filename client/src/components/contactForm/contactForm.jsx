@@ -74,7 +74,7 @@ const ContactForm = () => {
           </Form.Group>
   
           <button className="btn btn-primary" type="submit">
-            Submit
+            Enviar
           </button>
         </Form>
       </div>
