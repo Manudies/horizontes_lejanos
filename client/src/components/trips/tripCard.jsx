@@ -7,6 +7,7 @@ import UserContext from "../../context/userContext";
 import { addTrip } from "../../utils/fetch";
 import { Link, useNavigate } from "react-router-dom";
 import ActionButton from "../actionButton/actionButton";
+import { removeTrip } from "../../utils/fetch";
 
 
 const TripCard = ({ trip }) => {
@@ -25,12 +26,25 @@ const TripCard = ({ trip }) => {
   const handlefavoritos = async () => {
     if (user) {
       const newFavoritos = await addTrip(user._id, trip._id);
+      if (isFavorite)
+        await handledeletefavoritos(trip)
       setIsFavorite(!isFavorite);
       handlefetchUserData();
     } else {
       alert("Debes iniciar sesión")
       navigate("/register");
 
+    }
+  };
+  const handledeletefavoritos = async (trip) => {
+    if (user) {
+      console.log("trip._id", trip._id);
+      console.log("user", user._id);
+      const deleteFavoritos = await removeTrip(user._id, trip._id);
+      // handlefetchUserData();
+    } else {
+      alert("Debes iniciar sesión");
+      navigate("/register");
     }
   };
   const userHadTrip = () => {
