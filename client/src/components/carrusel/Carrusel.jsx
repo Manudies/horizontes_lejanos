@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './Carrusel.css';
 
 const Carousel = () => {
@@ -26,13 +26,18 @@ const Carousel = () => {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
   };
 
+  useEffect(() => {
+    const interval = setInterval(nextSlide, 20000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="carousel-container">
       <div className="carousel-slide">
         <h3>{slides[currentSlide].author}</h3>
         <p>{slides[currentSlide].opinion}</p>
       </div>
- 
+
       <div className="carousel-dots">
         {slides.map((_, index) => (
           <span
@@ -44,7 +49,6 @@ const Carousel = () => {
       </div>
       <span className="carousel-button left" onClick={prevSlide}>&#10094;</span>
       <span className="carousel-button right" onClick={nextSlide}>&#10095;</span>
-
     </div>
   );
 };
