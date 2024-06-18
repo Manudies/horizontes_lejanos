@@ -3,9 +3,9 @@
   width: 95%;
   margin: auto;
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: 1px solid #F4F4F4;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
 }
 
 .carouselImg-slide {

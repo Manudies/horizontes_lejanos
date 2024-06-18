@@ -2,9 +2,16 @@ import Carrusel from '../carrusel/Carrusel';
 import CarruselImg from '../carruselImagenes/CarruselImg';
 import './bienvenida.css';
 import ContactForm from '../contactForm/contactForm';
+import {useNavigate} from 'react-router-dom';
+
 
 
 const Main = () => {
+  const navigate = useNavigate();
+  const showAll = () => {
+    navigate('/trips');
+    
+  }
   return (
     <main className="main-content">
       <section>
@@ -16,28 +23,26 @@ const Main = () => {
         </div>
         <div className='intro'>
           <h2>Explora el mundo con nosotros y descubre aventuras inolvidables en cada rincón del planeta.</h2>
-          <br></br>
           <p>
             En Horizontes Lejanos, te ofrecemos la oportunidad de planificar el viaje de tus sueños, desde las vibrantes ciudades hasta los paisajes más impresionantes y culturas fascinantes.
             Sumérgete en una experiencia única donde cada destino te espera con su propio encanto y misterio.</p>
           <p>
             Ya sea que busques la tranquilidad de playas paradisíacas, la emoción de aventuras extremas o la riqueza histórica de antiguas civilizaciones, aquí encontrarás el viaje perfecto para ti.
             Nuestro equipo está comprometido en hacer realidad tus deseos de exploración y descubrimiento.</p>
-          <br></br>
-          <p className='centrar-texto'>
+          <p>
             Cada viaje es un viaje de aventura.</p>
-          <p className='centrar-texto'>
+          <p>
             Prepárate para vivir momentos inolvidables y crear recuerdos que perdurarán para siempre.</p>
-          <p className='centrar-texto'>
+          <p>
             ¿Estás listo para comenzar tu próxima aventura con Horizontes Lejanos?</p>
         </div>
+        <div className='descubre'>
+          <button onClick={showAll} className='button'>Descubre nuestros destinos</button>
+        </div>
+
         <div className="mundo">
           <img src="mundo.png" alt="imagen de mundo" />
         </div>
-
-        {/* <div className='buscador'>
-              <input type="text" placeholder="¿Donde quieres viajar?" />
-            </div> */}
 
         <div className="recomendaciones">
           <h2>¿Por qué contratar tu viaje con nosotros?</h2>

@@ -10,7 +10,7 @@ const Carousel = () => {
     },
     {
       opinion: "“Trabajar con Horizontes Lejanos es sinónimo de eficiencia y tranquilidad. Los viajes de clientes, y tenemos muchos al año, los organizan en su totalidad y tenemos plena confianza ya que se ocupan de todos los detalles. El trato es cercano y la respuesta es rápida y siempre resolutiva.  Se puede trabajar con ellos con la garantía de que el resultado va a ser el óptimo.”",
-      author: "Danel La Funte"
+      author: "Danel Lafuente"
     },
     {
       opinion: "“Algunos motivos para llevar trabajando tantos años y continuar con Horizontes Lejanos son lo exigentes que sois con vosotros mismos a la hora de cerrar el programa de viaje en su conjunto atendiendo las necesidades y características marcadas por nosotros, para que el resultado final sea lo más óptimo posible.”",
