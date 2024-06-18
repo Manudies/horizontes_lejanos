@@ -11,8 +11,10 @@ import Register from "./pages/register/Register";
 import ErrorPage from "./pages/ErrorPage";
 
 import Root from "./pages/Root";
+import Admin from "./pages/Admin";
 
 import TripsList from "./pages/trips/tripList";
+import TripsListAdmin from "./pages/trips/tripListAdmin";
 import UserList from "./pages/User/UserList";
 import Bienvenida from "./components/bienvenida/bienvenida";
 
@@ -64,13 +66,27 @@ const router = createBrowserRouter([
         loader: ({ params }) => fetchTripsByProperty(params.tripDestino),
       },
       {
-        path: "/users",
-        element: <UserList />,
-        loader: () => fetchUsers(),
-      },
-      {
         path: "/register",
         element: <Register />,
+      },
+
+      {
+        path: "/admin",
+        element: <Admin />,
+        errorElement: <ErrorPage />,
+        // loader: () => handleUserData(),
+        children: [
+          {
+            path: "trips",
+            element: <TripsListAdmin />,
+            loader: () => fetchTrips(),
+          },
+          {
+            path: " users",
+            element: <UserList />,
+            loader: () => fetchUsers(),
+          }
+        ]
       },
     ],
 

@@ -15,6 +15,7 @@ import { fetchUserData } from './utils/fetch';
 import { deleteToken } from './utils/local.js';
 
 function App() {
+  const [loadingUser, setLoadingUser] = useState(true);
   const [user, setUser] = useState(null);
       useEffect(() => {
         handlefetchUserData()
@@ -22,6 +23,7 @@ function App() {
 
   async function handlefetchUserData() {
     const result = await fetchUserData();
+    setLoadingUser(false);
     console.log("user",result)
     if (result.error) {
       return null;
@@ -38,7 +40,7 @@ function App() {
   return (
     <>
 
-        <UserContext.Provider value={{user, handlefetchUserData, logOut}}>
+        <UserContext.Provider value={{user, handlefetchUserData, logOut, loadingUser}}>
           <RouterProvider router={router} />
         </UserContext.Provider>
 
