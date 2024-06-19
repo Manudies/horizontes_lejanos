@@ -1,19 +1,49 @@
-.panel_usuario{
+.panel_usuario h2{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin: 0;
 
 }
 
 .cabecera_panel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ccc;
 
 }
 
 .cabecera_panel h1{
-    font-size: 3rem;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+
 }
 
 .cabecera_panel h2{
     font-size: 2rem;
 }
 
-.user_favoritos ul li{
+.favoritos{
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: auto;
 
+}
+
+.favoritos__buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.logout_button{
+    background-color: #ccc;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
