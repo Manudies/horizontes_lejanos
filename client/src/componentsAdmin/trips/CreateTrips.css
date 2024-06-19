@@ -1,5 +1,51 @@
-form.create-trips{
+.create-category {
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-category label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.create-category input,
+.create-category textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.create-category textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.create-category .create {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #223D3C;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-category .create:hover {
+    background-color: #223D3C;
 }

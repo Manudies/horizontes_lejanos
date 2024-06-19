@@ -19,3 +19,8 @@
     margin-bottom: 84px; 
     gap: 1rem;
   }
+  .create-trip-button{
+    margin-top: 84px;
+    background-color: #223D3C;
+    color: #F8F3F2;
+  }

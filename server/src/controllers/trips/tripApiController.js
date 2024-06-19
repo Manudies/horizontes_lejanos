@@ -31,6 +31,7 @@ const remove= async(req,res)=>{
     const trip = await tripController.remove(id);
     res.json({data:trip});
 } 
+
 export default {
     getAll,
     getById,
