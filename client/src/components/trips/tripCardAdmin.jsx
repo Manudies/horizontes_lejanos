@@ -1,8 +1,7 @@
-import { useState } from "react";
+import { useState, useContext, useEffect } from "react";
 import "./tripCard.css";
 import Modal from "../modal/modal";
 import Mapa from "../mapa/Mapa";
-import { useContext } from "react";
 import UserContext from "../../context/userContext";
 import { addTrip } from "../../utils/fetch";
 import { Link, useNavigate } from "react-router-dom";
@@ -11,13 +10,20 @@ import CreateTrip from "../../componentsAdmin/trips/CreateTrips";
 
 
 
-const TripCard = ({ trip }) => {
+const TripCard = ({ trip, onRemove, onUpdate }) => {
   const { user, handlefetchUserData } = useContext(UserContext);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const navigate = useNavigate();
+
   function openModal() {
     setIsModalOpen(true);
   }
+  const handleUpdate = (newtrip) => {
+    onUpdate(newtrip);
+    setIsModalOpen(false);
+
+  };
+
 
   return (
     <div className="trip-card">
@@ -35,9 +41,9 @@ const TripCard = ({ trip }) => {
           </div>
         </div>
         <div className="button_container">
-        <ActionButton label="Editar" onClick={openModal}  className="trip-card__button" />
+        <ActionButton label="Editar" onClick={(openModal)}  className="trip-card__button" />
         
-        <ActionButton label="Borrar" className="trip-card__button" />
+        <ActionButton label="Borrar" onClick={()=>onRemove(trip)} className="trip-card__button" />
         </div>
 
         {isModalOpen && (
@@ -47,7 +53,7 @@ const TripCard = ({ trip }) => {
               setIsModalOpen(false);
             }}
           >
-            <CreateTrip/>
+            <CreateTrip trip={trip} onUpdate={handleUpdate}/>
                
           </Modal>
         )}

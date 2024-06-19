@@ -54,6 +54,14 @@ const createTrip = async(tripData)=>{
     const result = await fetchData("/trips","post",tripData);
     return result;
 }
+const remove = async(tripId)=>{
+    const result = await fetchData("/trips/"+tripId,"delete");
+    return result;
+}
+const update = async(tripId,tripData)=>{
+    const result = await fetchData("/trips/"+tripId,"put",tripData);
+    return result;
+}
 const getByProperty = async(tripDestino)=>{
     const result = await fetchData(`/trips/byproperty?property=destino&value=${tripDestino}`,"get");
     return result;
@@ -86,6 +94,8 @@ export {
     fetchUserData,
     getTrips,
     createTrip,
+    remove,
+    update,
     getByProperty,
     getUsers,
     createUser,
