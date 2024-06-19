@@ -9,6 +9,7 @@ const CarouselImg = () => {
       alt: "imagen 0"
     },
     {
+<<<<<<< HEAD
       src: "imagenesCarrusel/meteora.jpg",
       alt: "imagen 1"
     },
@@ -28,10 +29,11 @@ const CarouselImg = () => {
       src: "imagenesCarrusel/grecia.jpg",
       alt: "imagen 5"
     },
- {
+    {
       src: "imagenesCarrusel/iguazu.jpeg",
       alt: "imagen 6"
-    }
+    },
+
   ];
 
   const nextSlide = () => {
