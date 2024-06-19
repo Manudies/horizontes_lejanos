@@ -82,7 +82,7 @@ const router = createBrowserRouter([
             loader: () => fetchTrips(),
           },
           {
-            path: " users",
+            path: "users",
             element: <UserList />,
             loader: () => fetchUsers(),
           }
