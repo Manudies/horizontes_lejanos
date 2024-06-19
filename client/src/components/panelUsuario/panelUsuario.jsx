@@ -24,10 +24,13 @@ const panelUsuario = ({ user }) => {
     <div className="panel_usuario">
       <div className="cabecera_panel">
         <h1 className="userName">{user.username}</h1>
-        <h2>Trips:</h2>
+        <button className="logout_button" onClick={logOut}>
+          Logout
+        </button>
       </div>
+      <h2>Trips:</h2>
       <div className="user_favoritos">
-        <ul>
+        <ul className="favoritos">
           {user.trips.map((trip) => (
             <li>
               <p>{trip.name}</p>
@@ -36,20 +39,19 @@ const panelUsuario = ({ user }) => {
                 alt={trip.name}
                 className="trip-card__image"
               />
-              <button className="button_trips">Comprar</button>
-              <button
-                className="button_trips"
-                onClick={() => handledeletefavoritos(trip)}
-              >
-                Eliminar
-              </button>
+              <div className="favoritos__buttons">
+                <button className="button_trips">Comprar</button>
+                <button
+                  className="button_trips"
+                  onClick={() => handledeletefavoritos(trip)}
+                >
+                  Eliminar
+                </button>
+              </div>
             </li>
           ))}
         </ul>
       </div>
-      <button className="button_trips" onClick={logOut}>
-        Logout
-      </button>
     </div>
   );
 };
