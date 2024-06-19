@@ -9,29 +9,31 @@ const CarouselImg = () => {
       alt: "imagen 0"
     },
     {
-      src: "imagenesCarrusel/lanzarote.jpg",
+<<<<<<< HEAD
+      src: "imagenesCarrusel/meteora.jpg",
       alt: "imagen 1"
     },
     {
-      src: "imagenesCarrusel/meteora.jpg",
+      src: "imagenesCarrusel/riaño.jpg",
       alt: "imagen 2"
     },
     {
-      src: "imagenesCarrusel/riaño.jpg",
+      src: "imagenesCarrusel/chacoi.jpeg",
       alt: "imagen 3"
     },
     {
-      src: "imagenesCarrusel/chacoi.jpeg",
+      src: "imagenesCarrusel/lanzarote.jpg",
       alt: "imagen 4"
     },
     {
-      src: "imagenesCarrusel/iguazu.jpeg",
+      src: "imagenesCarrusel/grecia.jpg",
       alt: "imagen 5"
     },
     {
-      src: "imagenesCarrusel/grecia.jpg",
+      src: "imagenesCarrusel/iguazu.jpeg",
       alt: "imagen 6"
-    }
+    },
+
   ];
 
   const nextSlide = () => {
