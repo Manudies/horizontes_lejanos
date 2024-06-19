@@ -9,20 +9,28 @@ const CarouselImg = () => {
       alt: "imagen 0"
     },
     {
-      src: "imagenesCarrusel/sabana.jpeg",
+      src: "imagenesCarrusel/lanzarote.jpg",
       alt: "imagen 1"
     },
     {
-      src: "imagenesCarrusel/glamping.jpeg",
+      src: "imagenesCarrusel/meteora.jpg",
       alt: "imagen 2"
     },
     {
-      src: "imagenesCarrusel/familia.jpeg",
+      src: "imagenesCarrusel/riaño.jpg",
       alt: "imagen 3"
     },
     {
-      src: "imagenesCarrusel/islandia.jpeg",
+      src: "imagenesCarrusel/chacoi.jpeg",
       alt: "imagen 4"
+    },
+    {
+      src: "imagenesCarrusel/iguazu.jpeg",
+      alt: "imagen 5"
+    },
+    {
+      src: "imagenesCarrusel/grecia.jpg",
+      alt: "imagen 6"
     }
   ];
 
