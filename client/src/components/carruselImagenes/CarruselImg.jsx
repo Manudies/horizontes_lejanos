@@ -9,7 +9,6 @@ const CarouselImg = () => {
       alt: "imagen 0"
     },
     {
-<<<<<<< HEAD
       src: "imagenesCarrusel/meteora.jpg",
       alt: "imagen 1"
     },
