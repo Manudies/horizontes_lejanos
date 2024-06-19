@@ -17,6 +17,7 @@
 .navbar-container {
   display: flex;
   justify-content:space-between;
+  margin: 0 25px 0 10px;
   align-items: center;
   width: 100%;
   /* max-width: 1200px; */
@@ -124,7 +125,7 @@
   }
 
   .nav-menu.active {
-    height: calc(55vh - 80px);
+    height: calc(65vh - 80px);
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
