@@ -14,6 +14,9 @@ function Navbar() {
   const { user, logOut, handlefetchUserData } = useContext(UserContext);
   const[isModalOpen, setIsModalOpen] = useState(false)
   function openModal(){
+    if (!user) {
+      return
+    }
     setIsModalOpen(true)
   }
 
