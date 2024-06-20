@@ -20,6 +20,9 @@ const UserList = ({}) =>{
       }
       const handleCreate = async (user) => {
         console.log("CrearUser", user)
+        if (user === null) {
+          return;
+        }
         setUsers([...users,user])
         setCreatingUser(false)
       }
