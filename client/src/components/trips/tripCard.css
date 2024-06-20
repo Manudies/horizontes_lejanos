@@ -116,3 +116,14 @@
   margin: auto;
   align-items: center;
 }
+.trip-card-day{
+  color: #223D3C;
+  font-weight: bold;
+
+}
+.trip-card-day:hover {
+  cursor: pointer;
+  color:#fff;
+  background-color: #223D3C;
+
+}
