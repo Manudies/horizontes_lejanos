@@ -25,21 +25,21 @@ const CreateUser= ({onCreate, onUpdate, user=null})=>{
     return (
         <form action="" className="create-user" onSubmit={handleSubmit}>
             <label htmlFor="username" >Nombre</label>
-            <input type="text" name="username"/>
+            <input type="text" name="username" defaultValue={user ? user.username : ""}/>
 
             <label htmlFor="email" >email</label>
-            <input type="email" name="email"/>
+            <input type="email" name="email " defaultValue={user ? user.email : ""}/>
 
             <label htmlFor="password" >Contraseña</label>
-            <input type="password" name="password"/>
+            <input type="password" name="password" defaultValue={user ? user.password : ""}/>
 
             <label htmlFor="role" >Rol</label>
             <select name="role" id="">
-                <option value="admin">Admin</option>
                 <option value="user">User</option>
+                <option value="admin">Admin</option>
             </select>
 
-            <ActionButton label="Crear" className="create" type="submit"></ActionButton>
+            <ActionButton label={user ? "Actualizar" : "Crear"} className="create" type="submit"></ActionButton>
 
         </form>
     )

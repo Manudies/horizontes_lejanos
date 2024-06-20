@@ -70,10 +70,8 @@ const TripCard = ({ trip }) => {
         </div>
         <div className="button_container">
         <ActionButton label={isFavorite ? "Eliminar de favoritos" : "Añadir a favoritos"} onClick={handlefavoritos} className="trip-card__button" />
-        {/* <button onClick={handlefavoritos} className="trip-card__button">Favoritos</button> */}
         <ActionButton label="Ver Tour" onClick={openModal} className="trip-card__button" />
-        {/* <button onClick={openModal} className="trip-card__button"> */}
-        {/* </button> */}
+
         </div>
 
         {isModalOpen && (
