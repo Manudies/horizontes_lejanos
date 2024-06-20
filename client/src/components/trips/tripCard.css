@@ -31,12 +31,20 @@
 .trip-card__title {
   font-size: 1.2em;
   margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .trip-card__description {
   font-size: 0.9em;
   color: #81827C;
   margin-bottom: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .trip-card__details {
