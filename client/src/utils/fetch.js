@@ -85,7 +85,11 @@ const removeTrip = async(userId, tripId)=>{
     const result = await fetchData("/users/"+userId+"/trips/"+tripId,"delete");
     return result;
 }
-
+ 
+const sendMail = async (data) => {
+    const result = await fetchData ("/send-email", "post", data);
+    return result;
+};
 
 
 export {
@@ -100,5 +104,6 @@ export {
     getUsers,
     createUser,
     addTrip,
-    removeTrip
+    removeTrip,
+    sendMail
 }

@@ -4,6 +4,8 @@ import userRouter from "./userRouter.js";
 import tripRouter from "./tripRouter.js";
 import favoriteRouter from "./favoritesRouter.js";
 import authRouter from "./authRouter.js";
+import emailRouter from './emailRouter.js'; // Importa la nueva ruta
+
 
 import { isAuthenticated,isAdmin } from "../middlewares/authMiddleware.js";
 
@@ -19,4 +21,6 @@ router.use("/trips",tripRouter);
 
 router.use("/favorites",favoriteRouter);
 router.use("/",authRouter);
+router.use('/', emailRouter); // Usa la nueva ruta
+
 export default router;

@@ -2,7 +2,7 @@ import { useContext } from "react";
 import "./panelUsuario.css";
 import UserContext from "../../context/userContext";
 import { useNavigate } from "react-router-dom";
-import { removeTrip } from "../../utils/fetch";
+import { removeTrip, sendMail } from "../../utils/fetch";
 
 const panelUsuario = ({ user }) => {
   const { handlefetchUserData, logOut } = useContext(UserContext);
@@ -19,6 +19,26 @@ const panelUsuario = ({ user }) => {
       navigate("/register");
     }
   };
+
+  const handleBuyTrip = async (trip) => {
+    if (user) {
+      try {
+        const response = await sendMail( {
+          to: user.email,
+          subject: 'Confirmación de compra',
+          text: `Hola ${user.username},\n\nGracias por comprar el viaje a ${trip.name}. Disfruta de tu aventura!\n\nSaludos,\nEl equipo de Horizontes Lejanos`
+        });
+        alert("Correo de confirmación enviado!");
+      } catch (error) {
+        console.error("Error enviando el correo de confirmación", error);
+        alert("Hubo un error al enviar el correo de confirmación.");
+      }
+    } else {
+      alert("Debes iniciar sesión");
+      navigate("/register");
+    }
+  };
+
 
   return (
     <div className="panel_usuario">
@@ -40,7 +60,7 @@ const panelUsuario = ({ user }) => {
                 className="trip-card__image"
               />
               <div className="favoritos__buttons">
-                <button className="button_trips">Comprar</button>
+                <button className="button_trips" onClick={() => handleBuyTrip(trip)}>Comprar</button>
                 <button
                   className="button_trips"
                   onClick={() => handledeletefavoritos(trip)}
