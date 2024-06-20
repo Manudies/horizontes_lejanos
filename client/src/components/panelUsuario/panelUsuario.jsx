@@ -28,7 +28,8 @@ const panelUsuario = ({ user }) => {
           subject: 'Confirmación de compra',
           text: `Hola ${user.username},\n\nGracias por comprar el viaje a ${trip.name}. Disfruta de tu aventura!\n\nSaludos,\nEl equipo de Horizontes Lejanos`
         });
-        alert("Correo de confirmación enviado!");
+        alert(`Correo de confirmación enviado a ${user.email}!`);
+        handledeletefavoritos(trip);
       } catch (error) {
         console.error("Error enviando el correo de confirmación", error);
         alert("Hubo un error al enviar el correo de confirmación.");
