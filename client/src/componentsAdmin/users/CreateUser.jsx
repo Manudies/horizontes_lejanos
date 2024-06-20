@@ -11,6 +11,10 @@ const CreateUser= ({onCreate, onUpdate, user=null})=>{
         const role = e.target.role.value;
         const data = {username,email,password,role};
         console.log("data",data)
+        if (username === "" || email === "" || role === "") {
+            alert("faltan campos")
+            return;
+        }
         if(user === null){
             const result = await createUser(data);
             console.log("result crieit",result)
@@ -28,7 +32,7 @@ const CreateUser= ({onCreate, onUpdate, user=null})=>{
             <input type="text" name="username" defaultValue={user ? user.username : ""}/>
 
             <label htmlFor="email" >email</label>
-            <input type="email" name="email " defaultValue={user ? user.email : ""}/>
+            <input type="email" name="email" defaultValue={user ? user.email : ""}/>
 
             <label htmlFor="password" >Contraseña</label>
             <input type="password" name="password" defaultValue={user ? user.password : ""}/>
