@@ -15,15 +15,15 @@ const TripsList = () => {
     const [selectTrip, setSelectTrip] = useState(null);
     const navigate = useNavigate();
 
-    useEffect (() => {
-        console.log ("usuario", user)
-        if (loadingUser) return
-        if (!user || user.role !== "admin") {
-            navigate("/register");
+    // useEffect (() => {
+    //     console.log ("usuario", user)
+    //     if (loadingUser) return
+    //     if (!user || user.role !== "admin") {
+    //         navigate("/register");
             
-        }
+    //     }
         
-    }, [user,loadingUser]);
+    // }, [user,loadingUser]);
 
     const handleRemove = async (trip) => {
         const result = await remove(trip._id);
@@ -36,8 +36,8 @@ const TripsList = () => {
         setCreatingTrip(false)
       }
       const handleUpdate = async(trip) => {
-        const result = await update(trip._id, trip);
-        setTrips(trips.map(t=> t._id === trip._id ? result.data : t))
+        //const result = await update(trip._id, trip);
+        setTrips(trips.map(t=> t._id === trip._id ? trip: t))
         setSelectTrip(null)
       }
       

@@ -76,6 +76,16 @@ const createUser = async(userData)=>{
     const result = await fetchData("/users","post",userData);
     return result;
 }
+
+const removeUser = async(userId)=>{
+    const result = await fetchData("/users/"+userId,"delete");
+    return result;
+}
+const updateUser = async(userId,userData)=>{
+    console.log("estmps asfsaf")
+    const result = await fetchData("/users/"+userId,"put",userData);
+    return result;
+}
  const addTrip = async(userId, tripId)=>{
     const result = await fetchData("/users/"+userId+"/trips","post",{tripId});
     return result;
@@ -99,6 +109,8 @@ export {
     getByProperty,
     getUsers,
     createUser,
+    removeUser,
+    updateUser,
     addTrip,
     removeTrip
 }
