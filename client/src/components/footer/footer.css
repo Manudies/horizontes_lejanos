@@ -2,29 +2,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background: #81827C;
     padding: 16px 20px; /* Padding para móviles */
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
-
 }
 
 .footer .copyright {
     flex: 1;
     text-align: left;
     color: #ffffff;
-    margin-left: 40px; 
+    margin-left: 60px; 
 }
 
 .footer .creators {
-    display: flex;
-    flex: 1;
-    margin-right: 20px; /* esto ajusta el margen derecho para móviles */
-    justify-content: flex-end;
-    align-items: center;
+    display: none; /* Hide creators on mobile */
 }
 
 .footer .creators .creator {
@@ -76,9 +70,15 @@
 .footer-icons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px; /* Smaller gap for mobile */
     margin-top: 10px;
     color: #77DD77;
+    padding-right: 20px; /* Add padding to the right */
+}
+
+.footer-icons .footer-icon {
+    font-size: 1.5rem; /* Smaller icon size for mobile */
+    padding-right: 10px;
 }
 
 .icon_link {
@@ -101,7 +101,11 @@
     }
 
     .footer .creators {
+        display: flex; /* Display creators on desktop */
+        flex: 1;
         margin-right: 55px; /* escritorio */
+        justify-content: flex-end;
+        align-items: center;
     }
 
     .footer .creators .creator {
@@ -115,5 +119,14 @@
 
     .footer .creators .creator-name {
         font-size: 12px; /* Para escritorio */
+    }
+
+    .footer-icons {
+        gap: 20px; /* Larger gap for desktop */
+        padding-right: 40px; /* Add padding to the right for desktop */
+    }
+
+    .footer-icons .footer-icon {
+        font-size: 2rem; /* Larger icon size for desktop */
     }
 }
