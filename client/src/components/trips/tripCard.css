@@ -107,8 +107,13 @@
   object-fit: cover;
 }
 
-.trip-card_itinerary {
+.trip-card__itinerary {
   object-fit: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .leaflet-container {
@@ -119,6 +124,8 @@
 .trip-card-day{
   color: #223D3C;
   font-weight: bold;
+  width: 20%;
+
 
 }
 .trip-card-day:hover {
