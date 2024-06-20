@@ -47,15 +47,16 @@ const create = async(req,res)=>{
     res.json({data:user})
 }
 
-const update = async(req,res)=>{
+const updateUser = async(req,res)=>{
+    console.log ("body",req.body)
     const id =req.params.id;
-    const user = await userController.update(id,req.body);
+    const user = await userController.updateUser(id,req.body);
     res.json({data:user})
 }
 
-const remove = async(req,res)=>{
+const removeUser = async(req,res)=>{
     const id= req.params.id;
-    const user = await userController.remove(id);
+    const user = await userController.removeUser(id);
     res.json({data:user})
 }
 
@@ -88,8 +89,8 @@ export default{
     login,
     register,
     create,
-    update,
-    remove,
+    updateUser,
+    removeUser,
     addTrip,
     removeTrip
 }
