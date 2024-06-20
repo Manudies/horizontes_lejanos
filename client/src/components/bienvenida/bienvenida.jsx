@@ -14,7 +14,7 @@ const Main = () => {
   }
   return (
     <main className="main-content">
-      <section>
+      <section className="section-bienvenida">
         <div className='texto-superpuesto'>
           <h1>Bienvenido a Horizontes Lejanos</h1>
         </div>

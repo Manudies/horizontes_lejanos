@@ -28,3 +28,9 @@
     overflow-y: auto;
 
 }
+
+@media screen and (max-width: 720px) {
+    .modal-body {
+        width: 80%;
+    }
+}
