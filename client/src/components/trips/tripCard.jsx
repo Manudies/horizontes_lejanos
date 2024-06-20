@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./tripCard.css";
 import Modal from "../modal/modal";
 import Mapa from "../mapa/Mapa";
@@ -14,7 +14,10 @@ const TripCard = ({ trip }) => {
   const { user, handlefetchUserData } = useContext(UserContext);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
+  const [activeDay, setActiveDay] = useState(null);
   const navigate = useNavigate();
+
+  const mapRef = useRef();
 
   useEffect(()=>{
     setIsFavorite(userHadTrip())
@@ -97,10 +100,12 @@ const TripCard = ({ trip }) => {
                   </span>{" "}
                   Duración {trip.duracion} días
                   <div className="trip-card__itinerary">
-                    {trip.itinerario.map((agenda) => (
-                      <div key={agenda.dia}>{agenda.dia}</div>
+                    {trip.itinerario.map((agenda, index) => (
+                      <div className="trip-card-day" key={agenda.dia} onMouseEnter={() => setActiveDay(index)} onMouseLeave={() => setActiveDay(null)}
+                      >{agenda.dia}
+                      </div>
                     ))}
-                    <Mapa trip={trip}></Mapa>
+                    <Mapa ref={mapRef} trip={trip} activeDay={activeDay}></Mapa>
                   </div>
                 </div>
               </div>
