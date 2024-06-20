@@ -120,7 +120,7 @@ const create = async(data) =>{
     }
 }
 
-const update = async(id,data) =>{
+const updateUser = async(id,data) =>{
     try {
         const oldUser = await userModel.findByIdAndUpdate(id,data);
         const user = await userModel.findById(id, userRows);
@@ -132,7 +132,7 @@ const update = async(id,data) =>{
     }
 }
 
-const remove = async(id) =>{
+const removeUser = async(id) =>{
     try {
         const user = await userModel.findByIdAndDelete(id);
         return user;
@@ -186,8 +186,8 @@ export const functions = {
     create,
     login,
     register,
-    update,
-    remove,
+    updateUser,
+    removeUser,
     addTrip,
     removeTrip
 }
