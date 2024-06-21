@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Task Management API
-  description: API for managing tasks, projects, and users
+  descripcion: API for managing tasks, projects, and users
   version: 1.0.0
 basePath: /api
 securityDefinitions:
@@ -9,25 +9,25 @@ securityDefinitions:
     type: apiKey
     name: Authorization
     in: header
-    description: 'Enter the token with the `Bearer: ` prefix, e.g. "Bearer abcde12345".'
+    descripcion: 'Enter the token with the `Bearer: ` prefix, e.g. "Bearer abcde12345".'
 security:
   - bearerAuth: []
 tags:
   - name: User
-    description: User management
+    descripcion: User management
   - name: Project
-    description: Project management
+    descripcion: Project management
   - name: Task
-    description: Task management
+    descripcion: Task management
   - name: Invitation
-    description: Invitation management
+    descripcion: Invitation management
 paths:
   /:
     get:
       summary: Get API greeting
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /users:
     get:
       summary: Get all users
@@ -37,7 +37,7 @@ paths:
         - bearerAuth: []
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
     post:
       summary: Create a new user
       tags:
@@ -52,7 +52,7 @@ paths:
             $ref: '#/definitions/User'
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /users/{userId}:
     get:
       summary: Get a user by ID
@@ -67,7 +67,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
     put:
       summary: Update a user
       tags:
@@ -86,7 +86,7 @@ paths:
             $ref: '#/definitions/User'
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
     delete:
       summary: Delete a user
       tags:
@@ -100,7 +100,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /users/byproperty:
     get:
       summary: Get users by property
@@ -119,7 +119,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /register:
     post:
       summary: Register a new user
@@ -133,7 +133,7 @@ paths:
             $ref: '#/definitions/User'
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /login:
     post:
       summary: Login a user
@@ -147,7 +147,7 @@ paths:
             $ref: '#/definitions/Credentials'
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
           schema:
             $ref: '#/definitions/Token'
   /projects:
@@ -159,7 +159,7 @@ paths:
         - bearerAuth: []
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
           schema:
             type: array
             items:
@@ -178,7 +178,7 @@ paths:
             $ref: '#/definitions/Project'
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /projects/{projectId}:
     get:
       summary: Get a project by ID
@@ -193,7 +193,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
           schema:
             $ref: '#/definitions/Project'
     put:
@@ -214,7 +214,7 @@ paths:
             $ref: '#/definitions/Project'
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
     delete:
       summary: Delete a project
       tags:
@@ -228,7 +228,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /projects/{projectId}/user:
     post:
       summary: Add a user to a project
@@ -251,7 +251,7 @@ paths:
                 type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
     delete:
       summary: Remove a user from a project
       tags:
@@ -273,7 +273,7 @@ paths:
                 type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /tasks:
     get:
       summary: Get all tasks
@@ -288,7 +288,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
           schema:
             type: array
             items:
@@ -307,7 +307,7 @@ paths:
             $ref: '#/definitions/Task'
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /tasks/{taskId}:
     get:
       summary: Get a task by ID
@@ -322,7 +322,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
           schema:
             $ref: '#/definitions/Task'
     put:
@@ -343,7 +343,7 @@ paths:
             $ref: '#/definitions/Task'
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
     delete:
       summary: Delete a task
       tags:
@@ -357,7 +357,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /tasks/{taskId}/status:
     post:
       summary: Change task status
@@ -384,7 +384,7 @@ paths:
                   - done
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /tasks/{taskId}/user:
     post:
       summary: Add a user to a task
@@ -407,7 +407,7 @@ paths:
                 type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
     delete:
       summary: Remove a user from a task
       tags:
@@ -429,7 +429,7 @@ paths:
                 type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /invitations:
     get:
       summary: Get all invitations
@@ -439,7 +439,7 @@ paths:
         - bearerAuth: []
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
           schema:
             type: array
             items:
@@ -458,7 +458,7 @@ paths:
             $ref: '#/definitions/Invitation'
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /invitations/{invitationId}:
     get:
       summary: Get an invitation by ID
@@ -473,7 +473,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
           schema:
             $ref: '#/definitions/Invitation'
     delete:
@@ -489,7 +489,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /invitations/{invitationId}/accept:
     post:
       summary: Accept an invitation
@@ -504,7 +504,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
   /invitations/{invitationId}/reject:
     post:
       summary: Reject an invitation
@@ -519,7 +519,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Successful response
+          descripcion: Successful response
 definitions:
   User:
     type: object
@@ -569,7 +569,7 @@ definitions:
     properties:
       title:
         type: string
-      description:
+      descripcion:
         type: string
       estimatedHours:
         type: number

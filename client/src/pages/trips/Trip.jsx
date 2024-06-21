@@ -4,7 +4,7 @@ const Trip = ({trip}) => {
     return(
         <section className="trip-card">
             <h2>{trip.name}</h2>
-            <p>{trip.description}</p>
+            <p>{trip.descripcion}</p>
             
         </section>
     )
