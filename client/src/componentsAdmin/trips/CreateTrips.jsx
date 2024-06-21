@@ -48,8 +48,8 @@ const CreateTrip = ({onCreate, onUpdate, trip=null})=>{
             <label htmlFor="imagen" >Imagen</label>
             <input type="string" name="imagen" defaultValue={trip ? trip.imagen : ""}/>
 
-            <label htmlFor="itinerario" >Itinerario</label>
-            <input type="object" name="itinerario" defaultValue={trip ? trip.itinerario : ""}/>   
+            {/* <label htmlFor="itinerario" >Itinerario</label>
+            <input type="object" name="itinerario" defaultValue={trip ? trip.itinerario : ""}/>    */}
 
             <ActionButton label={trip ? "Actualizar" : "Crear"} className="create" type="submit"></ActionButton>
 
