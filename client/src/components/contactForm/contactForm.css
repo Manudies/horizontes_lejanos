@@ -2,7 +2,7 @@
     background-color: #fff;
     padding: 30px 40px;
     border-radius: 8px;
-    max-width: 83vw;
+    max-width: 63vw;
     min-height: 400px;
     margin: 100px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -12,7 +12,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .contact-form h2 {
     /* margin-bottom: 30px; */
     color: #223D3C;

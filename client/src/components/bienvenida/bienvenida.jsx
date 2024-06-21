@@ -46,6 +46,7 @@ const Main = () => {
 
         <div className="recomendaciones">
           <h2>¿Por qué contratar tu viaje con nosotros?</h2>
+
           <p>Elegir Horizontes Lejanos para contratar tu viaje puede ser una excelente decisión por varias razones:</p>
           <div className='contenedor-tarjetas'>
             <div class="tarjeta">
@@ -83,7 +84,7 @@ const Main = () => {
           </div>
           <p>Al elegir una agencia como Horizontes Lejanos, te aseguras de tener una experiencia de viaje bien planificada, segura y adaptada a tus expectativas, lo que puede transformar un simple viaje en una experiencia inolvidable.</p>
         </div>
-        <div>
+        <div className='carrusel'>
           <Carrusel />
         </div>
         <div>

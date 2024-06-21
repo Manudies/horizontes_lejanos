@@ -36,7 +36,7 @@ const ContactForm = () => {
     };
   
     return (
-      <div className="contact-form">
+      <div className="contact-form">          
         <h2 className='text-center'> Contactanos</h2>
         <Form className="contact-form2" onSubmit={handleSubmit}>
           <Form.Group controlId="formName">
