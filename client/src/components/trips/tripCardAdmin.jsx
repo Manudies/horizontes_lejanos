@@ -31,7 +31,7 @@ const TripCard = ({ trip, onRemove, onUpdate }) => {
       <div className="trip-card__content">
         <div className="trip-card__price">Desde: {trip.precio} € </div>
         <h2 className="trip-card__title">{trip.name}</h2>
-        <p className="trip-card__description">{trip.descripcion}</p>
+        <p className="trip-card__descripcion">{trip.descripcion}</p>
         <div className="trip-card__details">
           <div className="trip-card__duration">
             <span role="img" aria-label="calendar">

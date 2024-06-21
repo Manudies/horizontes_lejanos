@@ -1,7 +1,7 @@
 {
   "name": "viajes",
   "version": "1.0.0",
-  "description": "",
+  "descripcion": "",
   "main": "src/index.js",
   "type": "module",
   "scripts": {

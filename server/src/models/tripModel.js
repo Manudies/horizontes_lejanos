@@ -9,7 +9,7 @@ const tripSchema = new mongoose.Schema({
         type:String,
         // required:true
     },
-    description: String,
+    descripcion: String,
     duración: String,
     precio: Number,
     imagen: String,

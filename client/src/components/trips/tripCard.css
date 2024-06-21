@@ -36,7 +36,7 @@
   white-space: nowrap;
 }
 
-.trip-card__description {
+.trip-card__descripcion {
   font-size: 0.9em;
   color: #81827C;
   margin-bottom: 16px;
@@ -81,7 +81,7 @@
 /* Para el modal */
 
 
-.trip-card_description {
+.trip-card_descripcion {
   color: #223D3C;
 }
 
