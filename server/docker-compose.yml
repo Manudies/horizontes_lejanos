@@ -3,24 +3,42 @@ services:
     image: mongo:latest
     restart: unless-stopped
     container_name: ${DB_HOST}
-    ports:
-      - ${DB_PORT}:27017
+    # ports:
+    #   - "${DB_PORT}:27017"
     volumes:
       - ./mongo_viajes:/data/db
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${DB_USER}
       MONGO_INITDB_ROOT_PASSWORD: ${DB_PASSWORD}
       MONGO_INITDB_DATABASE: ${DB_NAME}
+    networks:
+     - horizontes
       
   backend:
     build: .
     container_name: ${APP_HOST}
     restart: unless-stopped
-    ports:
-      - ${APP_PORT}:3000
+    # ports:
+    #   - "${APP_PORT}:3000"
     volumes:
       - ./:/app
       - node_modules:/app/node_modules
+    environment:
+      VIRTUAL_HOST: api.horizontes.manudies.com
+      LETSENCRYPT_HOST: api.horizontes.manudies.com
+      LETSENCRYPT_EMAIL: admin@horizontes.manudies.com
+      JWT_SECRET: ${JWT_SECRET}
+      EMAIL_USER: ${EMAIL_USER}
+      EMAIL_PASS: ${EMAIL_PASS}
+    networks:
+      - horizontes
+      - nginx-proxy
+
 volumes:
   node_modules:
   mongo_viajes:
+
+networks:
+  horizontes:
+  nginx-proxy:
+    external: true
